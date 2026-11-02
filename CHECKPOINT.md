@@ -13,16 +13,20 @@ A chave do YouTube ja foi colocada em dois lugares pelo dono:
 - Cofre do GitHub (secret `YOUTUBE_API_KEY`) para o robo automatico
 - Variavel de ambiente `YOUTUBE_API_KEY` para teste ao vivo nas sessoes
 
-O proximo passo e rodar a PRIMEIRA COLETA REAL e mostrar o resultado:
+FEITO em 2026-11-02: a PRIMEIRA COLETA REAL ja rodou com sucesso.
+400 videos de 8 canais, dado real (sample=false). Destaques ja mostrados ao dono.
+
+O proximo passo (a decidir com o dono) e um destes dois:
+1. Ligar o robo de hora em hora (abrir Pull Request levando o codigo para o
+   branch main, e so com autorizacao do dono).
+2. Publicar o dashboard no GitHub Pages para o dono ver online.
+
+Para rodar de novo a qualquer momento:
 
 ```bash
-npm run scan     # agora puxa dados reais do YouTube (@JefDicasTech e os outros)
+npm run scan     # puxa dados reais do YouTube (@JefDicasTech e os outros)
 npm run serve    # abre o dashboard em http://localhost:4173
 ```
-
-Depois de ver o dado real, decidir com o dono se liga o robo de hora em hora
-(isso exige abrir um Pull Request levando o codigo para o branch main, e so com
-autorizacao dele).
 
 ---
 
@@ -78,8 +82,8 @@ Medir as contas do dono usa login.
 ## 6. O QUE FALTA (pendencias por fase)
 
 **Fase 1 (YouTube, gratis, em andamento)**
-- [ ] Rodar a primeira coleta real (chave ja esta no ambiente).
-- [ ] Mostrar o resultado ao dono.
+- [x] Rodar a primeira coleta real (chave ja esta no ambiente). FEITO 2026-11-02.
+- [x] Mostrar o resultado ao dono. FEITO 2026-11-02.
 - [ ] Ligar o robo de hora em hora (abrir PR para o main, com autorizacao).
 - [ ] Opcional: publicar o dashboard no GitHub Pages.
 
@@ -130,4 +134,4 @@ public/                   <- o dashboard web (index.html, styles.css, app.js)
 .github/workflows/scan.yml<- automacao de hora em hora
 ```
 
-Branch de trabalho: `claude/dreamy-franklin-ak299h`
+Branch de trabalho (sessao atual): `claude/great-turing-dlxtf3`

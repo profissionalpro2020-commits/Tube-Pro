@@ -46,6 +46,7 @@ function render() {
   document.getElementById("sampleBadge").classList.toggle("hidden", !dados.sample);
 
   renderKpis();
+  renderInteligencia();
   renderGringa();
   renderTabs();
   renderAba();
@@ -65,6 +66,88 @@ function renderKpis() {
   for (const [lbl, num] of kpis) {
     box.appendChild(el(`<div class="kpi"><div class="num">${num}</div><div class="lbl">${lbl}</div></div>`));
   }
+}
+
+function renderInteligencia() {
+  const i = dados.inteligencia;
+  const painel = document.getElementById("intelPanel");
+  if (!i) {
+    if (painel) painel.classList.add("hidden");
+    return;
+  }
+  painel.classList.remove("hidden");
+
+  document.getElementById("intelRecado").textContent = i.recado || "";
+
+  // Pautas
+  const pt = document.getElementById("intelPautas");
+  pt.innerHTML = "";
+  (i.pautas || []).forEach((p, n) => {
+    const ex = p.exemploParaEstudar;
+    const exHtml = ex
+      ? `<div class="pauta-ex">Estudar: <a href="${ex.url}" target="_blank" rel="noopener">${escapar(ex.title)}</a> <span class="tag-eng">${pct(ex.engajamento)}</span></div>`
+      : "";
+    pt.appendChild(
+      el(`
+      <div class="pauta">
+        <div class="pauta-top"><span class="pauta-num">${n + 1}</span><span class="pauta-tema">${escapar(p.tema)}</span></div>
+        <p class="pauta-motivo">${escapar(p.motivo)}</p>
+        ${exHtml}
+      </div>`)
+    );
+  });
+  if (!(i.pautas || []).length) pt.appendChild(el(`<p class="empty">Juntando dados pra sugerir pautas.</p>`));
+
+  // Espelho
+  const esp = document.getElementById("intelEspelho");
+  esp.innerHTML = "";
+  if (i.espelho) {
+    const e = i.espelho;
+    const cor = e.acimaDaMedia ? "up" : "down";
+    esp.appendChild(
+      el(`
+      <div class="espelho ${cor}">
+        <div class="espelho-nome">${escapar(e.nome)}</div>
+        <div class="espelho-nums">
+          <div><b>${pct(e.engMedio)}</b><span>engajamento do espelho</span></div>
+          <div><b>${pct(e.engMercado)}</b><span>media dos concorrentes</span></div>
+        </div>
+        <p class="espelho-veredito">${escapar(e.veredito)}</p>
+      </div>`)
+    );
+    if ((e.melhoresVideos || []).length) {
+      const box = el(`<div class="espelho-sub"><span>Melhores do espelho:</span></div>`);
+      e.melhoresVideos.forEach((v) =>
+        box.appendChild(
+          el(`<div class="mini-row"><a href="${v.url}" target="_blank" rel="noopener">${escapar(v.title)}</a><span class="tag-eng">${pct(v.engajamento)}</span></div>`)
+        )
+      );
+      esp.appendChild(box);
+    }
+    if ((e.gaps || []).length) {
+      const g = el(`<div class="espelho-sub"><span>Brechas do espelho (concorrentes exploram, ele nao):</span></div>`);
+      const chips = el(`<div class="chips"></div>`);
+      e.gaps.forEach((x) => chips.appendChild(el(`<span class="chip">${escapar(x.termo)}<b>${pct(x.engMedio)}</b></span>`)));
+      g.appendChild(chips);
+      esp.appendChild(g);
+    }
+  } else {
+    esp.appendChild(el(`<p class="empty">Canal de referencia ainda nao detectado nos dados.</p>`));
+  }
+
+  // Formula
+  const fm = document.getElementById("intelFormula");
+  fm.innerHTML = "";
+  ((i.formula && i.formula.dicas) || []).forEach((d) => fm.appendChild(el(`<li>${escapar(d)}</li>`)));
+  if (!((i.formula && i.formula.dicas) || []).length) fm.appendChild(el(`<li class="empty">Precisa de mais videos pra achar o padrao.</li>`));
+
+  // Brechas (subaproveitados)
+  const br = document.getElementById("intelBrechas");
+  br.innerHTML = "";
+  (i.temasSubaproveitados || []).forEach((t) =>
+    br.appendChild(el(`<span class="chip">${escapar(t.termo)}<b>${pct(t.engMedio)}</b></span>`))
+  );
+  if (!(i.temasSubaproveitados || []).length) br.appendChild(el(`<p class="empty">Sem brechas claras agora.</p>`));
 }
 
 function renderGringa() {
