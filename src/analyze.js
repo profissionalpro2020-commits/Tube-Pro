@@ -1,5 +1,12 @@
 // Transforma a lista crua de videos em insights: rankings, temas, hashtags e sugestoes.
 
+import { gerarInteligencia } from "./insights.js";
+
+// Reconhece o canal de referencia (o espelho) pelo nome, sem depender de acento/emoji.
+function ehReferencia(nome = "") {
+  return /jef.*dicas|dicas.*tech/i.test(nome);
+}
+
 const STOPWORDS = new Set([
   // PT
   "a","o","as","os","de","da","do","das","dos","e","em","um","uma","que","com","para","pra","por",
@@ -78,6 +85,7 @@ export function analyze({ videos, channelStats, sample }) {
   return {
     geradoEm: new Date().toISOString(),
     sample: !!sample,
+    inteligencia: gerarInteligencia(videos, ehReferencia),
     canais: channelStats,
     plataformas: Object.fromEntries(
       Object.entries(byPlatform).map(([p, lista]) => [p, blocoDeInsights(lista)])
