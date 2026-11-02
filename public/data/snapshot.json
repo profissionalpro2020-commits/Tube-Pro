@@ -1,0 +1,906 @@
+{
+  "geradoEm": "2026-11-02T21:28:42.749Z",
+  "sample": true,
+  "canais": [
+    {
+      "platform": "youtube",
+      "region": "br",
+      "channelId": "SAMPLE_0",
+      "channelTitle": "Dicas do Zé Tech",
+      "subscribers": 820000,
+      "videosColetados": 10
+    },
+    {
+      "platform": "youtube",
+      "region": "br",
+      "channelId": "SAMPLE_1",
+      "channelTitle": "Tech na Prática",
+      "subscribers": 1250000,
+      "videosColetados": 10
+    },
+    {
+      "platform": "youtube",
+      "region": "intl",
+      "channelId": "SAMPLE_2",
+      "channelTitle": "GadgetGuy",
+      "subscribers": 6400000,
+      "videosColetados": 10
+    },
+    {
+      "platform": "youtube",
+      "region": "intl",
+      "channelId": "SAMPLE_3",
+      "channelTitle": "DailyTechTips",
+      "subscribers": 3100000,
+      "videosColetados": 10
+    }
+  ],
+  "plataformas": {
+    "youtube": {
+      "totalVideos": 40,
+      "mediaEngajamento": 0.0607734461110123,
+      "topViews": [
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_3",
+          "channelTitle": "DailyTechTips",
+          "videoId": "SAMPLE_3_6",
+          "title": "self hosted apps to replace big tech",
+          "publishedAt": "2026-04-15T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1930103,
+          "likes": 135107,
+          "comments": 14861,
+          "engagementRate": 0.07769948028680335,
+          "hashtags": [
+            "#selfhosted",
+            "#privacy",
+            "#opensource"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_0",
+          "channelTitle": "Dicas do Zé Tech",
+          "videoId": "SAMPLE_0_2",
+          "title": "como deixar o celular mais rapido",
+          "publishedAt": "2026-05-05T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1889342,
+          "likes": 170040,
+          "comments": 18704,
+          "engagementRate": 0.0998993300313019,
+          "hashtags": [
+            "#dicas",
+            "#celular",
+            "#tutorial"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_2",
+          "channelTitle": "GadgetGuy",
+          "videoId": "SAMPLE_2_8",
+          "title": "i tried a digital detox phone",
+          "publishedAt": "2026-07-31T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1837114,
+          "likes": 91855,
+          "comments": 6429,
+          "engagementRate": 0.0534991296130779,
+          "hashtags": [
+            "#digitaldetox",
+            "#minimalism",
+            "#focus"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_3",
+          "channelTitle": "DailyTechTips",
+          "videoId": "SAMPLE_3_4",
+          "title": "ewaste restoration project",
+          "publishedAt": "2025-12-14T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1767147,
+          "likes": 53014,
+          "comments": 1060,
+          "engagementRate": 0.030599604899875336,
+          "hashtags": [
+            "#restoration",
+            "#diy",
+            "#repair"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_2",
+          "channelTitle": "GadgetGuy",
+          "videoId": "SAMPLE_2_4",
+          "title": "ewaste restoration project",
+          "publishedAt": "2026-02-17T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1764176,
+          "likes": 105850,
+          "comments": 11643,
+          "engagementRate": 0.06659936423576786,
+          "hashtags": [
+            "#restoration",
+            "#diy",
+            "#repair"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_3",
+          "channelTitle": "DailyTechTips",
+          "videoId": "SAMPLE_3_8",
+          "title": "i tried a digital detox phone",
+          "publishedAt": "2026-04-15T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1758530,
+          "likes": 70341,
+          "comments": 7034,
+          "engagementRate": 0.04399981802983174,
+          "hashtags": [
+            "#digitaldetox",
+            "#minimalism",
+            "#focus"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_0",
+          "channelTitle": "Dicas do Zé Tech",
+          "videoId": "SAMPLE_0_5",
+          "title": "truques escondidos do whatsapp",
+          "publishedAt": "2025-10-14T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1740929,
+          "likes": 87046,
+          "comments": 2611,
+          "engagementRate": 0.05149951548856961,
+          "hashtags": [
+            "#whatsapp",
+            "#dicas",
+            "#truques"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_3",
+          "title": "testei o chatgpt por 30 dias",
+          "publishedAt": "2025-12-08T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1719928,
+          "likes": 68797,
+          "comments": 5503,
+          "engagementRate": 0.043199482769046144,
+          "hashtags": [
+            "#ia",
+            "#chatgpt",
+            "#produtividade"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_1",
+          "title": "5 apps gratis que todo mundo deveria ter",
+          "publishedAt": "2026-06-15T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1695555,
+          "likes": 152599,
+          "comments": 13733,
+          "engagementRate": 0.09809885258809063,
+          "hashtags": [
+            "#apps",
+            "#dicas",
+            "#android"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_2",
+          "title": "como deixar o celular mais rapido",
+          "publishedAt": "2026-06-04T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1671109,
+          "likes": 116977,
+          "comments": 2339,
+          "engagementRate": 0.07139929232623365,
+          "hashtags": [
+            "#dicas",
+            "#celular",
+            "#tutorial"
+          ],
+          "tags": []
+        }
+      ],
+      "topEngajamento": [
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_4",
+          "title": "o melhor notebook custo beneficio 2026",
+          "publishedAt": "2026-01-23T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1314238,
+          "likes": 118281,
+          "comments": 14193,
+          "engagementRate": 0.10079909422798611,
+          "hashtags": [
+            "#notebook",
+            "#review",
+            "#tech"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_0",
+          "channelTitle": "Dicas do Zé Tech",
+          "videoId": "SAMPLE_0_2",
+          "title": "como deixar o celular mais rapido",
+          "publishedAt": "2026-05-05T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1889342,
+          "likes": 170040,
+          "comments": 18704,
+          "engagementRate": 0.0998993300313019,
+          "hashtags": [
+            "#dicas",
+            "#celular",
+            "#tutorial"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_1",
+          "title": "5 apps gratis que todo mundo deveria ter",
+          "publishedAt": "2026-06-15T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1695555,
+          "likes": 152599,
+          "comments": 13733,
+          "engagementRate": 0.09809885258809063,
+          "hashtags": [
+            "#apps",
+            "#dicas",
+            "#android"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_0",
+          "channelTitle": "Dicas do Zé Tech",
+          "videoId": "SAMPLE_0_8",
+          "title": "editei video so no celular",
+          "publishedAt": "2026-03-10T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 135672,
+          "likes": 12210,
+          "comments": 610,
+          "engagementRate": 0.09449259979951648,
+          "hashtags": [
+            "#edicao",
+            "#capcut",
+            "#criadores"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_2",
+          "channelTitle": "GadgetGuy",
+          "videoId": "SAMPLE_2_3",
+          "title": "ai agents are changing everything",
+          "publishedAt": "2026-02-27T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1332135,
+          "likes": 119892,
+          "comments": 4795,
+          "engagementRate": 0.09359937243597684,
+          "hashtags": [
+            "#aiagents",
+            "#automation",
+            "#future"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_2",
+          "channelTitle": "GadgetGuy",
+          "videoId": "SAMPLE_2_2",
+          "title": "nas home server for beginners",
+          "publishedAt": "2026-01-07T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 322116,
+          "likes": 28990,
+          "comments": 869,
+          "engagementRate": 0.09269641992325746,
+          "hashtags": [
+            "#nas",
+            "#homelab",
+            "#selfhosted"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_0",
+          "title": "iphone 17 vale a pena",
+          "publishedAt": "2026-11-01T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1302677,
+          "likes": 104214,
+          "comments": 12505,
+          "engagementRate": 0.08959934043511937,
+          "hashtags": [
+            "#apple",
+            "#iphone",
+            "#tech"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_7",
+          "title": "fone bluetooth bom e barato",
+          "publishedAt": "2026-05-22T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1269887,
+          "likes": 101590,
+          "comments": 3047,
+          "engagementRate": 0.08239867011789238,
+          "hashtags": [
+            "#fone",
+            "#review",
+            "#audio"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_2",
+          "channelTitle": "GadgetGuy",
+          "videoId": "SAMPLE_2_7",
+          "title": "raspberry pi projects that are actually useful",
+          "publishedAt": "2025-12-01T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 762420,
+          "likes": 53369,
+          "comments": 6404,
+          "engagementRate": 0.0783990451457202,
+          "hashtags": [
+            "#raspberrypi",
+            "#diy",
+            "#maker"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_3",
+          "channelTitle": "DailyTechTips",
+          "videoId": "SAMPLE_3_6",
+          "title": "self hosted apps to replace big tech",
+          "publishedAt": "2026-04-15T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1930103,
+          "likes": 135107,
+          "comments": 14861,
+          "engagementRate": 0.07769948028680335,
+          "hashtags": [
+            "#selfhosted",
+            "#privacy",
+            "#opensource"
+          ],
+          "tags": []
+        }
+      ],
+      "temasQuentes": [
+        {
+          "termo": "apps",
+          "n": 4
+        },
+        {
+          "termo": "celular",
+          "n": 4
+        },
+        {
+          "termo": "barato",
+          "n": 4
+        },
+        {
+          "termo": "tech",
+          "n": 4
+        },
+        {
+          "termo": "iphone",
+          "n": 2
+        },
+        {
+          "termo": "gratis",
+          "n": 2
+        },
+        {
+          "termo": "todo",
+          "n": 2
+        },
+        {
+          "termo": "mundo",
+          "n": 2
+        },
+        {
+          "termo": "deveria",
+          "n": 2
+        },
+        {
+          "termo": "ter",
+          "n": 2
+        },
+        {
+          "termo": "deixar",
+          "n": 2
+        },
+        {
+          "termo": "rapido",
+          "n": 2
+        },
+        {
+          "termo": "testei",
+          "n": 2
+        },
+        {
+          "termo": "chatgpt",
+          "n": 2
+        },
+        {
+          "termo": "dias",
+          "n": 2
+        }
+      ],
+      "hashtags": [
+        {
+          "tag": "#tech",
+          "n": 8
+        },
+        {
+          "tag": "#dicas",
+          "n": 6
+        },
+        {
+          "tag": "#review",
+          "n": 6
+        },
+        {
+          "tag": "#automation",
+          "n": 4
+        },
+        {
+          "tag": "#selfhosted",
+          "n": 4
+        },
+        {
+          "tag": "#future",
+          "n": 4
+        },
+        {
+          "tag": "#diy",
+          "n": 4
+        },
+        {
+          "tag": "#wearables",
+          "n": 4
+        },
+        {
+          "tag": "#apple",
+          "n": 2
+        },
+        {
+          "tag": "#iphone",
+          "n": 2
+        },
+        {
+          "tag": "#apps",
+          "n": 2
+        },
+        {
+          "tag": "#android",
+          "n": 2
+        },
+        {
+          "tag": "#celular",
+          "n": 2
+        },
+        {
+          "tag": "#tutorial",
+          "n": 2
+        },
+        {
+          "tag": "#ia",
+          "n": 2
+        }
+      ],
+      "novos": [
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "SAMPLE_2",
+          "channelTitle": "GadgetGuy",
+          "videoId": "SAMPLE_2_0",
+          "title": "underrated gadgets you didnt know existed",
+          "publishedAt": "2026-11-02T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1216413,
+          "likes": 60820,
+          "comments": 6082,
+          "engagementRate": 0.054999412206216146,
+          "hashtags": [
+            "#gadgets",
+            "#tech",
+            "#cool"
+          ],
+          "tags": []
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "SAMPLE_1",
+          "channelTitle": "Tech na Prática",
+          "videoId": "SAMPLE_1_0",
+          "title": "iphone 17 vale a pena",
+          "publishedAt": "2026-11-01T21:28:42.746Z",
+          "url": "#",
+          "thumbnail": "",
+          "views": 1302677,
+          "likes": 104214,
+          "comments": 12505,
+          "engagementRate": 0.08959934043511937,
+          "hashtags": [
+            "#apple",
+            "#iphone",
+            "#tech"
+          ],
+          "tags": []
+        }
+      ]
+    }
+  },
+  "gringa": {
+    "topVideos": [
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_3",
+        "channelTitle": "DailyTechTips",
+        "videoId": "SAMPLE_3_6",
+        "title": "self hosted apps to replace big tech",
+        "publishedAt": "2026-04-15T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1930103,
+        "likes": 135107,
+        "comments": 14861,
+        "engagementRate": 0.07769948028680335,
+        "hashtags": [
+          "#selfhosted",
+          "#privacy",
+          "#opensource"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_2",
+        "channelTitle": "GadgetGuy",
+        "videoId": "SAMPLE_2_8",
+        "title": "i tried a digital detox phone",
+        "publishedAt": "2026-07-31T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1837114,
+        "likes": 91855,
+        "comments": 6429,
+        "engagementRate": 0.0534991296130779,
+        "hashtags": [
+          "#digitaldetox",
+          "#minimalism",
+          "#focus"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_3",
+        "channelTitle": "DailyTechTips",
+        "videoId": "SAMPLE_3_4",
+        "title": "ewaste restoration project",
+        "publishedAt": "2025-12-14T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1767147,
+        "likes": 53014,
+        "comments": 1060,
+        "engagementRate": 0.030599604899875336,
+        "hashtags": [
+          "#restoration",
+          "#diy",
+          "#repair"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_2",
+        "channelTitle": "GadgetGuy",
+        "videoId": "SAMPLE_2_4",
+        "title": "ewaste restoration project",
+        "publishedAt": "2026-02-17T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1764176,
+        "likes": 105850,
+        "comments": 11643,
+        "engagementRate": 0.06659936423576786,
+        "hashtags": [
+          "#restoration",
+          "#diy",
+          "#repair"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_3",
+        "channelTitle": "DailyTechTips",
+        "videoId": "SAMPLE_3_8",
+        "title": "i tried a digital detox phone",
+        "publishedAt": "2026-04-15T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1758530,
+        "likes": 70341,
+        "comments": 7034,
+        "engagementRate": 0.04399981802983174,
+        "hashtags": [
+          "#digitaldetox",
+          "#minimalism",
+          "#focus"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_3",
+        "channelTitle": "DailyTechTips",
+        "videoId": "SAMPLE_3_0",
+        "title": "underrated gadgets you didnt know existed",
+        "publishedAt": "2026-10-31T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1413196,
+        "likes": 70659,
+        "comments": 6359,
+        "engagementRate": 0.05449916359797226,
+        "hashtags": [
+          "#gadgets",
+          "#tech",
+          "#cool"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_2",
+        "channelTitle": "GadgetGuy",
+        "videoId": "SAMPLE_2_5",
+        "title": "budget smart glasses review",
+        "publishedAt": "2026-10-25T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1390077,
+        "likes": 27801,
+        "comments": 1668,
+        "engagementRate": 0.02119954506117287,
+        "hashtags": [
+          "#smartglasses",
+          "#wearables",
+          "#review"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_2",
+        "channelTitle": "GadgetGuy",
+        "videoId": "SAMPLE_2_3",
+        "title": "ai agents are changing everything",
+        "publishedAt": "2026-02-27T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1332135,
+        "likes": 119892,
+        "comments": 4795,
+        "engagementRate": 0.09359937243597684,
+        "hashtags": [
+          "#aiagents",
+          "#automation",
+          "#future"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_3",
+        "channelTitle": "DailyTechTips",
+        "videoId": "SAMPLE_3_7",
+        "title": "raspberry pi projects that are actually useful",
+        "publishedAt": "2026-06-05T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1239206,
+        "likes": 74352,
+        "comments": 6691,
+        "engagementRate": 0.06539913460715975,
+        "hashtags": [
+          "#raspberrypi",
+          "#diy",
+          "#maker"
+        ],
+        "tags": []
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "SAMPLE_2",
+        "channelTitle": "GadgetGuy",
+        "videoId": "SAMPLE_2_0",
+        "title": "underrated gadgets you didnt know existed",
+        "publishedAt": "2026-11-02T21:28:42.746Z",
+        "url": "#",
+        "thumbnail": "",
+        "views": 1216413,
+        "likes": 60820,
+        "comments": 6082,
+        "engagementRate": 0.054999412206216146,
+        "hashtags": [
+          "#gadgets",
+          "#tech",
+          "#cool"
+        ],
+        "tags": []
+      }
+    ],
+    "temasParaTrazer": [
+      {
+        "termo": "tech",
+        "n": 4
+      },
+      {
+        "termo": "underrated",
+        "n": 2
+      },
+      {
+        "termo": "gadgets",
+        "n": 2
+      },
+      {
+        "termo": "didnt",
+        "n": 2
+      },
+      {
+        "termo": "know",
+        "n": 2
+      },
+      {
+        "termo": "existed",
+        "n": 2
+      },
+      {
+        "termo": "automated",
+        "n": 2
+      },
+      {
+        "termo": "entire",
+        "n": 2
+      },
+      {
+        "termo": "desk",
+        "n": 2
+      },
+      {
+        "termo": "setup",
+        "n": 2
+      },
+      {
+        "termo": "home",
+        "n": 2
+      },
+      {
+        "termo": "server",
+        "n": 2
+      }
+    ]
+  },
+  "resumo": {
+    "totalVideos": 40,
+    "totalCanais": 4,
+    "videosNovos48h": 2
+  },
+  "pendentes": []
+}

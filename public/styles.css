@@ -1,0 +1,84 @@
+:root {
+  --bg: #0d1117;
+  --panel: #161b22;
+  --panel2: #1c2230;
+  --border: #272e3a;
+  --text: #e6edf3;
+  --muted: #8b98a9;
+  --accent: #ff4d6d;
+  --accent2: #4d9fff;
+  --green: #3fb950;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: radial-gradient(1200px 600px at 80% -10%, #1a2130 0%, var(--bg) 55%);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px clamp(16px, 4vw, 40px);
+  border-bottom: 1px solid var(--border);
+}
+.brand { display: flex; align-items: center; gap: 14px; }
+.logo { font-size: 34px; }
+.topbar h1 { margin: 0; font-size: 22px; }
+.topbar p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.meta { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; }
+.badge { background: var(--accent); color: #fff; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.hidden { display: none; }
+
+main { padding: clamp(16px, 4vw, 40px); max-width: 1200px; margin: 0 auto; }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin-bottom: 20px; }
+.kpi { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+.kpi .num { font-size: 28px; font-weight: 700; }
+.kpi .lbl { color: var(--muted); font-size: 13px; }
+
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 18px; }
+.panel h2 { margin: 0 0 6px; font-size: 17px; }
+.hint { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+.panel.highlight { border-color: var(--accent2); box-shadow: 0 0 0 1px rgba(77,159,255,.15) inset; }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+.tab { background: var(--panel); border: 1px solid var(--border); color: var(--text); padding: 8px 16px; border-radius: 999px; cursor: pointer; font-size: 14px; }
+.tab.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.tab.disabled { opacity: .45; cursor: not-allowed; }
+
+.list { display: flex; flex-direction: column; gap: 10px; }
+.row { display: flex; gap: 12px; align-items: center; padding: 8px; border-radius: 10px; background: var(--panel2); }
+.row .rank { font-weight: 700; color: var(--muted); min-width: 24px; text-align: center; }
+.row .info { flex: 1; min-width: 0; }
+.row .ttl { font-size: 14px; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row .sub { color: var(--muted); font-size: 12px; }
+.row a { color: var(--accent2); text-decoration: none; }
+.row .stat { font-weight: 700; font-size: 14px; white-space: nowrap; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.card { background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.card img { width: 100%; height: 124px; object-fit: cover; background: #0b0e14; display: block; }
+.card .body { padding: 10px 12px; }
+.card .ttl { font-size: 13px; margin: 0 0 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .sub { color: var(--muted); font-size: 12px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { background: var(--panel2); border: 1px solid var(--border); border-radius: 999px; padding: 6px 12px; font-size: 13px; }
+.chip b { color: var(--accent); margin-left: 6px; }
+
+.empty { color: var(--muted); font-size: 14px; padding: 8px 0; }
+
+footer { padding: 20px; text-align: center; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); }
+code { background: var(--panel2); padding: 2px 6px; border-radius: 6px; font-size: 12px; }
