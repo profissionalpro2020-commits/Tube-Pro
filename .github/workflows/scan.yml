@@ -1,6 +1,7 @@
 name: Radar de conteudo
 
 # Roda de hora em hora e tambem pode ser disparado na mao pela aba Actions.
+# A cada rodada: coleta os dados reais, salva no repo e republica o painel online.
 # IMPORTANTE: o agendamento (schedule) so funciona a partir do branch padrao do repo.
 on:
   schedule:
@@ -9,10 +10,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Evita duas publicacoes do painel ao mesmo tempo.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   scan:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -37,3 +48,18 @@ jobs:
             git commit -m "chore: atualiza dados do radar"
             git push
           fi
+
+      # Publica a pasta public/ como site do GitHub Pages (gratis em repo publico).
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Subir o painel como artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Publicar o painel
+        id: deployment
+        uses: actions/deploy-pages@v4
