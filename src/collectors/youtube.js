@@ -15,20 +15,44 @@ async function api(path, params, apiKey) {
   return res.json();
 }
 
-// Resolve um canal a partir de @handle ou channelId e devolve o id e a playlist de uploads.
+async function channelById(id, apiKey) {
+  const data = await api("channels", { part: "contentDetails,snippet,statistics", id }, apiKey);
+  return (data.items && data.items[0]) || null;
+}
+
+// Resolve um canal a partir de @handle, channelId ou (fallback) pelo nome via busca.
+// Assim o usuario pode informar so o nome do canal e a ferramenta acha sozinha.
 async function resolveChannel(channel, apiKey) {
-  const params = { part: "contentDetails,snippet,statistics" };
-  if (channel.handle && channel.handle.startsWith("@")) {
-    params.forHandle = channel.handle;
-  } else if (channel.handle && channel.handle.startsWith("UC")) {
-    params.id = channel.handle;
-  } else if (channel.handle) {
-    params.forHandle = "@" + channel.handle.replace(/^@/, "");
-  } else {
-    return null;
+  let item = null;
+
+  // 1) tenta pelo handle/id, se tiver
+  if (channel.handle) {
+    const params = { part: "contentDetails,snippet,statistics" };
+    if (channel.handle.startsWith("UC")) params.id = channel.handle;
+    else params.forHandle = "@" + channel.handle.replace(/^@/, "");
+    try {
+      const data = await api("channels", params, apiKey);
+      item = (data.items && data.items[0]) || null;
+    } catch (err) {
+      console.warn(`[youtube] handle ${channel.handle} falhou, tentando por nome: ${err.message}`);
+    }
   }
-  const data = await api("channels", params, apiKey);
-  const item = data.items && data.items[0];
+
+  // 2) fallback: busca pelo nome (search.list custa mais cota, mas resolve sem handle)
+  if (!item) {
+    const q = channel.name || channel.label || channel.handle;
+    if (q) {
+      const search = await api(
+        "search",
+        { part: "snippet", q, type: "channel", maxResults: 1 },
+        apiKey
+      );
+      const found = search.items && search.items[0];
+      const cid = found?.snippet?.channelId || found?.id?.channelId;
+      if (cid) item = await channelById(cid, apiKey);
+    }
+  }
+
   if (!item) return null;
   return {
     channelId: item.id,

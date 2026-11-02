@@ -1,14 +1,19 @@
 {
-  "_ajuda": "Adicione aqui os canais que voce quer monitorar. Para YouTube use o handle (ex: @nomedocanal) ou o channelId (ex: UCxxxx). region: 'br' para Brasil, 'intl' para gringa. As outras plataformas ja ficam registradas aqui e serao coletadas quando a integracao delas estiver ligada.",
+  "_ajuda": "Monitore canais informando apenas o NOME (campo name). A ferramenta acha o canal sozinha pela busca do YouTube, voce nao precisa do handle. Se quiser travar num canal exato, preencha handle com @handle ou o channelId (UC...). region: 'br' (Brasil) ou 'intl' (gringa).",
   "maxVideosPerChannel": 40,
   "channels": [
-    { "platform": "youtube", "handle": "@manualdomundo", "region": "br", "label": "Manual do Mundo (exemplo - troque pelos canais de dicas tech que voce admira)" },
-    { "platform": "youtube", "handle": "@Tecmundo", "region": "br", "label": "Tecmundo (exemplo)" },
-    { "platform": "youtube", "handle": "@mkbhd", "region": "intl", "label": "MKBHD (exemplo gringa)" },
-    { "platform": "youtube", "handle": "@mrwhosetheboss", "region": "intl", "label": "Mrwhosetheboss (exemplo gringa)" },
+    { "platform": "youtube", "handle": "@JefDicasTech", "name": "Jef Dicas Tech", "region": "br", "label": "REFERENCIA principal (foco em Shorts)" },
+    { "platform": "youtube", "name": "Manual do Mundo", "region": "br" },
+    { "platform": "youtube", "name": "TecMundo", "region": "br" },
+    { "platform": "youtube", "name": "Tecnoblog", "region": "br" },
+    { "platform": "youtube", "name": "Me ajuda Nick", "region": "br" },
 
-    { "platform": "tiktok", "handle": "", "region": "br", "label": "Preencha quando ligar a integracao do TikTok" },
-    { "platform": "instagram", "handle": "", "region": "br", "label": "Preencha quando ligar a integracao do Instagram" },
-    { "platform": "facebook", "handle": "", "region": "br", "label": "Preencha quando ligar a integracao do Facebook" }
+    { "platform": "youtube", "name": "Mrwhosetheboss", "region": "intl" },
+    { "platform": "youtube", "name": "Marques Brownlee MKBHD", "region": "intl" },
+    { "platform": "youtube", "name": "Dave2D", "region": "intl" },
+
+    { "platform": "tiktok", "name": "", "region": "br", "label": "Preencher quando ligar a integracao paga do TikTok" },
+    { "platform": "instagram", "name": "", "region": "br", "label": "Preencher quando ligar a integracao do Instagram" },
+    { "platform": "facebook", "name": "", "region": "br", "label": "Preencher quando ligar a integracao do Facebook" }
   ]
 }
