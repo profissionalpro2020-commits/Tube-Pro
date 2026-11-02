@@ -12,8 +12,8 @@
     { "platform": "youtube", "name": "Marques Brownlee MKBHD", "region": "intl" },
     { "platform": "youtube", "name": "Dave2D", "region": "intl" },
 
-    { "platform": "tiktok", "name": "", "region": "br", "label": "Preencher quando ligar a integracao paga do TikTok" },
-    { "platform": "instagram", "name": "", "region": "br", "label": "Preencher quando ligar a integracao do Instagram" },
+    { "platform": "tiktok", "handle": "@jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.tiktok.com/@jefdicastech", "region": "br", "label": "REFERENCIA. Coleta liga quando houver fonte (servico pago ou sua conta)" },
+    { "platform": "instagram", "handle": "jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.instagram.com/jefdicastech/", "region": "br", "label": "REFERENCIA. Coleta liga quando houver fonte (Business Discovery ou servico pago)" },
     { "platform": "facebook", "name": "", "region": "br", "label": "Preencher quando ligar a integracao do Facebook" }
   ]
 }
