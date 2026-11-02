@@ -1,5 +1,9 @@
 # Tube Pro: como este projeto funciona
 
+> PONTO DE RETOMADA: comece lendo `CHECKPOINT.md`. Ele diz onde paramos e qual e
+> o proximo passo.
+
+
 ## O objetivo
 Construir um radar de conteudo que ajuda o dono a virar referencia em dicas tech
 (estilo os grandes canais de dicas do YouTube, Instagram e TikTok), medir o que
