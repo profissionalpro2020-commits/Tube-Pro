@@ -129,3 +129,18 @@ code { background: var(--panel2); padding: 2px 6px; border-radius: 6px; font-siz
 
 .formula { margin: 6px 0 0; padding-left: 18px; }
 .formula li { font-size: 13px; margin-bottom: 6px; }
+
+/* ===== 9 videos pra fazer igual ===== */
+.panel.replicar { border-color: var(--accent2); box-shadow: 0 0 0 1px rgba(77,159,255,.12) inset; }
+.replicar-lista { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 760px) { .replicar-lista { grid-template-columns: 1fr; } }
+.rep-card { display: flex; gap: 12px; background: var(--panel2); border: 1px solid var(--border); border-radius: 10px; padding: 10px; }
+.rep-thumb { position: relative; flex: 0 0 120px; }
+.rep-thumb img, .rep-noimg { width: 120px; height: 72px; object-fit: cover; border-radius: 6px; background: #0b0e14; display: block; }
+.rep-num { position: absolute; top: -6px; left: -6px; background: var(--accent2); color: #04121f; font-weight: 700; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-size: 13px; }
+.rep-body { flex: 1; min-width: 0; }
+.rep-ttl { color: var(--text); text-decoration: none; font-weight: 600; font-size: 14px; display: block; margin-bottom: 2px; }
+.rep-ttl:hover { color: var(--accent2); }
+.rep-meta { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+.rep-dicas { margin: 0; padding-left: 16px; }
+.rep-dicas li { font-size: 12.5px; margin-bottom: 4px; color: var(--text); }

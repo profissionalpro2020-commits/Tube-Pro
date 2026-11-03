@@ -47,6 +47,7 @@ function render() {
 
   renderKpis();
   renderInteligencia(abaAtual);
+  renderReplicar(abaAtual);
   renderGringa();
   renderTabs();
   renderAba();
@@ -152,6 +153,37 @@ function renderInteligencia(plataforma) {
   if (!(i.temasSubaproveitados || []).length) br.appendChild(el(`<p class="empty">Sem brechas claras agora.</p>`));
 }
 
+function renderReplicar(plataforma) {
+  const bloco = dados.inteligencia && dados.inteligencia[plataforma];
+  const lista = bloco && bloco.replicar;
+  const painel = document.getElementById("replicarPanel");
+  if (!lista || !lista.length) {
+    if (painel) painel.classList.add("hidden");
+    return;
+  }
+  painel.classList.remove("hidden");
+  document.getElementById("replicarTitulo").textContent = `📹 9 videos pra fazer igual em ${PLATAFORMAS[plataforma] || plataforma} (e como melhorar)`;
+
+  const box = document.getElementById("replicarLista");
+  box.innerHTML = "";
+  lista.forEach((v, n) => {
+    const thumb = v.thumbnail
+      ? `<img src="${v.thumbnail}" alt="" loading="lazy" />`
+      : `<div class="rep-noimg"></div>`;
+    const dicas = (v.dicas || []).map((d) => `<li>${escapar(d)}</li>`).join("");
+    const card = el(`
+      <div class="rep-card">
+        <div class="rep-thumb">${thumb}<span class="rep-num">${n + 1}</span></div>
+        <div class="rep-body">
+          <a class="rep-ttl" href="${v.url}" target="_blank" rel="noopener">${escapar(v.title)}</a>
+          <div class="rep-meta">${escapar(v.channelTitle)} · ${nfmt(v.views)} views · ${pct(v.engajamento)} eng${v.duracao ? " · " + escapar(v.duracao) : ""}${v.comentarios != null ? " · " + nfmt(v.comentarios) + " coment." : ""}</div>
+          <ul class="rep-dicas">${dicas}</ul>
+        </div>
+      </div>`);
+    box.appendChild(card);
+  });
+}
+
 function renderGringa() {
   const g = dados.gringa || {};
   const temas = document.getElementById("gringaTemas");
@@ -175,7 +207,7 @@ function renderTabs() {
     const tab = el(
       `<button class="tab ${key === abaAtual ? "active" : ""} ${ativa ? "" : "disabled"}">${nome}${ativa ? "" : " (em breve)"}</button>`
     );
-    if (ativa) tab.onclick = () => { abaAtual = key; renderTabs(); renderAba(); renderInteligencia(abaAtual); };
+    if (ativa) tab.onclick = () => { abaAtual = key; renderTabs(); renderAba(); renderInteligencia(abaAtual); renderReplicar(abaAtual); };
     nav.appendChild(tab);
   }
 }
