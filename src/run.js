@@ -24,6 +24,35 @@ async function loadEnvFile() {
   }
 }
 
+// Guarda o ultimo dado de TikTok/Instagram num cache e reusa entre as coletas do dia,
+// pra o dashboard nao ficar sem as redes sociais nas horas em que nao coletamos.
+async function aplicarCacheSocial(coletado, { collectSocial, cachePath, temCache }) {
+  const ehSocial = (v) => v.platform === "tiktok" || v.platform === "instagram";
+  const socialFresh = coletado.videos.filter(ehSocial);
+
+  if (collectSocial && socialFresh.length) {
+    const statsFresh = coletado.channelStats.filter(ehSocial);
+    await writeFile(
+      cachePath,
+      JSON.stringify({ geradoEm: new Date().toISOString(), videos: socialFresh, channelStats: statsFresh }, null, 2)
+    );
+  } else {
+    // Nao coletou agora (ou veio vazio): tira o social e puxa do cache, se houver.
+    coletado.videos = coletado.videos.filter((v) => !ehSocial(v));
+    coletado.channelStats = coletado.channelStats.filter((v) => !ehSocial(v));
+    if (temCache) {
+      try {
+        const cache = JSON.parse(await readFile(cachePath, "utf8"));
+        coletado.videos.push(...(cache.videos || []));
+        coletado.channelStats.push(...(cache.channelStats || []));
+      } catch {}
+    }
+  }
+  // Nao marca como pendente a rede que ja tem dado (fresco ou do cache).
+  coletado.pendentes = (coletado.pendentes || []).filter((p) => !coletado.videos.some((v) => v.platform === p));
+  return coletado;
+}
+
 async function main() {
   await loadEnvFile();
   await mkdir(dataDir, { recursive: true });
@@ -33,11 +62,26 @@ async function main() {
 
   let coletado;
   if (temKey) {
-    console.log("Coletando dados reais...");
-    coletado = await collectAll(config, process.env);
+    // YouTube roda sempre. TikTok/Instagram so uma vez por dia (hora UTC configuravel),
+    // pra caber na cota gratis do EnsembleData. Entre as coletas, usa o cache salvo.
+    const hora = new Date().getUTCHours();
+    const horaSocial = Number(process.env.SOCIAL_HOUR_UTC || 23); // 23 UTC = 20:00 no horario de Brasilia
+    const cachePath = join(dataDir, "social-cache.json");
+    const temCache = existsSync(cachePath);
+    const collectSocial = !!process.env.ENSEMBLE_TOKEN && (hora === horaSocial || !temCache);
+
+    console.log(
+      collectSocial
+        ? "Coletando dados reais (YouTube + redes sociais)..."
+        : "Coletando dados reais (YouTube; redes sociais vem do cache)..."
+    );
+    coletado = await collectAll(config, process.env, { collectSocial });
+
     if (!coletado.videos.length) {
       console.warn("Nenhum video coletado (cheque os handles em config/channels.json). Usando exemplo.");
       coletado = collectSample();
+    } else {
+      coletado = await aplicarCacheSocial(coletado, { collectSocial, cachePath, temCache });
     }
   } else {
     console.log("Sem YOUTUBE_API_KEY: gerando dados de exemplo.");

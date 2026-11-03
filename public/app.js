@@ -46,7 +46,7 @@ function render() {
   document.getElementById("sampleBadge").classList.toggle("hidden", !dados.sample);
 
   renderKpis();
-  renderInteligencia();
+  renderInteligencia(abaAtual);
   renderGringa();
   renderTabs();
   renderAba();
@@ -68,14 +68,16 @@ function renderKpis() {
   }
 }
 
-function renderInteligencia() {
-  const i = dados.inteligencia;
+function renderInteligencia(plataforma) {
+  const todas = dados.inteligencia || null;
+  const i = todas ? todas[plataforma] : null;
   const painel = document.getElementById("intelPanel");
   if (!i) {
     if (painel) painel.classList.add("hidden");
     return;
   }
   painel.classList.remove("hidden");
+  document.getElementById("intelTitulo").textContent = `🧠 Inteligencia: ${PLATAFORMAS[plataforma] || plataforma}`;
 
   document.getElementById("intelRecado").textContent = i.recado || "";
 
@@ -173,7 +175,7 @@ function renderTabs() {
     const tab = el(
       `<button class="tab ${key === abaAtual ? "active" : ""} ${ativa ? "" : "disabled"}">${nome}${ativa ? "" : " (em breve)"}</button>`
     );
-    if (ativa) tab.onclick = () => { abaAtual = key; renderTabs(); renderAba(); };
+    if (ativa) tab.onclick = () => { abaAtual = key; renderTabs(); renderAba(); renderInteligencia(abaAtual); };
     nav.appendChild(tab);
   }
 }
