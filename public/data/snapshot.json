@@ -1,33 +1,27 @@
 {
-  "geradoEm": "2026-11-02T23:32:49.486Z",
+  "geradoEm": "2026-11-02T23:57:48.943Z",
   "sample": false,
   "inteligencia": {
     "recado": "O tema mais quente e rentavel agora e \"água\" (4 videos, 5.5% de engajamento).",
-    "engMercado": 0.04367566391535645,
+    "engMercado": 0.04358938808189892,
     "temasQuentesRentaveis": [
       {
         "termo": "água",
         "n": 4,
-        "engMedio": 0.05488665298815429,
-        "viewsMediano": 421358
-      },
-      {
-        "termo": "samsung",
-        "n": 6,
-        "engMedio": 0.05197841455635494,
-        "viewsMediano": 2994
+        "engMedio": 0.054863290248606957,
+        "viewsMediano": 421385
       },
       {
         "termo": "falha",
         "n": 6,
-        "engMedio": 0.05101659182811871,
+        "engMedio": 0.05100195959677097,
         "viewsMediano": 21910
       },
       {
         "termo": "brasil",
         "n": 12,
-        "engMedio": 0.05094360585600813,
-        "viewsMediano": 52124
+        "engMedio": 0.05093579953764962,
+        "viewsMediano": 52157
       },
       {
         "termo": "podcast",
@@ -38,8 +32,14 @@
       {
         "termo": "motorola",
         "n": 5,
-        "engMedio": 0.049750632425231305,
-        "viewsMediano": 7126
+        "engMedio": 0.04970905558644608,
+        "viewsMediano": 7115
+      },
+      {
+        "termo": "samsung",
+        "n": 6,
+        "engMedio": 0.04936182102703595,
+        "viewsMediano": 2994
       },
       {
         "termo": "gravar",
@@ -50,8 +50,8 @@
       {
         "termo": "google",
         "n": 4,
-        "engMedio": 0.048757495399686664,
-        "viewsMediano": 30292
+        "engMedio": 0.0487581049028223,
+        "viewsMediano": 30293
       }
     ],
     "temasSubaproveitados": [
@@ -64,8 +64,8 @@
       {
         "termo": "alexa",
         "n": 2,
-        "engMedio": 0.07691958162109047,
-        "viewsMediano": 4612
+        "engMedio": 0.07688328694439563,
+        "viewsMediano": 4621
       },
       {
         "termo": "instalação",
@@ -82,19 +82,19 @@
       {
         "termo": "disney",
         "n": 2,
-        "engMedio": 0.07070403580603105,
-        "viewsMediano": 16139
+        "engMedio": 0.07069316590241216,
+        "viewsMediano": 16154
       },
       {
         "termo": "binance",
         "n": 2,
-        "engMedio": 0.06902943211908172,
-        "viewsMediano": 14251
+        "engMedio": 0.06902221668398952,
+        "viewsMediano": 14265
       }
     ],
     "formula": {
       "dicas": [
-        "Os campeoes de engajamento rendem 6.9% em media, contra 3.4% do resto. Essa e a barra a mirar.",
+        "Os campeoes de engajamento rendem 6.8% em media, contra 3.4% do resto. Essa e a barra a mirar.",
         "Titulo mais CURTO tende a render: campeoes tem ~9 palavras, resto ~10.",
         "Palavras que mais aparecem nos campeoes: podcast, google, motorola, usando, tecnologia, site, vem, satélite."
       ],
@@ -115,14 +115,14 @@
       },
       {
         "tema": "alexa",
-        "motivo": "O tema \"alexa\" aparece em 2 videos do mercado e engaja 7.7% em media (acima da media do mercado, que e 4.4%). Views tipicas: 4.612.",
+        "motivo": "O tema \"alexa\" aparece em 2 videos do mercado e engaja 7.7% em media (acima da media do mercado, que e 4.4%). Views tipicas: 4.621.",
         "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
         "exemploParaEstudar": {
           "title": "Echo Dot, Echo Time e Echo Studio no Brasil! As novas caixinhas da Amazon para a Alexa+ #tecmundo",
           "channelTitle": "TecMundo",
           "url": "https://www.youtube.com/watch?v=mKFn7NgDT3c",
-          "engajamento": 0.03695604635906407,
-          "views": 9146
+          "engajamento": 0.03688345700567438,
+          "views": 9164
         }
       },
       {
@@ -151,7 +151,7 @@
       },
       {
         "tema": "disney",
-        "motivo": "O tema \"disney\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 16.139.",
+        "motivo": "O tema \"disney\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 16.154.",
         "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
         "exemploParaEstudar": {
           "title": "DISNEY+ SUSPENDE 4K E HDR NO BRASIL",
@@ -165,8 +165,8 @@
     "espelho": {
       "nome": "Jef Dicas Tech 📱Tecnologia ",
       "videosColetados": 50,
-      "engMedio": 0.03857504681004778,
-      "engMercado": 0.04495081819168363,
+      "engMedio": 0.038567861779553715,
+      "engMercado": 0.04484476965748522,
       "acimaDaMedia": false,
       "melhoresVideos": [
         {
@@ -178,8 +178,8 @@
         {
           "title": "NÃO VIAJE EM GRUPO SEM SABER DESSA NOVA FUNÇÃO DO GOOGLE MAPS￼! Como Compartilhar a rota em grupo",
           "url": "https://www.youtube.com/watch?v=jOZdkoX5BaI",
-          "engajamento": 0.06188753203678577,
-          "views": 26532
+          "engajamento": 0.061882867264641594,
+          "views": 26534
         },
         {
           "title": "Pare de postar fotos com IA! Use esses códigos no ChatGPT para disfarçar e parecer fotos de agência",
@@ -191,17 +191,12 @@
       "gaps": [
         {
           "termo": "água",
-          "engMedio": 0.05488665298815429,
+          "engMedio": 0.054863290248606957,
           "n": 4
         },
         {
-          "termo": "samsung",
-          "engMedio": 0.05197841455635494,
-          "n": 6
-        },
-        {
           "termo": "falha",
-          "engMedio": 0.05101659182811871,
+          "engMedio": 0.05100195959677097,
           "n": 6
         },
         {
@@ -211,8 +206,13 @@
         },
         {
           "termo": "motorola",
-          "engMedio": 0.049750632425231305,
+          "engMedio": 0.04970905558644608,
           "n": 5
+        },
+        {
+          "termo": "samsung",
+          "engMedio": 0.04936182102703595,
+          "n": 6
         },
         {
           "termo": "gravar",
@@ -220,14 +220,14 @@
           "n": 5
         },
         {
-          "termo": "galaxy",
-          "engMedio": 0.04813053785795165,
-          "n": 7
-        },
-        {
           "termo": "anchor",
           "engMedio": 0.0479899577632227,
           "n": 5
+        },
+        {
+          "termo": "starlink",
+          "engMedio": 0.04787179299089093,
+          "n": 4
         }
       ],
       "veredito": "Seu espelho engaja 3.9%, abaixo da media dos concorrentes (4.5%). Da para subir imitando o que funciona."
@@ -235,7 +235,7 @@
     "daGringaParaTrazer": [
       {
         "termo": "steam",
-        "engMedio": 0.03359765571280421,
+        "engMedio": 0.03359747647513059,
         "n": 6
       },
       {
@@ -245,27 +245,27 @@
       },
       {
         "termo": "smartphone",
-        "engMedio": 0.029482366315333373,
+        "engMedio": 0.029481515408055603,
         "n": 5
       },
       {
         "termo": "better",
-        "engMedio": 0.028005423679998583,
+        "engMedio": 0.028005393555178597,
         "n": 7
       },
       {
         "termo": "phone",
-        "engMedio": 0.02729009520846653,
+        "engMedio": 0.027289992590727695,
         "n": 8
       },
       {
         "termo": "pixel",
-        "engMedio": 0.02718010932345195,
+        "engMedio": 0.02717988339989489,
         "n": 5
       },
       {
         "termo": "gaming",
-        "engMedio": 0.026799431518500727,
+        "engMedio": 0.026799214303741672,
         "n": 4
       }
     ]
@@ -339,7 +339,7 @@
   "plataformas": {
     "youtube": {
       "totalVideos": 400,
-      "mediaEngajamento": 0.03701418062763989,
+      "mediaEngajamento": 0.03696011565519778,
       "topViews": [
         {
           "platform": "youtube",
@@ -351,10 +351,10 @@
           "publishedAt": "2026-06-30T12:28:06Z",
           "url": "https://www.youtube.com/watch?v=Hf-uB8XLdP0",
           "thumbnail": "https://i.ytimg.com/vi/Hf-uB8XLdP0/mqdefault.jpg",
-          "views": 50573783,
-          "likes": 1147148,
+          "views": 50574325,
+          "likes": 1147160,
           "comments": 4628,
-          "engagementRate": 0.022774171352773827,
+          "engagementRate": 0.0227741645587954,
           "hashtags": [],
           "tags": [
             "power washer",
@@ -377,10 +377,10 @@
           "publishedAt": "2026-10-01T14:21:22Z",
           "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
           "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
-          "views": 40071868,
-          "likes": 1031470,
+          "views": 40075361,
+          "likes": 1031505,
           "comments": 4901,
-          "engagementRate": 0.025862807294134628,
+          "engagementRate": 0.02586142642607761,
           "hashtags": [],
           "tags": []
         },
@@ -394,10 +394,10 @@
           "publishedAt": "2026-09-10T07:29:55Z",
           "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
           "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
-          "views": 28284614,
+          "views": 28284665,
           "likes": 366748,
           "comments": 24920,
-          "engagementRate": 0.013847387134220747,
+          "engagementRate": 0.013847362166035907,
           "hashtags": [],
           "tags": [
             "iPhone Duo",
@@ -415,10 +415,10 @@
           "publishedAt": "2026-10-10T10:16:27Z",
           "url": "https://www.youtube.com/watch?v=nQdXp6HKKik",
           "thumbnail": "https://i.ytimg.com/vi/nQdXp6HKKik/mqdefault.jpg",
-          "views": 21765394,
-          "likes": 170810,
-          "comments": 5241,
-          "engagementRate": 0.008088573999625277,
+          "views": 21768961,
+          "likes": 170833,
+          "comments": 5242,
+          "engagementRate": 0.008088351116068425,
           "hashtags": [],
           "tags": [
             "tech",
@@ -440,10 +440,10 @@
           "publishedAt": "2026-09-08T11:09:52Z",
           "url": "https://www.youtube.com/watch?v=VTLnDqjfRZQ",
           "thumbnail": "https://i.ytimg.com/vi/VTLnDqjfRZQ/mqdefault.jpg",
-          "views": 21240010,
-          "likes": 179017,
+          "views": 21241552,
+          "likes": 179022,
           "comments": 6439,
-          "engagementRate": 0.008731445983311685,
+          "engagementRate": 0.008731047524211036,
           "hashtags": [
             "#4ktv",
             "#wallpapertv"
@@ -468,10 +468,10 @@
           "publishedAt": "2026-09-22T10:48:08Z",
           "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
           "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
-          "views": 19075895,
-          "likes": 171996,
+          "views": 19077281,
+          "likes": 171999,
           "comments": 13485,
-          "engagementRate": 0.009723318355442824,
+          "engagementRate": 0.009722769193366707,
           "hashtags": [],
           "tags": [
             "iphone duo",
@@ -494,10 +494,10 @@
           "publishedAt": "2026-05-12T10:43:14Z",
           "url": "https://www.youtube.com/watch?v=61CzvMFZRR0",
           "thumbnail": "https://i.ytimg.com/vi/61CzvMFZRR0/mqdefault.jpg",
-          "views": 17881995,
-          "likes": 548095,
+          "views": 17882771,
+          "likes": 548109,
           "comments": 23990,
-          "engagementRate": 0.031992235765640246,
+          "engagementRate": 0.03199163037987793,
           "hashtags": [],
           "tags": []
         },
@@ -511,10 +511,10 @@
           "publishedAt": "2026-09-10T07:11:46Z",
           "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
           "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
-          "views": 17193436,
+          "views": 17193463,
           "likes": 154370,
           "comments": 12698,
-          "engagementRate": 0.009716964078616979,
+          "engagementRate": 0.009716948819443762,
           "hashtags": [
             "#iphone18",
             "#torras"
@@ -540,10 +540,10 @@
           "publishedAt": "2026-09-09T20:20:43Z",
           "url": "https://www.youtube.com/watch?v=6AkGhTBtR4o",
           "thumbnail": "https://i.ytimg.com/vi/6AkGhTBtR4o/mqdefault.jpg",
-          "views": 16716152,
+          "views": 16716214,
           "likes": 487925,
           "comments": 12315,
-          "engagementRate": 0.02992554745852993,
+          "engagementRate": 0.02992543646545803,
           "hashtags": [],
           "tags": []
         },
@@ -557,10 +557,10 @@
           "publishedAt": "2026-04-13T13:09:12Z",
           "url": "https://www.youtube.com/watch?v=Y_exkqiBT4I",
           "thumbnail": "https://i.ytimg.com/vi/Y_exkqiBT4I/mqdefault.jpg",
-          "views": 16537212,
-          "likes": 567253,
+          "views": 16537555,
+          "likes": 567256,
           "comments": 2248,
-          "engagementRate": 0.03443754606278253,
+          "engagementRate": 0.034437013210235734,
           "hashtags": [],
           "tags": [
             "speaker",
@@ -859,45 +859,6 @@
           "region": "br",
           "channelId": "UCdmGjywrxeOPfC7vDllmSgQ",
           "channelTitle": "TecMundo",
-          "videoId": "RiOrJIer0H4",
-          "title": "Samsung Galaxy Z Fold 8 Ultra REVIEW: ótimas melhorias, mas ainda é \"Ultra\" só no nome",
-          "publishedAt": "2026-11-02T21:00:18Z",
-          "url": "https://www.youtube.com/watch?v=RiOrJIer0H4",
-          "thumbnail": "https://i.ytimg.com/vi/RiOrJIer0H4/mqdefault.jpg",
-          "views": 2012,
-          "likes": 179,
-          "comments": 6,
-          "engagementRate": 0.091948310139165,
-          "hashtags": [
-            "#tecmundo",
-            "#galaxyzfold8ultra",
-            "#samsung",
-            "#review",
-            "#análise",
-            "#zfold8ultra",
-            "#snapdragon8elitegen5",
-            "#oneui9",
-            "#dobrável",
-            "#technews"
-          ],
-          "tags": [
-            "galaxy z fold 8 ultra vale a pena tecmundo",
-            "review galaxy z fold 8 ultra",
-            "teste de desempenho z fold 8 ultra snapdragon 8 elite gen 5",
-            "galaxy z fold 8 ultra vs s26 ultra",
-            "z fold 8 ultra vinco da tela dobradica flex titanio",
-            "camera 200mp galaxy z fold 8 ultra",
-            "bateria de silicio carbono z fold 8 ultra 4800mah",
-            "z fold 8 ultra preco brasil samsung",
-            "one ui 9 android 17 z fold 8 ultra",
-            "comparativo z fold 8 ultra vs z fold 7"
-          ]
-        },
-        {
-          "platform": "youtube",
-          "region": "br",
-          "channelId": "UCdmGjywrxeOPfC7vDllmSgQ",
-          "channelTitle": "TecMundo",
           "videoId": "j1X9Kk24b7U",
           "title": "BINANCE SOFRE ATAQUE DE US$ 6,3 BI",
           "publishedAt": "2026-10-30T20:31:20Z",
@@ -1037,10 +998,10 @@
           "publishedAt": "2026-10-07T20:00:15Z",
           "url": "https://www.youtube.com/watch?v=EtRX1B-_2BM",
           "thumbnail": "https://i.ytimg.com/vi/EtRX1B-_2BM/mqdefault.jpg",
-          "views": 1168353,
-          "likes": 97102,
+          "views": 1168489,
+          "likes": 97110,
           "comments": 893,
-          "engagementRate": 0.08387447971631862,
+          "engagementRate": 0.08387156404553231,
           "hashtags": [
             "#culinária",
             "#cozinha",
@@ -1098,10 +1059,10 @@
           "publishedAt": "2026-10-29T21:26:37Z",
           "url": "https://www.youtube.com/watch?v=swpV_s1DpoM",
           "thumbnail": "https://i.ytimg.com/vi/swpV_s1DpoM/mqdefault.jpg",
-          "views": 14092,
-          "likes": 1127,
+          "views": 14114,
+          "likes": 1126,
           "comments": 51,
-          "engagementRate": 0.08359352824297474,
+          "engagementRate": 0.083392376363894,
           "hashtags": [
             "#patrickstewart",
             "#professorxavier",
@@ -1152,6 +1113,51 @@
             "homenagem",
             "imprensa",
             "atualidades"
+          ]
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "UCnZXxe83WmmoSjte4YwU9KA",
+          "channelTitle": "Me ajuda, Nick",
+          "videoId": "xVL1C9lk8nk",
+          "title": "7 GADGETS e APPS para você usar no seu podcast",
+          "publishedAt": "2022-02-15T22:00:31Z",
+          "url": "https://www.youtube.com/watch?v=xVL1C9lk8nk",
+          "thumbnail": "https://i.ytimg.com/vi/xVL1C9lk8nk/mqdefault.jpg",
+          "views": 1231,
+          "likes": 89,
+          "comments": 10,
+          "engagementRate": 0.08042242079610074,
+          "hashtags": [],
+          "tags": [
+            "como fazer",
+            "how",
+            "utilidades",
+            "guia",
+            "passo-a-passo",
+            "tutorial",
+            "meajudanick",
+            "nick",
+            "tecnologia",
+            "podcast",
+            "como fazer podcast",
+            "como gravar podcast",
+            "app podcast",
+            "gadgets podcast",
+            "ferramentas para podcast",
+            "canva para podcast",
+            "headliner para podcast",
+            "headliner podcast",
+            "como usar o headliner",
+            "AMP14",
+            "fone de ouvido podcast",
+            "podcast anchor",
+            "notion para podcast",
+            "notion",
+            "google agenda",
+            "g.agenda",
+            "google agenda para podcast"
           ]
         }
       ],
@@ -1290,10 +1296,10 @@
           "publishedAt": "2026-11-02T21:00:18Z",
           "url": "https://www.youtube.com/watch?v=RiOrJIer0H4",
           "thumbnail": "https://i.ytimg.com/vi/RiOrJIer0H4/mqdefault.jpg",
-          "views": 2012,
-          "likes": 179,
-          "comments": 6,
-          "engagementRate": 0.091948310139165,
+          "views": 2592,
+          "likes": 191,
+          "comments": 7,
+          "engagementRate": 0.0763888888888889,
           "hashtags": [
             "#tecmundo",
             "#galaxyzfold8ultra",
@@ -1329,10 +1335,10 @@
           "publishedAt": "2026-11-02T14:30:30Z",
           "url": "https://www.youtube.com/watch?v=knA-WLR-19M",
           "thumbnail": "https://i.ytimg.com/vi/knA-WLR-19M/mqdefault.jpg",
-          "views": 73385,
-          "likes": 5589,
-          "comments": 94,
-          "engagementRate": 0.07744089391565034,
+          "views": 75102,
+          "likes": 5705,
+          "comments": 95,
+          "engagementRate": 0.07722830284146893,
           "hashtags": [
             "#engenharia",
             "#guerra",
@@ -1389,10 +1395,10 @@
           "publishedAt": "2026-11-01T15:00:24Z",
           "url": "https://www.youtube.com/watch?v=YM3wqtMoRxw",
           "thumbnail": "https://i.ytimg.com/vi/YM3wqtMoRxw/mqdefault.jpg",
-          "views": 7693,
-          "likes": 289,
+          "views": 7767,
+          "likes": 292,
           "comments": 16,
-          "engagementRate": 0.0396464318211361,
+          "engagementRate": 0.03965495043131196,
           "hashtags": [
             "#smartphonecamera",
             "#testecego",
@@ -1441,10 +1447,10 @@
           "publishedAt": "2026-11-01T14:00:19Z",
           "url": "https://www.youtube.com/watch?v=zmW3kcM5ba4",
           "thumbnail": "https://i.ytimg.com/vi/zmW3kcM5ba4/mqdefault.jpg",
-          "views": 202,
-          "likes": 13,
+          "views": 201,
+          "likes": 12,
           "comments": 0,
-          "engagementRate": 0.06435643564356436,
+          "engagementRate": 0.05970149253731343,
           "hashtags": [
             "#bancodobrasil",
             "#bb",
@@ -1469,10 +1475,10 @@
         "publishedAt": "2026-06-30T12:28:06Z",
         "url": "https://www.youtube.com/watch?v=Hf-uB8XLdP0",
         "thumbnail": "https://i.ytimg.com/vi/Hf-uB8XLdP0/mqdefault.jpg",
-        "views": 50573783,
-        "likes": 1147148,
+        "views": 50574325,
+        "likes": 1147160,
         "comments": 4628,
-        "engagementRate": 0.022774171352773827,
+        "engagementRate": 0.0227741645587954,
         "hashtags": [],
         "tags": [
           "power washer",
@@ -1495,10 +1501,10 @@
         "publishedAt": "2026-10-01T14:21:22Z",
         "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
         "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
-        "views": 40071868,
-        "likes": 1031470,
+        "views": 40075361,
+        "likes": 1031505,
         "comments": 4901,
-        "engagementRate": 0.025862807294134628,
+        "engagementRate": 0.02586142642607761,
         "hashtags": [],
         "tags": []
       },
@@ -1512,10 +1518,10 @@
         "publishedAt": "2026-09-10T07:29:55Z",
         "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
         "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
-        "views": 28284614,
+        "views": 28284665,
         "likes": 366748,
         "comments": 24920,
-        "engagementRate": 0.013847387134220747,
+        "engagementRate": 0.013847362166035907,
         "hashtags": [],
         "tags": [
           "iPhone Duo",
@@ -1533,10 +1539,10 @@
         "publishedAt": "2026-10-10T10:16:27Z",
         "url": "https://www.youtube.com/watch?v=nQdXp6HKKik",
         "thumbnail": "https://i.ytimg.com/vi/nQdXp6HKKik/mqdefault.jpg",
-        "views": 21765394,
-        "likes": 170810,
-        "comments": 5241,
-        "engagementRate": 0.008088573999625277,
+        "views": 21768961,
+        "likes": 170833,
+        "comments": 5242,
+        "engagementRate": 0.008088351116068425,
         "hashtags": [],
         "tags": [
           "tech",
@@ -1558,10 +1564,10 @@
         "publishedAt": "2026-09-08T11:09:52Z",
         "url": "https://www.youtube.com/watch?v=VTLnDqjfRZQ",
         "thumbnail": "https://i.ytimg.com/vi/VTLnDqjfRZQ/mqdefault.jpg",
-        "views": 21240010,
-        "likes": 179017,
+        "views": 21241552,
+        "likes": 179022,
         "comments": 6439,
-        "engagementRate": 0.008731445983311685,
+        "engagementRate": 0.008731047524211036,
         "hashtags": [
           "#4ktv",
           "#wallpapertv"
@@ -1586,10 +1592,10 @@
         "publishedAt": "2026-09-22T10:48:08Z",
         "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
         "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
-        "views": 19075895,
-        "likes": 171996,
+        "views": 19077281,
+        "likes": 171999,
         "comments": 13485,
-        "engagementRate": 0.009723318355442824,
+        "engagementRate": 0.009722769193366707,
         "hashtags": [],
         "tags": [
           "iphone duo",
@@ -1612,10 +1618,10 @@
         "publishedAt": "2026-05-12T10:43:14Z",
         "url": "https://www.youtube.com/watch?v=61CzvMFZRR0",
         "thumbnail": "https://i.ytimg.com/vi/61CzvMFZRR0/mqdefault.jpg",
-        "views": 17881995,
-        "likes": 548095,
+        "views": 17882771,
+        "likes": 548109,
         "comments": 23990,
-        "engagementRate": 0.031992235765640246,
+        "engagementRate": 0.03199163037987793,
         "hashtags": [],
         "tags": []
       },
@@ -1629,10 +1635,10 @@
         "publishedAt": "2026-09-10T07:11:46Z",
         "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
         "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
-        "views": 17193436,
+        "views": 17193463,
         "likes": 154370,
         "comments": 12698,
-        "engagementRate": 0.009716964078616979,
+        "engagementRate": 0.009716948819443762,
         "hashtags": [
           "#iphone18",
           "#torras"
@@ -1658,10 +1664,10 @@
         "publishedAt": "2026-09-09T20:20:43Z",
         "url": "https://www.youtube.com/watch?v=6AkGhTBtR4o",
         "thumbnail": "https://i.ytimg.com/vi/6AkGhTBtR4o/mqdefault.jpg",
-        "views": 16716152,
+        "views": 16716214,
         "likes": 487925,
         "comments": 12315,
-        "engagementRate": 0.02992554745852993,
+        "engagementRate": 0.02992543646545803,
         "hashtags": [],
         "tags": []
       },
@@ -1675,10 +1681,10 @@
         "publishedAt": "2026-04-13T13:09:12Z",
         "url": "https://www.youtube.com/watch?v=Y_exkqiBT4I",
         "thumbnail": "https://i.ytimg.com/vi/Y_exkqiBT4I/mqdefault.jpg",
-        "views": 16537212,
-        "likes": 567253,
+        "views": 16537555,
+        "likes": 567256,
         "comments": 2248,
-        "engagementRate": 0.03443754606278253,
+        "engagementRate": 0.034437013210235734,
         "hashtags": [],
         "tags": [
           "speaker",

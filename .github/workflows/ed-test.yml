@@ -1,0 +1,23 @@
+name: Teste EnsembleData (temporario)
+
+# Robo temporario so pra conferir o conector de TikTok/Instagram antes de ligar de vez.
+# Recebe o token como entrada (nao fica salvo no codigo). Depois este arquivo e removido.
+on:
+  workflow_dispatch:
+    inputs:
+      token:
+        description: "Token do EnsembleData"
+        required: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Rodar sonda
+        env:
+          ENSEMBLE_TOKEN: ${{ inputs.token }}
+        run: node scripts/ed-probe.mjs

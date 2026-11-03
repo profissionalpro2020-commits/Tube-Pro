@@ -3,16 +3,18 @@
 // quando voce tiver acesso (API oficial da sua conta ou servico externo), e so preencher.
 
 import { collectYouTube } from "./youtube.js";
+import { collectEnsemble } from "./ensemble.js";
 
-async function collectTikTok() {
-  // TODO: integrar quando houver fonte (ex: TikTok Display API para sua conta,
-  // ou servico tipo Apify/RapidAPI para canais publicos).
-  return { videos: [], channelStats: [], pendente: "tiktok" };
+async function collectTikTok(canais, env, maxVideos) {
+  if (!env.ENSEMBLE_TOKEN) return { videos: [], channelStats: [], pendente: "tiktok" };
+  const r = await collectEnsemble("tiktok", canais, { token: env.ENSEMBLE_TOKEN, maxVideosPerChannel: maxVideos });
+  return { ...r, pendente: r.videos.length ? undefined : "tiktok" };
 }
 
-async function collectInstagram() {
-  // TODO: Instagram Graph API (conta business/creator sua) ou servico externo.
-  return { videos: [], channelStats: [], pendente: "instagram" };
+async function collectInstagram(canais, env, maxVideos) {
+  if (!env.ENSEMBLE_TOKEN) return { videos: [], channelStats: [], pendente: "instagram" };
+  const r = await collectEnsemble("instagram", canais, { token: env.ENSEMBLE_TOKEN, maxVideosPerChannel: maxVideos });
+  return { ...r, pendente: r.videos.length ? undefined : "instagram" };
 }
 
 async function collectFacebook() {
@@ -48,8 +50,9 @@ export async function collectAll(config, env) {
     }
   }
 
-  push(await collectTikTok());
-  push(await collectInstagram());
+  const maxVideos = Number(env.MAX_VIDEOS_PER_CHANNEL || config.maxVideosPerChannel || 40);
+  if (porPlataforma.tiktok?.length) push(await collectTikTok(porPlataforma.tiktok, env, maxVideos));
+  if (porPlataforma.instagram?.length) push(await collectInstagram(porPlataforma.instagram, env, maxVideos));
   push(await collectFacebook());
 
   return todos;
