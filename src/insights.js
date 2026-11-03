@@ -173,10 +173,10 @@ function montarPautas({ oportunidades, brVideos, formato, engMercado }) {
   return pautas;
 }
 
-export function gerarInteligencia(videos, referenciaMatcher) {
-  const yt = videos.filter((v) => v.platform === "youtube");
-  const br = yt.filter((v) => v.region === "br");
-  const intl = yt.filter((v) => v.region === "intl");
+function paraPlataforma(videos, plataforma, referenciaMatcher) {
+  const pv = videos.filter((v) => v.platform === plataforma);
+  const br = pv.filter((v) => v.region === "br");
+  const intl = pv.filter((v) => v.region === "intl");
   if (!br.length) return null;
 
   const engMercado = media(br.map((v) => v.engagementRate || 0));
@@ -216,32 +216,46 @@ export function gerarInteligencia(videos, referenciaMatcher) {
   if (jef.length) {
     const outros = br.filter((v) => !referenciaMatcher(v.channelTitle));
     const engJef = media(jef.map((v) => v.engagementRate || 0));
-    const engOutros = media(outros.map((v) => v.engagementRate || 0));
-    const temasJef = new Set(temasComDesempenho(jef).filter((t) => t.n >= 2).map((t) => t.termo));
     const melhores = [...jef]
       .sort((a, b) => (b.engagementRate || 0) - (a.engagementRate || 0))
       .slice(0, 3)
       .map((v) => ({ title: v.title, url: v.url, engajamento: v.engagementRate, views: v.views }));
-    // Brechas: temas que os concorrentes exploram (n>=4) e o Jef quase nao toca.
-    const temasOutros = temasComDesempenho(outros).filter((t) => t.n >= 4 && t.engMedio >= engOutros);
-    const gaps = temasOutros
-      .filter((t) => !temasJef.has(t.termo))
-      .sort((a, b) => b.engMedio - a.engMedio)
-      .slice(0, 8)
-      .map((t) => ({ termo: t.termo, engMedio: t.engMedio, n: t.n }));
-    espelho = {
-      nome: jef[0].channelTitle,
-      videosColetados: jef.length,
-      engMedio: engJef,
-      engMercado: engOutros,
-      acimaDaMedia: engJef >= engOutros,
-      melhoresVideos: melhores,
-      gaps,
-      veredito:
-        engJef >= engOutros
-          ? `Seu espelho engaja ${pct1(engJef)}%, acima da media dos concorrentes (${pct1(engOutros)}%). Esta no caminho certo.`
-          : `Seu espelho engaja ${pct1(engJef)}%, abaixo da media dos concorrentes (${pct1(engOutros)}%). Da para subir imitando o que funciona.`,
-    };
+
+    if (outros.length) {
+      // Tem concorrentes cadastrados: compara e acha brechas.
+      const engOutros = media(outros.map((v) => v.engagementRate || 0));
+      const temasJef = new Set(temasComDesempenho(jef).filter((t) => t.n >= 2).map((t) => t.termo));
+      const gaps = temasComDesempenho(outros)
+        .filter((t) => t.n >= 4 && t.engMedio >= engOutros && !temasJef.has(t.termo))
+        .sort((a, b) => b.engMedio - a.engMedio)
+        .slice(0, 8)
+        .map((t) => ({ termo: t.termo, engMedio: t.engMedio, n: t.n }));
+      espelho = {
+        nome: jef[0].channelTitle,
+        videosColetados: jef.length,
+        engMedio: engJef,
+        engMercado: engOutros,
+        acimaDaMedia: engJef >= engOutros,
+        melhoresVideos: melhores,
+        gaps,
+        veredito:
+          engJef >= engOutros
+            ? `Seu espelho engaja ${pct1(engJef)}%, acima da media dos concorrentes (${pct1(engOutros)}%). Esta no caminho certo.`
+            : `Seu espelho engaja ${pct1(engJef)}%, abaixo da media dos concorrentes (${pct1(engOutros)}%). Da para subir imitando o que funciona.`,
+      };
+    } else {
+      // So o proprio espelho cadastrado nesta rede: analisa ele mesmo, sem comparar.
+      espelho = {
+        nome: jef[0].channelTitle,
+        videosColetados: jef.length,
+        engMedio: engJef,
+        engMercado: null,
+        acimaDaMedia: null,
+        melhoresVideos: melhores,
+        gaps: [],
+        veredito: `Seu espelho engaja ${pct1(engJef)}% em media nesta rede. Cadastre concorrentes desta rede para eu comparar e achar brechas.`,
+      };
+    }
   }
 
   // Da gringa para trazer: tema forte la fora que ainda aparece pouco aqui.
@@ -269,4 +283,16 @@ export function gerarInteligencia(videos, referenciaMatcher) {
     espelho,
     daGringaParaTrazer,
   };
+}
+
+// Roda a inteligencia para cada plataforma que tiver dados BR.
+// Retorna { youtube: {...}, tiktok: {...}, instagram: {...} } (so as que existem).
+export function gerarInteligencia(videos, referenciaMatcher) {
+  const plataformas = [...new Set(videos.map((v) => v.platform))];
+  const out = {};
+  for (const p of plataformas) {
+    const bloco = paraPlataforma(videos, p, referenciaMatcher);
+    if (bloco) out[p] = bloco;
+  }
+  return Object.keys(out).length ? out : null;
 }

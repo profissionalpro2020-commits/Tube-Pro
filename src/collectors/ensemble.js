@@ -118,7 +118,7 @@ async function coletarInstagram(canal, token, depth) {
     const caption = pick(n, ["edge_media_to_caption.edges.0.node.text", "caption.text"], "");
     const id = pick(n, ["shortcode", "code", "id"], "");
     const ts = num(pick(n, ["taken_at_timestamp", "taken_at"]));
-    // No IG o engajamento padrao e sobre seguidores (fotos nao tem views).
+    // No Instagram o padrao e medir engajamento sobre SEGUIDORES (consistente entre foto e reel).
     const eng = seguidores > 0 ? (likes + comments) / seguidores : (vviews > 0 ? (likes + comments) / vviews : 0);
     return {
       platform: "instagram",
@@ -130,7 +130,7 @@ async function coletarInstagram(canal, token, depth) {
       publishedAt: ts ? new Date(ts * 1000).toISOString() : null,
       url: id ? `https://www.instagram.com/p/${id}/` : canal.url || "",
       thumbnail: pick(n, ["display_url", "thumbnail_src"], ""),
-      views: vviews || likes + comments, // proxy de alcance quando a foto nao tem views
+      views: vviews || null, // so reels tem views; foto fica sem (nao inventa proxy)
       likes,
       comments,
       engagementRate: eng,
