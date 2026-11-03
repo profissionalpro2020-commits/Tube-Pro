@@ -1,10 +1,10 @@
 {
-  "geradoEm": "2026-11-03T00:22:31.334Z",
+  "geradoEm": "2026-11-03T00:23:04.166Z",
   "sample": false,
   "inteligencia": {
     "youtube": {
       "recado": "O tema mais quente e rentavel agora e \"água\" (4 videos, 5.5% de engajamento).",
-      "engMercado": 0.043537140748741265,
+      "engMercado": 0.04353307766142569,
       "temasQuentesRentaveis": [
         {
           "termo": "água",
@@ -15,13 +15,13 @@
         {
           "termo": "falha",
           "n": 6,
-          "engMedio": 0.05100258068831898,
+          "engMedio": 0.0510032820897614,
           "viewsMediano": 21910
         },
         {
           "termo": "brasil",
           "n": 12,
-          "engMedio": 0.05089973795371156,
+          "engMedio": 0.05092554199336572,
           "viewsMediano": 52181
         },
         {
@@ -33,7 +33,7 @@
         {
           "termo": "motorola",
           "n": 5,
-          "engMedio": 0.04968973532469992,
+          "engMedio": 0.049688210463922154,
           "viewsMediano": 7133
         },
         {
@@ -65,8 +65,8 @@
         {
           "termo": "alexa",
           "n": 2,
-          "engMedio": 0.07685716266951964,
-          "viewsMediano": 4627
+          "engMedio": 0.07683711738354168,
+          "viewsMediano": 4632
         },
         {
           "termo": "instalação",
@@ -83,8 +83,8 @@
         {
           "termo": "disney",
           "n": 2,
-          "engMedio": 0.07050962555463103,
-          "viewsMediano": 16166
+          "engMedio": 0.0706865210086486,
+          "viewsMediano": 16158
         },
         {
           "termo": "binance",
@@ -116,14 +116,14 @@
         },
         {
           "tema": "alexa",
-          "motivo": "O tema \"alexa\" aparece em 2 videos do mercado e engaja 7.7% em media (acima da media do mercado, que e 4.4%). Views tipicas: 4.627.",
+          "motivo": "O tema \"alexa\" aparece em 2 videos do mercado e engaja 7.7% em media (acima da media do mercado, que e 4.4%). Views tipicas: 4.632.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "Echo Dot, Echo Time e Echo Studio no Brasil! As novas caixinhas da Amazon para a Alexa+ #tecmundo",
             "channelTitle": "TecMundo",
             "url": "https://www.youtube.com/watch?v=mKFn7NgDT3c",
-            "engajamento": 0.036831208455922415,
-            "views": 9177
+            "engajamento": 0.036791117883966475,
+            "views": 9187
           }
         },
         {
@@ -152,22 +152,22 @@
         },
         {
           "tema": "disney",
-          "motivo": "O tema \"disney\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 16.166.",
+          "motivo": "O tema \"disney\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 16.158.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "DISNEY+ SUSPENDE 4K E HDR NO BRASIL",
             "channelTitle": "TecMundo",
             "url": "https://www.youtube.com/watch?v=N1-hgU_mjfs",
-            "engajamento": 0.08716523496715513,
-            "views": 3958
+            "engajamento": 0.08751902587519025,
+            "views": 3942
           }
         }
       ],
       "espelho": {
         "nome": "Jef Dicas Tech 📱Tecnologia ",
         "videosColetados": 50,
-        "engMedio": 0.03856549372729208,
-        "engMercado": 0.04478005250410358,
+        "engMedio": 0.03856528225460939,
+        "engMercado": 0.044775026513129784,
         "acimaDaMedia": false,
         "melhoresVideos": [
           {
@@ -197,7 +197,7 @@
           },
           {
             "termo": "falha",
-            "engMedio": 0.05100258068831898,
+            "engMedio": 0.0510032820897614,
             "n": 6
           },
           {
@@ -207,7 +207,7 @@
           },
           {
             "termo": "motorola",
-            "engMedio": 0.04968973532469992,
+            "engMedio": 0.049688210463922154,
             "n": 5
           },
           {
@@ -222,7 +222,7 @@
           },
           {
             "termo": "starlink",
-            "engMedio": 0.04787276110691467,
+            "engMedio": 0.04786879751599456,
             "n": 4
           },
           {
@@ -236,7 +236,7 @@
       "daGringaParaTrazer": [
         {
           "termo": "steam",
-          "engMedio": 0.03359719768871223,
+          "engMedio": 0.033597139929483266,
           "n": 6
         },
         {
@@ -246,7 +246,7 @@
         },
         {
           "termo": "smartphone",
-          "engMedio": 0.029481058299201966,
+          "engMedio": 0.0294809923939404,
           "n": 5
         },
         {
@@ -256,12 +256,12 @@
         },
         {
           "termo": "phone",
-          "engMedio": 0.02728960767374643,
+          "engMedio": 0.02728959971412929,
           "n": 8
         },
         {
           "termo": "pixel",
-          "engMedio": 0.027179733797513633,
+          "engMedio": 0.02717969548459981,
           "n": 5
         },
         {
@@ -341,7 +341,7 @@
   "plataformas": {
     "youtube": {
       "totalVideos": 400,
-      "mediaEngajamento": 0.03692728276736513,
+      "mediaEngajamento": 0.036924713945397994,
       "topViews": [
         {
           "platform": "youtube",
@@ -380,9 +380,9 @@
           "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
           "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
           "views": 40078070,
-          "likes": 1031573,
+          "likes": 1031574,
           "comments": 4901,
-          "engagementRate": 0.025861375061224257,
+          "engagementRate": 0.025861400012525553,
           "hashtags": [],
           "tags": []
         },
@@ -396,10 +396,10 @@
           "publishedAt": "2026-09-10T07:29:55Z",
           "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
           "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
-          "views": 28284733,
-          "likes": 366749,
+          "views": 28284720,
+          "likes": 366748,
           "comments": 24920,
-          "engagementRate": 0.013847364230024728,
+          "engagementRate": 0.01384733523966297,
           "hashtags": [],
           "tags": [
             "iPhone Duo",
@@ -471,9 +471,9 @@
           "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
           "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
           "views": 19078344,
-          "likes": 172007,
+          "likes": 172008,
           "comments": 13485,
-          "engagementRate": 0.00972264678737316,
+          "engagementRate": 0.009722699202823893,
           "hashtags": [],
           "tags": [
             "iphone duo",
@@ -514,9 +514,9 @@
           "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
           "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
           "views": 17193493,
-          "likes": 154370,
+          "likes": 154369,
           "comments": 12698,
-          "engagementRate": 0.009716931864863061,
+          "engagementRate": 0.009716873703324856,
           "hashtags": [
             "#iphone18",
             "#torras"
@@ -725,10 +725,10 @@
           "publishedAt": "2026-10-29T17:55:04Z",
           "url": "https://www.youtube.com/watch?v=rQ_voDsvl-w",
           "thumbnail": "https://i.ytimg.com/vi/rQ_voDsvl-w/mqdefault.jpg",
-          "views": 1967,
+          "views": 1963,
           "likes": 187,
           "comments": 5,
-          "engagementRate": 0.09761057447890188,
+          "engagementRate": 0.097809475292919,
           "hashtags": [
             "#masseffect",
             "#savemasseffect",
@@ -793,10 +793,10 @@
           "publishedAt": "2026-10-27T15:13:19Z",
           "url": "https://www.youtube.com/watch?v=Q--ADn7M-n4",
           "thumbnail": "https://i.ytimg.com/vi/Q--ADn7M-n4/mqdefault.jpg",
-          "views": 1423,
+          "views": 1424,
           "likes": 133,
           "comments": 1,
-          "engagementRate": 0.09416725228390724,
+          "engagementRate": 0.09410112359550561,
           "hashtags": [
             "#tecmundo",
             "#lg",
@@ -930,10 +930,10 @@
           "publishedAt": "2026-10-27T19:27:05Z",
           "url": "https://www.youtube.com/watch?v=N1-hgU_mjfs",
           "thumbnail": "https://i.ytimg.com/vi/N1-hgU_mjfs/mqdefault.jpg",
-          "views": 3958,
+          "views": 3942,
           "likes": 319,
           "comments": 26,
-          "engagementRate": 0.08716523496715513,
+          "engagementRate": 0.08751902587519025,
           "hashtags": [
             "#disneyplus",
             "#disney",
@@ -1001,9 +1001,9 @@
           "url": "https://www.youtube.com/watch?v=EtRX1B-_2BM",
           "thumbnail": "https://i.ytimg.com/vi/EtRX1B-_2BM/mqdefault.jpg",
           "views": 1168653,
-          "likes": 97117,
+          "likes": 97118,
           "comments": 893,
-          "engagementRate": 0.08386578394099874,
+          "engagementRate": 0.08386663962698936,
           "hashtags": [
             "#culinária",
             "#cozinha",
@@ -1061,10 +1061,10 @@
           "publishedAt": "2026-10-29T21:26:37Z",
           "url": "https://www.youtube.com/watch?v=swpV_s1DpoM",
           "thumbnail": "https://i.ytimg.com/vi/swpV_s1DpoM/mqdefault.jpg",
-          "views": 14114,
+          "views": 14115,
           "likes": 1126,
           "comments": 51,
-          "engagementRate": 0.083392376363894,
+          "engagementRate": 0.08338646829613885,
           "hashtags": [
             "#patrickstewart",
             "#professorxavier",
@@ -1337,10 +1337,10 @@
           "publishedAt": "2026-11-02T14:30:30Z",
           "url": "https://www.youtube.com/watch?v=knA-WLR-19M",
           "thumbnail": "https://i.ytimg.com/vi/knA-WLR-19M/mqdefault.jpg",
-          "views": 76568,
-          "likes": 5798,
+          "views": 77230,
+          "likes": 5800,
           "comments": 98,
-          "engagementRate": 0.07700344791557831,
+          "engagementRate": 0.07636928654667875,
           "hashtags": [
             "#engenharia",
             "#guerra",
@@ -1504,9 +1504,9 @@
         "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
         "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
         "views": 40078070,
-        "likes": 1031573,
+        "likes": 1031574,
         "comments": 4901,
-        "engagementRate": 0.025861375061224257,
+        "engagementRate": 0.025861400012525553,
         "hashtags": [],
         "tags": []
       },
@@ -1520,10 +1520,10 @@
         "publishedAt": "2026-09-10T07:29:55Z",
         "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
         "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
-        "views": 28284733,
-        "likes": 366749,
+        "views": 28284720,
+        "likes": 366748,
         "comments": 24920,
-        "engagementRate": 0.013847364230024728,
+        "engagementRate": 0.01384733523966297,
         "hashtags": [],
         "tags": [
           "iPhone Duo",
@@ -1595,9 +1595,9 @@
         "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
         "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
         "views": 19078344,
-        "likes": 172007,
+        "likes": 172008,
         "comments": 13485,
-        "engagementRate": 0.00972264678737316,
+        "engagementRate": 0.009722699202823893,
         "hashtags": [],
         "tags": [
           "iphone duo",
@@ -1638,9 +1638,9 @@
         "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
         "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
         "views": 17193493,
-        "likes": 154370,
+        "likes": 154369,
         "comments": 12698,
-        "engagementRate": 0.009716931864863061,
+        "engagementRate": 0.009716873703324856,
         "hashtags": [
           "#iphone18",
           "#torras"
