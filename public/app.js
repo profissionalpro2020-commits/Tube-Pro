@@ -11,6 +11,13 @@ let dados = null;
 let abaAtual = "youtube";
 let abaFixada = false; // vira true quando o dono clica numa aba (nao sobrescreve a escolha dele)
 
+// Mapa de inteligencia por plataforma (compat: snapshot novo tem .plataformas; antigo era plano).
+function intelPlataformas() {
+  const i = dados.inteligencia;
+  if (!i) return null;
+  return i.plataformas || i;
+}
+
 // Abre preferindo Instagram, depois TikTok, depois YouTube (o que tiver dado).
 function escolherAbaInicial() {
   const ordem = ["instagram", "tiktok", "youtube", "facebook"];
@@ -61,6 +68,7 @@ function render() {
   renderKpis();
   renderInteligencia(abaAtual);
   renderReplicar(abaAtual);
+  renderCruzamento();
   renderGringa();
   renderTabs();
   renderAba();
@@ -83,7 +91,7 @@ function renderKpis() {
 }
 
 function renderInteligencia(plataforma) {
-  const todas = dados.inteligencia || null;
+  const todas = intelPlataformas();
   const i = todas ? todas[plataforma] : null;
   const painel = document.getElementById("intelPanel");
   if (!i) {
@@ -167,7 +175,8 @@ function renderInteligencia(plataforma) {
 }
 
 function renderReplicar(plataforma) {
-  const bloco = dados.inteligencia && dados.inteligencia[plataforma];
+  const todas = intelPlataformas();
+  const bloco = todas && todas[plataforma];
   const lista = bloco && bloco.replicar;
   const painel = document.getElementById("replicarPanel");
   if (!lista || !lista.length) {
@@ -197,8 +206,46 @@ function renderReplicar(plataforma) {
   });
 }
 
+function renderCruzamento() {
+  const c = dados.inteligencia && dados.inteligencia.cruzamento;
+  const painel = document.getElementById("cruzamentoPanel");
+  if (!c || ((!c.temasEmComum || !c.temasEmComum.length) && (!c.mesmoConteudo || !c.mesmoConteudo.length))) {
+    if (painel) painel.classList.add("hidden");
+    return;
+  }
+  painel.classList.remove("hidden");
+
+  const temas = document.getElementById("cruzTemas");
+  temas.innerHTML = "";
+  (c.temasEmComum || []).forEach((t) => {
+    const redes = t.plataformas.map((p) => PLATAFORMAS[p.plataforma] || p.plataforma).join(" + ");
+    temas.appendChild(el(`<span class="chip">${escapar(t.termo)}<b>${escapar(redes)}</b></span>`));
+  });
+  if (!(c.temasEmComum || []).length) temas.appendChild(el(`<p class="empty">Sem tema repetido nas duas redes ainda.</p>`));
+
+  const box = document.getElementById("cruzMesmo");
+  box.innerHTML = "";
+  (c.mesmoConteudo || []).forEach((m) => {
+    const itens = m.itens
+      .sort((a, b) => (b.engajamento || 0) - (a.engajamento || 0))
+      .map((it, i) => `<div class="cruz-item ${i === 0 ? "melhor" : ""}"><span>${PLATAFORMAS[it.plataforma] || it.plataforma}</span> <b>${pct(it.engajamento)}</b> · ${nfmt(it.views)} views${i === 0 ? " 🏆" : ""}</div>`)
+      .join("");
+    box.appendChild(el(`<div class="cruz-card"><p class="cruz-ttl">${escapar(m.titulo)}</p>${itens}</div>`));
+  });
+  if (!(c.mesmoConteudo || []).length) box.appendChild(el(`<p class="empty">Nao achei o mesmo video nas duas redes ainda.</p>`));
+}
+
 function renderGringa() {
   const g = dados.gringa || {};
+  const temTemas = (g.temasParaTrazer || []).length;
+  const temVideos = (g.topVideos || []).length;
+  const painel = document.getElementById("gringaPanel");
+  if (!temTemas && !temVideos) { if (painel) painel.classList.add("hidden"); return; }
+  painel.classList.remove("hidden");
+  renderGringaConteudo(g);
+}
+
+function renderGringaConteudo(g) {
   const temas = document.getElementById("gringaTemas");
   temas.innerHTML = "";
   (g.temasParaTrazer || []).forEach((t) =>
