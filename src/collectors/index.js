@@ -22,7 +22,7 @@ async function collectFacebook() {
   return { videos: [], channelStats: [], pendente: "facebook" };
 }
 
-export async function collectAll(config, env) {
+export async function collectAll(config, env, options = {}) {
   const porPlataforma = {};
   for (const ch of config.channels) {
     (porPlataforma[ch.platform] = porPlataforma[ch.platform] || []).push(ch);
@@ -50,9 +50,12 @@ export async function collectAll(config, env) {
     }
   }
 
+  // Redes sociais (TikTok/Instagram) so quando pedido, pra economizar a cota diaria do EnsembleData.
   const maxVideos = Number(env.MAX_VIDEOS_PER_CHANNEL || config.maxVideosPerChannel || 40);
-  if (porPlataforma.tiktok?.length) push(await collectTikTok(porPlataforma.tiktok, env, maxVideos));
-  if (porPlataforma.instagram?.length) push(await collectInstagram(porPlataforma.instagram, env, maxVideos));
+  if (options.collectSocial) {
+    if (porPlataforma.tiktok?.length) push(await collectTikTok(porPlataforma.tiktok, env, maxVideos));
+    if (porPlataforma.instagram?.length) push(await collectInstagram(porPlataforma.instagram, env, maxVideos));
+  }
   push(await collectFacebook());
 
   return todos;
