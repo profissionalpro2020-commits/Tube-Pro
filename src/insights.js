@@ -214,7 +214,7 @@ function paraPlataforma(videos, plataforma, referenciaMatcher) {
   const hcount = new Map();
   for (const v of br) for (const h of new Set(v.hashtags || [])) hcount.set(h, (hcount.get(h) || 0) + 1);
   const hashtagsQuentes = [...hcount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(([tag, n]) => ({ tag, n }));
-  const replicar = montarReplicar(br, { engMercado, hashtagsQuentes });
+  const replicar = montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher });
 
   // Espelho (Jef): como ele vai em relacao ao mercado.
   let espelho = null;
@@ -303,10 +303,14 @@ function fmtDuracao(seg) {
 
 // Escolhe videos recentes e bons para o dono "fazer igual" e, cruzando os sinais
 // (engajamento, comentarios, duracao, titulo, hashtags, descricao), diz o que melhorar.
-function montarReplicar(br, { engMercado, hashtagsQuentes }) {
+function montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher }) {
   const agora = Date.now();
   const dias = (iso) => (iso ? (agora - new Date(iso).getTime()) / 86400000 : Infinity);
-  const comViews = br.filter((v) => (v.views || 0) > 0);
+  // Foca no canal de referencia (o Jef): sao os videos dele pra estudar e fazer melhor.
+  // Se o Jef nao estiver nesta rede, cai pro mercado todo.
+  const doJef = br.filter((v) => referenciaMatcher && referenciaMatcher(v.channelTitle));
+  const universo = doJef.length ? doJef : br;
+  const comViews = universo.filter((v) => (v.views || 0) > 0);
   if (!comViews.length) return [];
 
   const comDur = comViews.filter((v) => v.duracaoSeg > 0);
@@ -358,7 +362,7 @@ function montarReplicar(br, { engMercado, hashtagsQuentes }) {
     const faltando = hotTags.filter((t) => !tagsV.has(t)).slice(0, 3);
     if (faltando.length) dicas.push(`Hashtags em alta que faltaram: ${faltando.join(", ")}.`);
 
-    if ((v.descricaoTamanho || 0) < 80)
+    if (v.descricaoTamanho != null && v.descricaoTamanho < 80)
       dicas.push("Descricao curta. Resuma o video, ponha um CTA e o link do Descolo.");
 
     return {

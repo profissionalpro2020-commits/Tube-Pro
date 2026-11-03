@@ -9,6 +9,17 @@ const PLATAFORMAS = {
 
 let dados = null;
 let abaAtual = "youtube";
+let abaFixada = false; // vira true quando o dono clica numa aba (nao sobrescreve a escolha dele)
+
+// Abre preferindo Instagram, depois TikTok, depois YouTube (o que tiver dado).
+function escolherAbaInicial() {
+  const ordem = ["instagram", "tiktok", "youtube", "facebook"];
+  for (const p of ordem) {
+    const bloco = (dados.plataformas || {})[p];
+    if (bloco && bloco.totalVideos > 0) return p;
+  }
+  return "youtube";
+}
 
 function nfmt(n) {
   n = Number(n) || 0;
@@ -44,6 +55,8 @@ function render() {
   document.getElementById("updatedAt").textContent =
     "atualizado em " + new Date(dados.geradoEm).toLocaleString("pt-BR");
   document.getElementById("sampleBadge").classList.toggle("hidden", !dados.sample);
+
+  if (!abaFixada) abaAtual = escolherAbaInicial();
 
   renderKpis();
   renderInteligencia(abaAtual);
@@ -207,7 +220,7 @@ function renderTabs() {
     const tab = el(
       `<button class="tab ${key === abaAtual ? "active" : ""} ${ativa ? "" : "disabled"}">${nome}${ativa ? "" : " (em breve)"}</button>`
     );
-    if (ativa) tab.onclick = () => { abaAtual = key; renderTabs(); renderAba(); renderInteligencia(abaAtual); renderReplicar(abaAtual); };
+    if (ativa) tab.onclick = () => { abaAtual = key; abaFixada = true; renderTabs(); renderAba(); renderInteligencia(abaAtual); renderReplicar(abaAtual); };
     nav.appendChild(tab);
   }
 }

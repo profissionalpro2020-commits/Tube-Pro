@@ -76,5 +76,11 @@
     "totalVideos": 150,
     "videosNovos48h": 1,
     "sample": false
+  },
+  {
+    "data": "2026-11-03T00:38:56.879Z",
+    "totalVideos": 300,
+    "videosNovos48h": 3,
+    "sample": false
   }
 ]
