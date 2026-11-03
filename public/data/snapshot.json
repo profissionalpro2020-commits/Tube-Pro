@@ -1,40 +1,28 @@
 {
-  "geradoEm": "2026-11-03T00:27:03.193Z",
+  "geradoEm": "2026-11-03T00:38:56.879Z",
   "sample": false,
   "inteligencia": {
     "youtube": {
-      "recado": "O tema mais quente e rentavel agora e \"água\" (4 videos, 5.5% de engajamento).",
-      "engMercado": 0.04354534764981105,
+      "recado": "O tema mais quente e rentavel agora e \"falha\" (6 videos, 5.1% de engajamento).",
+      "engMercado": 0.0432308550605896,
       "temasQuentesRentaveis": [
-        {
-          "termo": "água",
-          "n": 4,
-          "engMedio": 0.05483953194584058,
-          "viewsMediano": 421398
-        },
         {
           "termo": "falha",
           "n": 6,
-          "engMedio": 0.051001123659905966,
+          "engMedio": 0.05099821158296227,
           "viewsMediano": 21910
-        },
-        {
-          "termo": "brasil",
-          "n": 12,
-          "engMedio": 0.05089408272262853,
-          "viewsMediano": 52181
         },
         {
           "termo": "podcast",
           "n": 27,
-          "engMedio": 0.050247728681876144,
+          "engMedio": 0.050250129400445924,
           "viewsMediano": 2395
         },
         {
           "termo": "motorola",
           "n": 5,
-          "engMedio": 0.04973984678882899,
-          "viewsMediano": 7126
+          "engMedio": 0.04968327156322227,
+          "viewsMediano": 7133
         },
         {
           "termo": "gravar",
@@ -43,16 +31,28 @@
           "viewsMediano": 9140
         },
         {
+          "termo": "brasil",
+          "n": 10,
+          "engMedio": 0.04887259807875523,
+          "viewsMediano": 18792
+        },
+        {
           "termo": "google",
           "n": 4,
-          "engMedio": 0.04874178130571775,
-          "viewsMediano": 30313
+          "engMedio": 0.04874809132936088,
+          "viewsMediano": 30293
         },
         {
           "termo": "anchor",
           "n": 5,
           "engMedio": 0.0479899577632227,
           "viewsMediano": 6296
+        },
+        {
+          "termo": "chatgpt",
+          "n": 8,
+          "engMedio": 0.0474193968372994,
+          "viewsMediano": 28460
         }
       ],
       "temasSubaproveitados": [
@@ -65,46 +65,46 @@
         {
           "termo": "alexa",
           "n": 2,
-          "engMedio": 0.07683711738354168,
-          "viewsMediano": 4632
+          "engMedio": 0.07678918627784115,
+          "viewsMediano": 4644
         },
         {
           "termo": "instalação",
           "n": 2,
-          "engMedio": 0.07139698068801195,
-          "viewsMediano": 30281
+          "engMedio": 0.07111841952407143,
+          "viewsMediano": 30286
         },
         {
           "termo": "tecnologia",
           "n": 3,
-          "engMedio": 0.07127131656394788,
+          "engMedio": 0.07108602852095848,
           "viewsMediano": 4174
         },
         {
           "termo": "disney",
           "n": 2,
-          "engMedio": 0.07050962555463103,
+          "engMedio": 0.0704986170632232,
           "viewsMediano": 16166
         },
         {
           "termo": "binance",
           "n": 2,
-          "engMedio": 0.06903484144688687,
-          "viewsMediano": 14278
+          "engMedio": 0.06906346287857973,
+          "viewsMediano": 14284
         }
       ],
       "formula": {
         "dicas": [
           "Os campeoes de engajamento rendem 6.8% em media, contra 3.4% do resto. Essa e a barra a mirar.",
-          "Titulo mais CURTO tende a render: campeoes tem ~9 palavras, resto ~10.",
-          "Palavras que mais aparecem nos campeoes: podcast, google, motorola, usando, tecnologia, site, vem, satélite."
+          "CAIXA ALTA para dar enfase aparece mais nos campeoes (50% contra 29%). Use com parcimonia.",
+          "Palavras que mais aparecem nos campeoes: podcast, google, motorola, falha, samsung, disney, vídeo, tecnologia."
         ],
-        "base": 243
+        "base": 193
       },
       "pautas": [
         {
           "tema": "curiosidades",
-          "motivo": "O tema \"curiosidades\" aparece em 2 videos do mercado e engaja 12.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 845.",
+          "motivo": "O tema \"curiosidades\" aparece em 2 videos do mercado e engaja 12.1% em media (acima da media do mercado, que e 4.3%). Views tipicas: 845.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "5 CURIOSIDADES sobre o WINDOWS XP",
@@ -116,98 +116,146 @@
         },
         {
           "tema": "alexa",
-          "motivo": "O tema \"alexa\" aparece em 2 videos do mercado e engaja 7.7% em media (acima da media do mercado, que e 4.4%). Views tipicas: 4.632.",
+          "motivo": "O tema \"alexa\" aparece em 2 videos do mercado e engaja 7.7% em media (acima da media do mercado, que e 4.3%). Views tipicas: 4.644.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "Echo Dot, Echo Time e Echo Studio no Brasil! As novas caixinhas da Amazon para a Alexa+ #tecmundo",
             "channelTitle": "TecMundo",
             "url": "https://www.youtube.com/watch?v=mKFn7NgDT3c",
-            "engajamento": 0.036791117883966475,
-            "views": 9187
+            "engajamento": 0.03669525567256541,
+            "views": 9211
           }
         },
         {
           "tema": "instalação",
-          "motivo": "O tema \"instalação\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 30.281.",
+          "motivo": "O tema \"instalação\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.3%). Views tipicas: 30.286.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "Da tecnologia à instalação: o que a LG destacou na Febrava Rio 2026",
             "channelTitle": "TecMundo",
             "url": "https://www.youtube.com/watch?v=jxnDXZUGL6k",
-            "engajamento": 0.10119595216191353,
-            "views": 1087
+            "engajamento": 0.10063463281958296,
+            "views": 1103
           }
         },
         {
           "tema": "tecnologia",
-          "motivo": "O tema \"tecnologia\" aparece em 3 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 4.174.",
+          "motivo": "O tema \"tecnologia\" aparece em 3 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.3%). Views tipicas: 4.174.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "Da tecnologia à instalação: o que a LG destacou na Febrava Rio 2026",
             "channelTitle": "TecMundo",
             "url": "https://www.youtube.com/watch?v=jxnDXZUGL6k",
-            "engajamento": 0.10119595216191353,
-            "views": 1087
+            "engajamento": 0.10063463281958296,
+            "views": 1103
           }
         },
         {
           "tema": "disney",
-          "motivo": "O tema \"disney\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.4%). Views tipicas: 16.166.",
+          "motivo": "O tema \"disney\" aparece em 2 videos do mercado e engaja 7.0% em media (acima da media do mercado, que e 4.3%). Views tipicas: 16.166.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "DISNEY+ SUSPENDE 4K E HDR NO BRASIL",
             "channelTitle": "TecMundo",
             "url": "https://www.youtube.com/watch?v=N1-hgU_mjfs",
-            "engajamento": 0.08716523496715513,
-            "views": 3958
+            "engajamento": 0.08714321798433948,
+            "views": 3959
           }
+        }
+      ],
+      "replicar": [
+        {
+          "title": "NÃO VIAJE EM GRUPO SEM SABER DESSA NOVA FUNÇÃO DO GOOGLE MAPS￼! Como Compartilhar a rota em grupo",
+          "url": "https://www.youtube.com/watch?v=jOZdkoX5BaI",
+          "channelTitle": "Jef Dicas Tech 📱Tecnologia ",
+          "thumbnail": "https://i.ytimg.com/vi/jOZdkoX5BaI/mqdefault.jpg",
+          "publishedAt": "2026-09-26T15:26:49Z",
+          "views": 26534,
+          "engajamento": 0.061882867264641594,
+          "comentarios": 13,
+          "duracao": "1min 5s",
+          "dicas": [
+            "Engaja 6.2%, acima da media (4.3%). O gancho funciona, repita o tipo.",
+            "Poucos comentarios pro tamanho. Termine com uma PERGUNTA direta pra puxar conversa.",
+            "Duracao (1min 5s) esta na faixa que engaja. Mantenha.",
+            "Hashtags em alta que faltaram: #tecmundo, #apple, #smartphone."
+          ]
+        },
+        {
+          "title": "Site que te mostra câmeras ao vivo pelo mundo 😮🌎 até voos e navios",
+          "url": "https://www.youtube.com/watch?v=Yrhx_gipcm4",
+          "channelTitle": "Jef Dicas Tech 📱Tecnologia ",
+          "thumbnail": "https://i.ytimg.com/vi/Yrhx_gipcm4/mqdefault.jpg",
+          "publishedAt": "2026-10-12T13:43:50Z",
+          "views": 8073,
+          "engajamento": 0.06986250464511334,
+          "comentarios": 13,
+          "duracao": "50s",
+          "dicas": [
+            "Engaja 7.0%, acima da media (4.3%). O gancho funciona, repita o tipo.",
+            "Gera muita conversa nos comentarios. Mantenha esse tipo de tema.",
+            "Duracao (50s) esta na faixa que engaja. Mantenha.",
+            "Titulo sem pergunta nem numero. Teste 'Como...' ou 'X coisas que...'."
+          ]
+        },
+        {
+          "title": "Pare de postar fotos com IA! Use esses códigos no ChatGPT para disfarçar e parecer fotos de agência",
+          "url": "https://www.youtube.com/watch?v=2rcHFrYlZBk",
+          "channelTitle": "Jef Dicas Tech 📱Tecnologia ",
+          "thumbnail": "https://i.ytimg.com/vi/2rcHFrYlZBk/mqdefault.jpg",
+          "publishedAt": "2026-09-20T01:43:13Z",
+          "views": 19623,
+          "engajamento": 0.06049024104367324,
+          "comentarios": 44,
+          "duracao": "27s",
+          "dicas": [
+            "Engaja 6.0%, acima da media (4.3%). O gancho funciona, repita o tipo.",
+            "Gera muita conversa nos comentarios. Mantenha esse tipo de tema.",
+            "Duracao (27s) esta na faixa que engaja. Mantenha.",
+            "Titulo sem pergunta nem numero. Teste 'Como...' ou 'X coisas que...'."
+          ]
         }
       ],
       "espelho": {
         "nome": "Jef Dicas Tech 📱Tecnologia ",
         "videosColetados": 50,
-        "engMedio": 0.03854656164068003,
-        "engMercado": 0.04479504415209383,
+        "engMedio": 0.03856123384258115,
+        "engMercado": 0.04478739546659238,
         "acimaDaMedia": false,
         "melhoresVideos": [
           {
             "title": "Site que te mostra câmeras ao vivo pelo mundo 😮🌎 até voos e navios",
             "url": "https://www.youtube.com/watch?v=Yrhx_gipcm4",
-            "engajamento": 0.06964682637688319,
-            "views": 8098
+            "engajamento": 0.06986250464511334,
+            "views": 8073
           },
           {
             "title": "NÃO VIAJE EM GRUPO SEM SABER DESSA NOVA FUNÇÃO DO GOOGLE MAPS￼! Como Compartilhar a rota em grupo",
             "url": "https://www.youtube.com/watch?v=jOZdkoX5BaI",
-            "engajamento": 0.06187120841026414,
-            "views": 26539
+            "engajamento": 0.061882867264641594,
+            "views": 26534
           },
           {
             "title": "Pare de postar fotos com IA! Use esses códigos no ChatGPT para disfarçar e parecer fotos de agência",
             "url": "https://www.youtube.com/watch?v=2rcHFrYlZBk",
-            "engajamento": 0.060431727929946034,
-            "views": 19642
+            "engajamento": 0.06049024104367324,
+            "views": 19623
           }
         ],
         "gaps": [
           {
-            "termo": "água",
-            "engMedio": 0.05483953194584058,
-            "n": 4
-          },
-          {
             "termo": "falha",
-            "engMedio": 0.051001123659905966,
+            "engMedio": 0.05099821158296227,
             "n": 6
           },
           {
             "termo": "podcast",
-            "engMedio": 0.050247728681876144,
+            "engMedio": 0.050250129400445924,
             "n": 27
           },
           {
             "termo": "motorola",
-            "engMedio": 0.04973984678882899,
+            "engMedio": 0.04968327156322227,
             "n": 5
           },
           {
@@ -222,12 +270,12 @@
           },
           {
             "termo": "starlink",
-            "engMedio": 0.04787276110691467,
+            "engMedio": 0.04786702016137961,
             "n": 4
           },
           {
             "termo": "samsung",
-            "engMedio": 0.04724891804004389,
+            "engMedio": 0.04642142722560963,
             "n": 6
           }
         ],
@@ -236,38 +284,28 @@
       "daGringaParaTrazer": [
         {
           "termo": "steam",
-          "engMedio": 0.033597170169290064,
+          "engMedio": 0.03359711772971094,
           "n": 6
         },
         {
           "termo": "laptops",
-          "engMedio": 0.03222545633495048,
+          "engMedio": 0.03222649758706535,
           "n": 4
-        },
-        {
-          "termo": "smartphone",
-          "engMedio": 0.029480774699130234,
-          "n": 5
-        },
-        {
-          "termo": "better",
-          "engMedio": 0.028005322350486247,
-          "n": 7
-        },
-        {
-          "termo": "phone",
-          "engMedio": 0.027289594503085823,
-          "n": 8
         },
         {
           "termo": "pixel",
-          "engMedio": 0.027179664372182548,
-          "n": 5
+          "engMedio": 0.03173678999598178,
+          "n": 3
         },
         {
-          "termo": "gaming",
-          "engMedio": 0.026798905229044403,
-          "n": 4
+          "termo": "better",
+          "engMedio": 0.028534331086886303,
+          "n": 6
+        },
+        {
+          "termo": "phone",
+          "engMedio": 0.02776831557978608,
+          "n": 5
         }
       ]
     }
@@ -279,14 +317,6 @@
       "channelId": "UC2gDoWudSZ5jPKibWWZqfdQ",
       "channelTitle": "Jef Dicas Tech 📱Tecnologia ",
       "subscribers": 924000,
-      "videosColetados": 50
-    },
-    {
-      "platform": "youtube",
-      "region": "br",
-      "channelId": "UCKHhA5hN2UohhFDfNXB_cvQ",
-      "channelTitle": "Manual do Mundo",
-      "subscribers": 20600000,
       "videosColetados": 50
     },
     {
@@ -324,14 +354,6 @@
     {
       "platform": "youtube",
       "region": "intl",
-      "channelId": "UCBJycsmduvYEL83R_U4JriQ",
-      "channelTitle": "Marques Brownlee",
-      "subscribers": 21400000,
-      "videosColetados": 50
-    },
-    {
-      "platform": "youtube",
-      "region": "intl",
       "channelId": "UCVYamHliCI9rw1tHR1xbkfw",
       "channelTitle": "Dave2D",
       "subscribers": 3690000,
@@ -340,8 +362,8 @@
   ],
   "plataformas": {
     "youtube": {
-      "totalVideos": 400,
-      "mediaEngajamento": 0.03693236326306695,
+      "totalVideos": 300,
+      "mediaEngajamento": 0.0378634924743534,
       "topViews": [
         {
           "platform": "youtube",
@@ -353,10 +375,13 @@
           "publishedAt": "2026-06-30T12:28:06Z",
           "url": "https://www.youtube.com/watch?v=Hf-uB8XLdP0",
           "thumbnail": "https://i.ytimg.com/vi/Hf-uB8XLdP0/mqdefault.jpg",
-          "views": 50574965,
-          "likes": 1147165,
+          "views": 50575411,
+          "likes": 1147169,
           "comments": 4628,
-          "engagementRate": 0.022773975226675885,
+          "engagementRate": 0.022773853483859973,
+          "duracaoSeg": 54,
+          "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
+          "descricaoTamanho": 652,
           "hashtags": [],
           "tags": [
             "power washer",
@@ -379,33 +404,15 @@
           "publishedAt": "2026-10-01T14:21:22Z",
           "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
           "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
-          "views": 40078873,
-          "likes": 1031583,
+          "views": 40080261,
+          "likes": 1031615,
           "comments": 4901,
-          "engagementRate": 0.02586110642382584,
+          "engagementRate": 0.025861009238437843,
+          "duracaoSeg": 58,
+          "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
+          "descricaoTamanho": 652,
           "hashtags": [],
           "tags": []
-        },
-        {
-          "platform": "youtube",
-          "region": "intl",
-          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
-          "channelTitle": "Marques Brownlee",
-          "videoId": "Od6M0AXpcxQ",
-          "title": "iPhone 18 Pro/Duo Impressions: Mogged",
-          "publishedAt": "2026-09-10T07:29:55Z",
-          "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
-          "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
-          "views": 28284725,
-          "likes": 366748,
-          "comments": 24920,
-          "engagementRate": 0.013847332791816077,
-          "hashtags": [],
-          "tags": [
-            "iPhone Duo",
-            "iPhone 18 Pro",
-            "MKBHD"
-          ]
         },
         {
           "platform": "youtube",
@@ -417,10 +424,13 @@
           "publishedAt": "2026-10-10T10:16:27Z",
           "url": "https://www.youtube.com/watch?v=nQdXp6HKKik",
           "thumbnail": "https://i.ytimg.com/vi/nQdXp6HKKik/mqdefault.jpg",
-          "views": 21773677,
-          "likes": 170856,
+          "views": 21775512,
+          "likes": 170866,
           "comments": 5242,
-          "engagementRate": 0.008087655566857173,
+          "engagementRate": 0.00808743325989304,
+          "duracaoSeg": 1472,
+          "descricao": "getting chased, squeezed and cleaned from the inside by tech that might just be TOO Futuristic... \nStart your next project with Opera, link: https://opr.as/10-Opera-browser-mrwhosethebossyt\n\nFor my tech hot takes: http:/",
+          "descricaoTamanho": 1007,
           "hashtags": [],
           "tags": [
             "tech",
@@ -442,10 +452,13 @@
           "publishedAt": "2026-09-08T11:09:52Z",
           "url": "https://www.youtube.com/watch?v=VTLnDqjfRZQ",
           "thumbnail": "https://i.ytimg.com/vi/VTLnDqjfRZQ/mqdefault.jpg",
-          "views": 21243416,
+          "views": 21243998,
           "likes": 179027,
           "comments": 6439,
-          "engagementRate": 0.008730516786942364,
+          "engagementRate": 0.008730277605938393,
+          "duracaoSeg": 1479,
+          "descricao": "Testing the thinnest tech in 2026! Check out the LG OLED evo AI W6 from our sponsor LG here: https://bit.ly/LGOLEDevoAIW6_Mrwhosetheboss \n#4ktv  #wallpapertv \n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor",
+          "descricaoTamanho": 911,
           "hashtags": [
             "#4ktv",
             "#wallpapertv"
@@ -470,10 +483,13 @@
           "publishedAt": "2026-09-22T10:48:08Z",
           "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
           "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
-          "views": 19078803,
-          "likes": 172009,
+          "views": 19079464,
+          "likes": 172011,
           "comments": 13485,
-          "engagementRate": 0.009722517707216747,
+          "engagementRate": 0.00972228569943055,
+          "duracaoSeg": 1038,
+          "descricao": "Can the Xiaomi 18 Fold take on the iPhone Duo? 😅 \nGo to https://surfshark.com/boss or use code BOSS at checkout to get 4 extra months of Surfshark!\n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Person",
+          "descricaoTamanho": 932,
           "hashtags": [],
           "tags": [
             "iphone duo",
@@ -496,10 +512,13 @@
           "publishedAt": "2026-05-12T10:43:14Z",
           "url": "https://www.youtube.com/watch?v=61CzvMFZRR0",
           "thumbnail": "https://i.ytimg.com/vi/61CzvMFZRR0/mqdefault.jpg",
-          "views": 17883752,
-          "likes": 548124,
-          "comments": 23990,
-          "engagementRate": 0.03199071425280332,
+          "views": 17884171,
+          "likes": 548126,
+          "comments": 23989,
+          "engagementRate": 0.03199002067247064,
+          "duracaoSeg": 60,
+          "descricao": "",
+          "descricaoTamanho": 0,
           "hashtags": [],
           "tags": []
         },
@@ -513,10 +532,13 @@
           "publishedAt": "2026-09-10T07:11:46Z",
           "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
           "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
-          "views": 17193500,
-          "likes": 154369,
+          "views": 17193517,
+          "likes": 154368,
           "comments": 12698,
-          "engagementRate": 0.009716869747288219,
+          "engagementRate": 0.009716801978327064,
+          "duracaoSeg": 980,
+          "descricao": "iPhone Duo / 18 Pro / 18 Pro Max Hands on! \nTORRAS Ostand Q3 Air Pro. Double Airbags. Double Protection.\n15% off with code [AIRPRO15] - 3 days only\nShop Q3 Air Pro on 🌍website: https://bit.ly/4AlH18j\nShop Q3 Air Pro on ",
+          "descricaoTamanho": 927,
           "hashtags": [
             "#iphone18",
             "#torras"
@@ -542,10 +564,13 @@
           "publishedAt": "2026-09-09T20:20:43Z",
           "url": "https://www.youtube.com/watch?v=6AkGhTBtR4o",
           "thumbnail": "https://i.ytimg.com/vi/6AkGhTBtR4o/mqdefault.jpg",
-          "views": 16716290,
+          "views": 16716320,
           "likes": 487925,
           "comments": 12315,
-          "engagementRate": 0.029925300410557607,
+          "engagementRate": 0.029925246705016416,
+          "duracaoSeg": 97,
+          "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
+          "descricaoTamanho": 652,
           "hashtags": [],
           "tags": []
         },
@@ -559,10 +584,13 @@
           "publishedAt": "2026-04-13T13:09:12Z",
           "url": "https://www.youtube.com/watch?v=Y_exkqiBT4I",
           "thumbnail": "https://i.ytimg.com/vi/Y_exkqiBT4I/mqdefault.jpg",
-          "views": 16537921,
+          "views": 16538179,
           "likes": 567263,
           "comments": 2248,
-          "engagementRate": 0.034436674355863714,
+          "engagementRate": 0.034436137134566024,
+          "duracaoSeg": 49,
+          "descricao": "",
+          "descricaoTamanho": 0,
           "hashtags": [],
           "tags": [
             "speaker",
@@ -573,6 +601,26 @@
             "ksi",
             "gifts"
           ]
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
+          "channelTitle": "Mrwhosetheboss",
+          "videoId": "iwYxrHF2T80",
+          "title": "I compared every smartwatch",
+          "publishedAt": "2026-04-27T11:47:40Z",
+          "url": "https://www.youtube.com/watch?v=iwYxrHF2T80",
+          "thumbnail": "https://i.ytimg.com/vi/iwYxrHF2T80/mqdefault.jpg",
+          "views": 15965641,
+          "likes": 480310,
+          "comments": 2141,
+          "engagementRate": 0.03021807893588488,
+          "duracaoSeg": 60,
+          "descricao": "I spend a LOT of time trying to make my videos as concise, polished and useful as possible for you - if you would like to support me on that mission then consider subscribing to the channel - you'd make my day 😁\n\nFor my",
+          "descricaoTamanho": 825,
+          "hashtags": [],
+          "tags": []
         }
       ],
       "topEngajamento": [
@@ -590,6 +638,9 @@
           "likes": 299,
           "comments": 20,
           "engagementRate": 0.1184112843355605,
+          "duracaoSeg": 483,
+          "descricao": "E ai, gente! Assunto super importante nesse vídeo, sobre possíveis maneiras de ganhar dinheiro fazendo podcast. Durante o vídeo eu falo sobre mídia kit, testemunhais e monetização dentro de plataformas, como o Anchor e o",
+          "descricaoTamanho": 555,
           "hashtags": [],
           "tags": [
             "utilidades",
@@ -629,6 +680,9 @@
           "likes": 160,
           "comments": 1,
           "engagementRate": 0.10669317428760769,
+          "duracaoSeg": 63,
+          "descricao": "Quando a gente não sabe como as coisas funcionam, qualquer coisa faz sentido. Neste vídeo, refletimos sobre como o desinteresse e a falta de curiosidade pelo básico podem colocar nossa saúde, nossas finanças e nossas dec",
+          "descricaoTamanho": 678,
           "hashtags": [
             "#educacao",
             "#pensamentocritico",
@@ -651,10 +705,13 @@
           "publishedAt": "2026-10-30T22:19:14Z",
           "url": "https://www.youtube.com/watch?v=jxnDXZUGL6k",
           "thumbnail": "https://i.ytimg.com/vi/jxnDXZUGL6k/mqdefault.jpg",
-          "views": 1087,
-          "likes": 108,
+          "views": 1103,
+          "likes": 109,
           "comments": 2,
-          "engagementRate": 0.10119595216191353,
+          "engagementRate": 0.10063463281958296,
+          "duracaoSeg": 151,
+          "descricao": "O desempenho da climatização depende da tecnologia escolhida e da qualidade da instalação. ❄️\n\nNa Febrava Rio 2026, a @lgbrasil destacou soluções para residências e negócios, a importância da instalação qualificada e ini",
+          "descricaoTamanho": 602,
           "hashtags": [
             "#tecmundo",
             "#lg",
@@ -725,10 +782,13 @@
           "publishedAt": "2026-10-29T17:55:04Z",
           "url": "https://www.youtube.com/watch?v=rQ_voDsvl-w",
           "thumbnail": "https://i.ytimg.com/vi/rQ_voDsvl-w/mqdefault.jpg",
-          "views": 1967,
+          "views": 1963,
           "likes": 187,
           "comments": 5,
-          "engagementRate": 0.09761057447890188,
+          "engagementRate": 0.097809475292919,
+          "duracaoSeg": 62,
+          "descricao": "A decisão da EA Games de fechar a BioWare e cancelar o novo Mass Effect gerou grande revolta na comunidade.\n\nEntenda o movimento #SaveMassEffect promovido pelos atores do jogo e confira os detalhes do trailer vazado.\n\nMa",
+          "descricaoTamanho": 424,
           "hashtags": [
             "#masseffect",
             "#savemasseffect",
@@ -797,6 +857,9 @@
           "likes": 133,
           "comments": 1,
           "engagementRate": 0.09416725228390724,
+          "duracaoSeg": 148,
+          "descricao": "Estamos no showroom da LG para conhecer de perto as novidades do portfólio de monitores da marca. 👀\n\nEntre diferentes formatos, tecnologias e experiências de uso, fica a pergunta: qual deles combina mais com a sua rotin",
+          "descricaoTamanho": 373,
           "hashtags": [
             "#tecmundo",
             "#lg",
@@ -870,6 +933,9 @@
           "likes": 284,
           "comments": 8,
           "engagementRate": 0.08755622188905547,
+          "duracaoSeg": 87,
+          "descricao": "A maior corretora de criptomoedas do mundo paralisou saques após ter sistemas invadidos na quinta-feira.\n\nAproximadamente 3 bilhões de dólares em ativos já foram congelados com auxílio da Tether e Circle.\n\nO mercado reag",
+          "descricaoTamanho": 527,
           "hashtags": [
             "#binance",
             "#criptomoedas",
@@ -930,10 +996,13 @@
           "publishedAt": "2026-10-27T19:27:05Z",
           "url": "https://www.youtube.com/watch?v=N1-hgU_mjfs",
           "thumbnail": "https://i.ytimg.com/vi/N1-hgU_mjfs/mqdefault.jpg",
-          "views": 3958,
+          "views": 3959,
           "likes": 319,
           "comments": 26,
-          "engagementRate": 0.08716523496715513,
+          "engagementRate": 0.08714321798433948,
+          "duracaoSeg": 66,
+          "descricao": "O plano Premium do Disney+ perdeu os recursos de 4K UHD, HDR10 e Dolby Vision no catálogo brasileiro.\n\nA mudança discreta foi motivada por um imbróglio judicial sobre patentes e não alterou o preço do serviço.\n\nEntenda o",
+          "descricaoTamanho": 495,
           "hashtags": [
             "#disneyplus",
             "#disney",
@@ -993,67 +1062,6 @@
         {
           "platform": "youtube",
           "region": "br",
-          "channelId": "UCKHhA5hN2UohhFDfNXB_cvQ",
-          "channelTitle": "Manual do Mundo",
-          "videoId": "EtRX1B-_2BM",
-          "title": "TENTEI COZINHAR para a MARI depois de 20 ANOS!",
-          "publishedAt": "2026-10-07T20:00:15Z",
-          "url": "https://www.youtube.com/watch?v=EtRX1B-_2BM",
-          "thumbnail": "https://i.ytimg.com/vi/EtRX1B-_2BM/mqdefault.jpg",
-          "views": 1168653,
-          "likes": 97119,
-          "comments": 893,
-          "engagementRate": 0.08386749531297999,
-          "hashtags": [
-            "#culinária",
-            "#cozinha",
-            "#tramontina",
-            "#gurusmartgourmet",
-            "#publicidade"
-          ],
-          "tags": [
-            "como fazer",
-            "como funciona",
-            "experiência",
-            "ciência",
-            "mari fulfaro",
-            "iberê thenorio",
-            "Educação",
-            "Curiosidades",
-            "Experimentos",
-            "manual do mundo",
-            "faça você mesmo",
-            "vestibular",
-            "enem",
-            "física",
-            "química",
-            "matemática",
-            "história",
-            "geografia",
-            "biologia",
-            "laboratório",
-            "você sabia?",
-            "aprendi hoje",
-            "Iberê",
-            "conhecimento",
-            "curiosidades",
-            "professor",
-            "dicas",
-            "truques",
-            "culinária",
-            "receita",
-            "cooktop",
-            "risotto",
-            "risoto",
-            "fogão de indução",
-            "receitas",
-            "eletrodoméstico",
-            "cozinha"
-          ]
-        },
-        {
-          "platform": "youtube",
-          "region": "br",
           "channelId": "UCdmGjywrxeOPfC7vDllmSgQ",
           "channelTitle": "TecMundo",
           "videoId": "swpV_s1DpoM",
@@ -1065,6 +1073,9 @@
           "likes": 1126,
           "comments": 51,
           "engagementRate": 0.08338646829613885,
+          "duracaoSeg": 57,
+          "descricao": "O mundo do entretenimento se despede de Patrick Stewart, lendário por viver Charles Xavier e o Capitão Picard.\n\nAlém de sua consagrada carreira no palco e telas, marcou os games e fará sua aparição final em Vingadores: D",
+          "descricaoTamanho": 553,
           "hashtags": [
             "#patrickstewart",
             "#professorxavier",
@@ -1131,6 +1142,9 @@
           "likes": 89,
           "comments": 10,
           "engagementRate": 0.08042242079610074,
+          "duracaoSeg": 581,
+          "descricao": "Você produtor de podcast tá passando trabalho ao gravar o seu podcast? Nesse vídeo eu te mostro algumas ferramentas e aplicativos que podem melhorar a sua produção. \n\n►Aprenda a fazer podcast aqui: https://youtube.com/pl",
+          "descricaoTamanho": 573,
           "hashtags": [],
           "tags": [
             "como fazer",
@@ -1161,16 +1175,43 @@
             "g.agenda",
             "google agenda para podcast"
           ]
+        },
+        {
+          "platform": "youtube",
+          "region": "br",
+          "channelId": "UCdmGjywrxeOPfC7vDllmSgQ",
+          "channelTitle": "TecMundo",
+          "videoId": "IDpcn7j9KVM",
+          "title": "O novo app do GitHub Copilot programa por você! #github #tech",
+          "publishedAt": "2026-10-29T17:00:01Z",
+          "url": "https://www.youtube.com/watch?v=IDpcn7j9KVM",
+          "thumbnail": "https://i.ytimg.com/vi/IDpcn7j9KVM/mqdefault.jpg",
+          "views": 1064,
+          "likes": 85,
+          "comments": 0,
+          "engagementRate": 0.07988721804511278,
+          "duracaoSeg": 105,
+          "descricao": "E se você pudesse deixar a inteligência artificial programando enquanto faz outras tarefas? Direto de São Francisco, nos Estados Unidos, acompanhamos o primeiro dia do GitHub Universe 2026 e os principais lançamentos da ",
+          "descricaoTamanho": 643,
+          "hashtags": [
+            "#github",
+            "#tech",
+            "#githubuniverse",
+            "#programacao",
+            "#tecmundo",
+            "#tecnologia"
+          ],
+          "tags": []
         }
       ],
       "temasQuentes": [
         {
           "termo": "iphone",
-          "n": 53
+          "n": 46
         },
         {
           "termo": "pro",
-          "n": 38
+          "n": 31
         },
         {
           "termo": "podcast",
@@ -1178,57 +1219,57 @@
         },
         {
           "termo": "review",
-          "n": 23
-        },
-        {
-          "termo": "apple",
-          "n": 21
-        },
-        {
-          "termo": "duo",
-          "n": 21
-        },
-        {
-          "termo": "não",
-          "n": 20
-        },
-        {
-          "termo": "você",
           "n": 19
         },
         {
+          "termo": "não",
+          "n": 16
+        },
+        {
           "termo": "samsung",
-          "n": 17
+          "n": 16
         },
         {
-          "termo": "fold",
-          "n": 13
+          "termo": "você",
+          "n": 15
         },
         {
-          "termo": "brasil",
-          "n": 12
+          "termo": "apple",
+          "n": 15
+        },
+        {
+          "termo": "duo",
+          "n": 15
         },
         {
           "termo": "macbook",
-          "n": 12
+          "n": 11
+        },
+        {
+          "termo": "brasil",
+          "n": 10
         },
         {
           "termo": "novo",
           "n": 10
         },
         {
-          "termo": "galaxy",
-          "n": 10
+          "termo": "sem",
+          "n": 9
         },
         {
-          "termo": "sem",
+          "termo": "vivo",
+          "n": 9
+        },
+        {
+          "termo": "galaxy",
           "n": 9
         }
       ],
       "hashtags": [
         {
           "tag": "#tecnologia",
-          "n": 77
+          "n": 75
         },
         {
           "tag": "#tecmundo",
@@ -1243,16 +1284,8 @@
           "n": 31
         },
         {
-          "tag": "#curiosidades",
-          "n": 29
-        },
-        {
           "tag": "#smartphone",
           "n": 27
-        },
-        {
-          "tag": "#publicidade",
-          "n": 22
         },
         {
           "tag": "#podcast",
@@ -1263,8 +1296,8 @@
           "n": 20
         },
         {
-          "tag": "#viral",
-          "n": 16
+          "tag": "#curiosidades",
+          "n": 20
         },
         {
           "tag": "#iphone",
@@ -1279,12 +1312,20 @@
           "n": 14
         },
         {
+          "tag": "#viral",
+          "n": 14
+        },
+        {
           "tag": "#inteligenciaartificial",
           "n": 14
         },
         {
           "tag": "#samsung",
           "n": 12
+        },
+        {
+          "tag": "#ia",
+          "n": 11
         }
       ],
       "novos": [
@@ -1298,10 +1339,13 @@
           "publishedAt": "2026-11-02T21:00:18Z",
           "url": "https://www.youtube.com/watch?v=RiOrJIer0H4",
           "thumbnail": "https://i.ytimg.com/vi/RiOrJIer0H4/mqdefault.jpg",
-          "views": 3333,
-          "likes": 205,
+          "views": 3693,
+          "likes": 210,
           "comments": 7,
-          "engagementRate": 0.0636063606360636,
+          "engagementRate": 0.05875981586785811,
+          "duracaoSeg": 1552,
+          "descricao": "Seja membro deste canal e apoie nosso trabalho:\nhttps://www.youtube.com/channel/UCdmGjywrxeOPfC7vDllmSgQ/join\n\nTestamos o Galaxy Z Fold 8 Ultra por um mês! Com dobradiça de titânio, tela de 8 polegadas antirreflexo e câm",
+          "descricaoTamanho": 3156,
           "hashtags": [
             "#tecmundo",
             "#galaxyzfold8ultra",
@@ -1330,66 +1374,6 @@
         {
           "platform": "youtube",
           "region": "br",
-          "channelId": "UCKHhA5hN2UohhFDfNXB_cvQ",
-          "channelTitle": "Manual do Mundo",
-          "videoId": "knA-WLR-19M",
-          "title": "Por que esse FORTE tem formato de ESTRELA?",
-          "publishedAt": "2026-11-02T14:30:30Z",
-          "url": "https://www.youtube.com/watch?v=knA-WLR-19M",
-          "thumbnail": "https://i.ytimg.com/vi/knA-WLR-19M/mqdefault.jpg",
-          "views": 77231,
-          "likes": 5814,
-          "comments": 98,
-          "engagementRate": 0.07654957206303169,
-          "hashtags": [
-            "#engenharia",
-            "#guerra",
-            "#forte",
-            "#construção",
-            "#curiosidades"
-          ],
-          "tags": [
-            "como fazer",
-            "como funciona",
-            "experiência",
-            "ciência",
-            "mari fulfaro",
-            "iberê thenorio",
-            "Educação",
-            "Curiosidades",
-            "Experimentos",
-            "DIY",
-            "manual do mundo",
-            "faça você mesmo",
-            "vestibular",
-            "enem",
-            "física",
-            "química",
-            "matemática",
-            "história",
-            "geografia",
-            "biologia",
-            "laboratório",
-            "você sabia?",
-            "aprendi hoje",
-            "Iberê",
-            "conhecimento",
-            "curiosidades",
-            "professor",
-            "dicas",
-            "truques",
-            "forte",
-            "construção",
-            "engenharia",
-            "guerra",
-            "fortaleza",
-            "Natal",
-            "ponto turístico"
-          ]
-        },
-        {
-          "platform": "youtube",
-          "region": "br",
           "channelId": "UCdmGjywrxeOPfC7vDllmSgQ",
           "channelTitle": "TecMundo",
           "videoId": "YM3wqtMoRxw",
@@ -1397,10 +1381,13 @@
           "publishedAt": "2026-11-01T15:00:24Z",
           "url": "https://www.youtube.com/watch?v=YM3wqtMoRxw",
           "thumbnail": "https://i.ytimg.com/vi/YM3wqtMoRxw/mqdefault.jpg",
-          "views": 7865,
-          "likes": 294,
+          "views": 7902,
+          "likes": 296,
           "comments": 16,
-          "engagementRate": 0.03941513032422123,
+          "engagementRate": 0.039483675018982534,
+          "duracaoSeg": 871,
+          "descricao": "Seja membro deste canal e apoie nosso trabalho:\nhttps://www.youtube.com/channel/UCdmGjywrxeOPfC7vDllmSgQ/join\n\nColocamos 3 dos melhores smartphones de ponta disponíveis no Brasil para competir em 9 categorias diferentes.",
+          "descricaoTamanho": 2812,
           "hashtags": [
             "#smartphonecamera",
             "#testecego",
@@ -1449,10 +1436,13 @@
           "publishedAt": "2026-11-01T14:00:19Z",
           "url": "https://www.youtube.com/watch?v=zmW3kcM5ba4",
           "thumbnail": "https://i.ytimg.com/vi/zmW3kcM5ba4/mqdefault.jpg",
-          "views": 202,
+          "views": 204,
           "likes": 13,
           "comments": 0,
-          "engagementRate": 0.06435643564356436,
+          "engagementRate": 0.06372549019607843,
+          "duracaoSeg": 49,
+          "descricao": "Um grande destaque do app do Banco do Brasil é o Meu Assistente BB, um chatbot de IA que pode ajudar o cliente a realizar um Pix ou bloquear seu cartão de crédito, por exemplo.\n\nConversamos com Rodrigo Mulinari, CIO do B",
+          "descricaoTamanho": 1088,
           "hashtags": [
             "#bancodobrasil",
             "#bb",
@@ -1477,10 +1467,13 @@
         "publishedAt": "2026-06-30T12:28:06Z",
         "url": "https://www.youtube.com/watch?v=Hf-uB8XLdP0",
         "thumbnail": "https://i.ytimg.com/vi/Hf-uB8XLdP0/mqdefault.jpg",
-        "views": 50574965,
-        "likes": 1147165,
+        "views": 50575411,
+        "likes": 1147169,
         "comments": 4628,
-        "engagementRate": 0.022773975226675885,
+        "engagementRate": 0.022773853483859973,
+        "duracaoSeg": 54,
+        "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
+        "descricaoTamanho": 652,
         "hashtags": [],
         "tags": [
           "power washer",
@@ -1503,33 +1496,15 @@
         "publishedAt": "2026-10-01T14:21:22Z",
         "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
         "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
-        "views": 40078873,
-        "likes": 1031583,
+        "views": 40080261,
+        "likes": 1031615,
         "comments": 4901,
-        "engagementRate": 0.02586110642382584,
+        "engagementRate": 0.025861009238437843,
+        "duracaoSeg": 58,
+        "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
+        "descricaoTamanho": 652,
         "hashtags": [],
         "tags": []
-      },
-      {
-        "platform": "youtube",
-        "region": "intl",
-        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
-        "channelTitle": "Marques Brownlee",
-        "videoId": "Od6M0AXpcxQ",
-        "title": "iPhone 18 Pro/Duo Impressions: Mogged",
-        "publishedAt": "2026-09-10T07:29:55Z",
-        "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
-        "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
-        "views": 28284725,
-        "likes": 366748,
-        "comments": 24920,
-        "engagementRate": 0.013847332791816077,
-        "hashtags": [],
-        "tags": [
-          "iPhone Duo",
-          "iPhone 18 Pro",
-          "MKBHD"
-        ]
       },
       {
         "platform": "youtube",
@@ -1541,10 +1516,13 @@
         "publishedAt": "2026-10-10T10:16:27Z",
         "url": "https://www.youtube.com/watch?v=nQdXp6HKKik",
         "thumbnail": "https://i.ytimg.com/vi/nQdXp6HKKik/mqdefault.jpg",
-        "views": 21773677,
-        "likes": 170856,
+        "views": 21775512,
+        "likes": 170866,
         "comments": 5242,
-        "engagementRate": 0.008087655566857173,
+        "engagementRate": 0.00808743325989304,
+        "duracaoSeg": 1472,
+        "descricao": "getting chased, squeezed and cleaned from the inside by tech that might just be TOO Futuristic... \nStart your next project with Opera, link: https://opr.as/10-Opera-browser-mrwhosethebossyt\n\nFor my tech hot takes: http:/",
+        "descricaoTamanho": 1007,
         "hashtags": [],
         "tags": [
           "tech",
@@ -1566,10 +1544,13 @@
         "publishedAt": "2026-09-08T11:09:52Z",
         "url": "https://www.youtube.com/watch?v=VTLnDqjfRZQ",
         "thumbnail": "https://i.ytimg.com/vi/VTLnDqjfRZQ/mqdefault.jpg",
-        "views": 21243416,
+        "views": 21243998,
         "likes": 179027,
         "comments": 6439,
-        "engagementRate": 0.008730516786942364,
+        "engagementRate": 0.008730277605938393,
+        "duracaoSeg": 1479,
+        "descricao": "Testing the thinnest tech in 2026! Check out the LG OLED evo AI W6 from our sponsor LG here: https://bit.ly/LGOLEDevoAIW6_Mrwhosetheboss \n#4ktv  #wallpapertv \n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor",
+        "descricaoTamanho": 911,
         "hashtags": [
           "#4ktv",
           "#wallpapertv"
@@ -1594,10 +1575,13 @@
         "publishedAt": "2026-09-22T10:48:08Z",
         "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
         "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
-        "views": 19078803,
-        "likes": 172009,
+        "views": 19079464,
+        "likes": 172011,
         "comments": 13485,
-        "engagementRate": 0.009722517707216747,
+        "engagementRate": 0.00972228569943055,
+        "duracaoSeg": 1038,
+        "descricao": "Can the Xiaomi 18 Fold take on the iPhone Duo? 😅 \nGo to https://surfshark.com/boss or use code BOSS at checkout to get 4 extra months of Surfshark!\n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Person",
+        "descricaoTamanho": 932,
         "hashtags": [],
         "tags": [
           "iphone duo",
@@ -1620,10 +1604,13 @@
         "publishedAt": "2026-05-12T10:43:14Z",
         "url": "https://www.youtube.com/watch?v=61CzvMFZRR0",
         "thumbnail": "https://i.ytimg.com/vi/61CzvMFZRR0/mqdefault.jpg",
-        "views": 17883752,
-        "likes": 548124,
-        "comments": 23990,
-        "engagementRate": 0.03199071425280332,
+        "views": 17884171,
+        "likes": 548126,
+        "comments": 23989,
+        "engagementRate": 0.03199002067247064,
+        "duracaoSeg": 60,
+        "descricao": "",
+        "descricaoTamanho": 0,
         "hashtags": [],
         "tags": []
       },
@@ -1637,10 +1624,13 @@
         "publishedAt": "2026-09-10T07:11:46Z",
         "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
         "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
-        "views": 17193500,
-        "likes": 154369,
+        "views": 17193517,
+        "likes": 154368,
         "comments": 12698,
-        "engagementRate": 0.009716869747288219,
+        "engagementRate": 0.009716801978327064,
+        "duracaoSeg": 980,
+        "descricao": "iPhone Duo / 18 Pro / 18 Pro Max Hands on! \nTORRAS Ostand Q3 Air Pro. Double Airbags. Double Protection.\n15% off with code [AIRPRO15] - 3 days only\nShop Q3 Air Pro on 🌍website: https://bit.ly/4AlH18j\nShop Q3 Air Pro on ",
+        "descricaoTamanho": 927,
         "hashtags": [
           "#iphone18",
           "#torras"
@@ -1666,10 +1656,13 @@
         "publishedAt": "2026-09-09T20:20:43Z",
         "url": "https://www.youtube.com/watch?v=6AkGhTBtR4o",
         "thumbnail": "https://i.ytimg.com/vi/6AkGhTBtR4o/mqdefault.jpg",
-        "views": 16716290,
+        "views": 16716320,
         "likes": 487925,
         "comments": 12315,
-        "engagementRate": 0.029925300410557607,
+        "engagementRate": 0.029925246705016416,
+        "duracaoSeg": 97,
+        "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
+        "descricaoTamanho": 652,
         "hashtags": [],
         "tags": []
       },
@@ -1683,10 +1676,13 @@
         "publishedAt": "2026-04-13T13:09:12Z",
         "url": "https://www.youtube.com/watch?v=Y_exkqiBT4I",
         "thumbnail": "https://i.ytimg.com/vi/Y_exkqiBT4I/mqdefault.jpg",
-        "views": 16537921,
+        "views": 16538179,
         "likes": 567263,
         "comments": 2248,
-        "engagementRate": 0.034436674355863714,
+        "engagementRate": 0.034436137134566024,
+        "duracaoSeg": 49,
+        "descricao": "",
+        "descricaoTamanho": 0,
         "hashtags": [],
         "tags": [
           "speaker",
@@ -1697,63 +1693,83 @@
           "ksi",
           "gifts"
         ]
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
+        "channelTitle": "Mrwhosetheboss",
+        "videoId": "iwYxrHF2T80",
+        "title": "I compared every smartwatch",
+        "publishedAt": "2026-04-27T11:47:40Z",
+        "url": "https://www.youtube.com/watch?v=iwYxrHF2T80",
+        "thumbnail": "https://i.ytimg.com/vi/iwYxrHF2T80/mqdefault.jpg",
+        "views": 15965641,
+        "likes": 480310,
+        "comments": 2141,
+        "engagementRate": 0.03021807893588488,
+        "duracaoSeg": 60,
+        "descricao": "I spend a LOT of time trying to make my videos as concise, polished and useful as possible for you - if you would like to support me on that mission then consider subscribing to the channel - you'd make my day 😁\n\nFor my",
+        "descricaoTamanho": 825,
+        "hashtags": [],
+        "tags": []
       }
     ],
     "temasParaTrazer": [
       {
-        "termo": "impressions",
-        "n": 9
-      },
-      {
-        "termo": "phone",
-        "n": 8
-      },
-      {
         "termo": "laptop",
-        "n": 8
+        "n": 7
       },
       {
         "termo": "tech",
-        "n": 7
-      },
-      {
-        "termo": "can",
-        "n": 7
-      },
-      {
-        "termo": "they",
-        "n": 7
-      },
-      {
-        "termo": "better",
-        "n": 7
+        "n": 6
       },
       {
         "termo": "steam",
         "n": 6
       },
       {
-        "termo": "pixel",
+        "termo": "better",
+        "n": 6
+      },
+      {
+        "termo": "phone",
         "n": 5
       },
       {
-        "termo": "smartphone",
+        "termo": "can",
         "n": 5
+      },
+      {
+        "termo": "tested",
+        "n": 4
+      },
+      {
+        "termo": "gaming",
+        "n": 4
       },
       {
         "termo": "world",
-        "n": 5
+        "n": 4
       },
       {
-        "termo": "about",
-        "n": 5
+        "termo": "laptops",
+        "n": 4
+      },
+      {
+        "termo": "than",
+        "n": 3
+      },
+      {
+        "termo": "most",
+        "n": 3
       }
     ]
   },
   "resumo": {
-    "totalVideos": 400,
-    "totalCanais": 8,
-    "videosNovos48h": 4
+    "totalVideos": 300,
+    "totalCanais": 6,
+    "videosNovos48h": 3
   },
   "pendentes": []
 }

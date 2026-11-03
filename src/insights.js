@@ -210,6 +210,12 @@ function paraPlataforma(videos, plataforma, referenciaMatcher) {
 
   const pautas = montarPautas({ oportunidades, brVideos: br, formato: formatoSugerido, engMercado });
 
+  // Hashtags em alta (desta rede) e os 9 videos pra "fazer igual" com dicas de melhoria.
+  const hcount = new Map();
+  for (const v of br) for (const h of new Set(v.hashtags || [])) hcount.set(h, (hcount.get(h) || 0) + 1);
+  const hashtagsQuentes = [...hcount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(([tag, n]) => ({ tag, n }));
+  const replicar = montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher });
+
   // Espelho (Jef): como ele vai em relacao ao mercado.
   let espelho = null;
   const jef = br.filter((v) => referenciaMatcher(v.channelTitle));
@@ -280,6 +286,7 @@ function paraPlataforma(videos, plataforma, referenciaMatcher) {
     temasSubaproveitados,
     formula,
     pautas,
+    replicar,
     espelho,
     daGringaParaTrazer,
   };
@@ -287,6 +294,92 @@ function paraPlataforma(videos, plataforma, referenciaMatcher) {
 
 // Roda a inteligencia para cada plataforma que tiver dados BR.
 // Retorna { youtube: {...}, tiktok: {...}, instagram: {...} } (so as que existem).
+function fmtDuracao(seg) {
+  if (!seg) return null;
+  const m = Math.floor(seg / 60);
+  const s = seg % 60;
+  return m ? `${m}min${s ? ` ${s}s` : ""}` : `${s}s`;
+}
+
+// Escolhe videos recentes e bons para o dono "fazer igual" e, cruzando os sinais
+// (engajamento, comentarios, duracao, titulo, hashtags, descricao), diz o que melhorar.
+function montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher }) {
+  const agora = Date.now();
+  const dias = (iso) => (iso ? (agora - new Date(iso).getTime()) / 86400000 : Infinity);
+  // Foca no canal de referencia (o Jef): sao os videos dele pra estudar e fazer melhor.
+  // Se o Jef nao estiver nesta rede, cai pro mercado todo.
+  const doJef = br.filter((v) => referenciaMatcher && referenciaMatcher(v.channelTitle));
+  const universo = doJef.length ? doJef : br;
+  const comViews = universo.filter((v) => (v.views || 0) > 0);
+  if (!comViews.length) return [];
+
+  const comDur = comViews.filter((v) => v.duracaoSeg > 0);
+  const topEng = [...comDur].sort((a, b) => b.engagementRate - a.engagementRate).slice(0, Math.max(3, Math.round(comDur.length * 0.25)));
+  const durIdeal = mediana(topEng.map((v) => v.duracaoSeg));
+  const taxaCom = (v) => (v.views > 0 ? v.comments / v.views : 0);
+  const medTaxaCom = mediana(comViews.map(taxaCom));
+  const hotTags = (hashtagsQuentes || []).map((h) => h.tag);
+
+  let recentes = comViews.filter((v) => dias(v.publishedAt) <= 120);
+  if (recentes.length < 9) recentes = comViews;
+  // Equilibra engajamento E alcance, pra sugerir hits de verdade (nao video nicho com 1k views).
+  const score = (v) => (v.engagementRate || 0) * Math.log10((v.views || 0) + 10);
+  const ordenado = [...recentes].sort((a, b) => score(b) - score(a));
+  // No maximo 3 por canal, pra variar formato e incluir mais de um criador.
+  const porCanal = new Map();
+  const escolhidos = [];
+  for (const v of ordenado) {
+    const c = v.channelTitle || "?";
+    if ((porCanal.get(c) || 0) >= 3) continue;
+    porCanal.set(c, (porCanal.get(c) || 0) + 1);
+    escolhidos.push(v);
+    if (escolhidos.length >= 9) break;
+  }
+
+  return escolhidos.map((v) => {
+    const dicas = [];
+    if (v.engagementRate >= engMercado)
+      dicas.push(`Engaja ${pct1(v.engagementRate)}%, acima da media (${pct1(engMercado)}%). O gancho funciona, repita o tipo.`);
+    else
+      dicas.push(`Engaja ${pct1(v.engagementRate)}%, abaixo da media (${pct1(engMercado)}%). Reforce o gancho nos 3 primeiros segundos.`);
+
+    const tc = taxaCom(v);
+    if (medTaxaCom > 0 && tc < medTaxaCom * 0.7)
+      dicas.push("Poucos comentarios pro tamanho. Termine com uma PERGUNTA direta pra puxar conversa.");
+    else if (medTaxaCom > 0 && tc > medTaxaCom * 1.3)
+      dicas.push("Gera muita conversa nos comentarios. Mantenha esse tipo de tema.");
+
+    if (v.duracaoSeg > 0 && durIdeal > 0) {
+      if (v.duracaoSeg > durIdeal * 1.4)
+        dicas.push(`Dura ${fmtDuracao(v.duracaoSeg)}; os que mais engajam tem ~${fmtDuracao(Math.round(durIdeal))}. Corte e va direto ao ponto.`);
+      else dicas.push(`Duracao (${fmtDuracao(v.duracaoSeg)}) esta na faixa que engaja. Mantenha.`);
+    }
+
+    if (!/\?|\bcomo\b|\bpor que\b|\bqual\b/i.test(v.title) && !/\d/.test(v.title))
+      dicas.push("Titulo sem pergunta nem numero. Teste 'Como...' ou 'X coisas que...'.");
+
+    const tagsV = new Set(v.hashtags || []);
+    const faltando = hotTags.filter((t) => !tagsV.has(t)).slice(0, 3);
+    if (faltando.length) dicas.push(`Hashtags em alta que faltaram: ${faltando.join(", ")}.`);
+
+    if (v.descricaoTamanho != null && v.descricaoTamanho < 80)
+      dicas.push("Descricao curta. Resuma o video, ponha um CTA e o link do Descolo.");
+
+    return {
+      title: v.title,
+      url: v.url,
+      channelTitle: v.channelTitle,
+      thumbnail: v.thumbnail,
+      publishedAt: v.publishedAt,
+      views: v.views,
+      engajamento: v.engagementRate,
+      comentarios: v.comments,
+      duracao: fmtDuracao(v.duracaoSeg),
+      dicas: dicas.slice(0, 4),
+    };
+  });
+}
+
 export function gerarInteligencia(videos, referenciaMatcher) {
   const plataformas = [...new Set(videos.map((v) => v.platform))];
   const out = {};

@@ -68,7 +68,8 @@ async function main() {
     const horaSocial = Number(process.env.SOCIAL_HOUR_UTC || 23); // 23 UTC = 20:00 no horario de Brasilia
     const cachePath = join(dataDir, "social-cache.json");
     const temCache = existsSync(cachePath);
-    const collectSocial = !!process.env.ENSEMBLE_TOKEN && (hora === horaSocial || !temCache);
+    const forcar = process.env.FORCE_SOCIAL === "1"; // coleta manual sob demanda
+    const collectSocial = !!process.env.ENSEMBLE_TOKEN && (forcar || hora === horaSocial || !temCache);
 
     console.log(
       collectSocial

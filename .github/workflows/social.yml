@@ -1,0 +1,62 @@
+name: Atualizar redes sociais (manual)
+
+# Coleta TikTok/Instagram sob demanda, SEM guardar o token no repositorio.
+# Voce cola o token na hora de rodar (aba Actions > este workflow > Run workflow).
+# Util pra testar no periodo gratis sem se comprometer.
+on:
+  workflow_dispatch:
+    inputs:
+      token:
+        description: "Token do EnsembleData (nao fica salvo)"
+        required: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  social:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Coletar (YouTube + redes sociais forcado)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ENSEMBLE_TOKEN: ${{ inputs.token }}
+          FORCE_SOCIAL: "1"
+          MAX_VIDEOS_PER_CHANNEL: "40"
+        run: npm run scan
+
+      - name: Salvar os dados atualizados
+        run: |
+          git config user.name "tube-pro-bot"
+          git config user.email "actions@github.com"
+          git add public/data
+          if git diff --staged --quiet; then
+            echo "Nada mudou."
+          else
+            git commit -m "chore: atualiza redes sociais (coleta manual)"
+            git push
+          fi
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Subir o painel como artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Publicar o painel
+        id: deployment
+        uses: actions/deploy-pages@v4

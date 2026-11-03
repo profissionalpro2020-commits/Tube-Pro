@@ -134,6 +134,8 @@ async function coletarInstagram(canal, token, depth) {
       likes,
       comments,
       engagementRate: eng,
+      descricao: caption.slice(0, 220),
+      descricaoTamanho: caption.length,
       hashtags: hashtagsDe(caption),
       tags: [],
     };
