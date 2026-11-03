@@ -62,6 +62,8 @@ async function coletarTikTok(canal, token, depth) {
     const id = pick(p, ["aweme_id", "id", "video_id"], "");
     const createTime = num(pick(p, ["create_time", "createTime"]));
     const eng = views > 0 ? (likes + comments + shares) / views : 0;
+    const durRaw = num(pick(p, ["video.duration", "duration"]));
+    const durSeg = durRaw > 1000 ? Math.round(durRaw / 1000) : Math.round(durRaw); // as vezes vem em ms
     return {
       platform: "tiktok",
       region: canal.region || "br",
@@ -76,6 +78,7 @@ async function coletarTikTok(canal, token, depth) {
       likes,
       comments,
       engagementRate: eng,
+      duracaoSeg: durSeg,
       hashtags: hashtagsDe(desc),
       tags: (p.text_extra || []).map((t) => t.hashtag_name).filter(Boolean),
     };
@@ -118,6 +121,7 @@ async function coletarInstagram(canal, token, depth) {
     const caption = pick(n, ["edge_media_to_caption.edges.0.node.text", "caption.text"], "");
     const id = pick(n, ["shortcode", "code", "id"], "");
     const ts = num(pick(n, ["taken_at_timestamp", "taken_at"]));
+    const durSegIg = Math.round(num(pick(n, ["video_duration", "clips_metadata.video_duration"])));
     // No Instagram o padrao e medir engajamento sobre SEGUIDORES (consistente entre foto e reel).
     const eng = seguidores > 0 ? (likes + comments) / seguidores : (vviews > 0 ? (likes + comments) / vviews : 0);
     return {
@@ -134,6 +138,7 @@ async function coletarInstagram(canal, token, depth) {
       likes,
       comments,
       engagementRate: eng,
+      duracaoSeg: durSegIg,
       descricao: caption.slice(0, 220),
       descricaoTamanho: caption.length,
       hashtags: hashtagsDe(caption),
