@@ -1,28 +1,28 @@
 {
-  "geradoEm": "2026-11-03T00:38:56.879Z",
+  "geradoEm": "2026-11-03T00:42:07.433Z",
   "sample": false,
   "inteligencia": {
     "youtube": {
       "recado": "O tema mais quente e rentavel agora e \"falha\" (6 videos, 5.1% de engajamento).",
-      "engMercado": 0.0432308550605896,
+      "engMercado": 0.04322390619131327,
       "temasQuentesRentaveis": [
         {
           "termo": "falha",
           "n": 6,
-          "engMedio": 0.05099821158296227,
+          "engMedio": 0.051000697381274024,
           "viewsMediano": 21910
         },
         {
           "termo": "podcast",
           "n": 27,
-          "engMedio": 0.050250129400445924,
+          "engMedio": 0.050247728681876144,
           "viewsMediano": 2395
         },
         {
           "termo": "motorola",
           "n": 5,
-          "engMedio": 0.04968327156322227,
-          "viewsMediano": 7133
+          "engMedio": 0.04968409044550785,
+          "viewsMediano": 7127
         },
         {
           "termo": "gravar",
@@ -33,14 +33,14 @@
         {
           "termo": "brasil",
           "n": 10,
-          "engMedio": 0.04887259807875523,
+          "engMedio": 0.04882834808003468,
           "viewsMediano": 18792
         },
         {
           "termo": "google",
           "n": 4,
-          "engMedio": 0.04874809132936088,
-          "viewsMediano": 30293
+          "engMedio": 0.048731498233949726,
+          "viewsMediano": 30313
         },
         {
           "termo": "anchor",
@@ -51,7 +51,7 @@
         {
           "termo": "chatgpt",
           "n": 8,
-          "engMedio": 0.0474193968372994,
+          "engMedio": 0.047410467120813336,
           "viewsMediano": 28460
         }
       ],
@@ -71,8 +71,8 @@
         {
           "termo": "instalação",
           "n": 2,
-          "engMedio": 0.07111841952407143,
-          "viewsMediano": 30286
+          "engMedio": 0.07113101946538443,
+          "viewsMediano": 30268
         },
         {
           "termo": "tecnologia",
@@ -89,8 +89,8 @@
         {
           "termo": "binance",
           "n": 2,
-          "engMedio": 0.06906346287857973,
-          "viewsMediano": 14284
+          "engMedio": 0.069057451621285,
+          "viewsMediano": 14287
         }
       ],
       "formula": {
@@ -128,7 +128,7 @@
         },
         {
           "tema": "instalação",
-          "motivo": "O tema \"instalação\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.3%). Views tipicas: 30.286.",
+          "motivo": "O tema \"instalação\" aparece em 2 videos do mercado e engaja 7.1% em media (acima da media do mercado, que e 4.3%). Views tipicas: 30.268.",
           "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
           "exemploParaEstudar": {
             "title": "Da tecnologia à instalação: o que a LG destacou na Febrava Rio 2026",
@@ -170,8 +170,8 @@
           "channelTitle": "Jef Dicas Tech 📱Tecnologia ",
           "thumbnail": "https://i.ytimg.com/vi/jOZdkoX5BaI/mqdefault.jpg",
           "publishedAt": "2026-09-26T15:26:49Z",
-          "views": 26534,
-          "engajamento": 0.061882867264641594,
+          "views": 26539,
+          "engajamento": 0.06187120841026414,
           "comentarios": 13,
           "duracao": "1min 5s",
           "dicas": [
@@ -187,8 +187,8 @@
           "channelTitle": "Jef Dicas Tech 📱Tecnologia ",
           "thumbnail": "https://i.ytimg.com/vi/Yrhx_gipcm4/mqdefault.jpg",
           "publishedAt": "2026-10-12T13:43:50Z",
-          "views": 8073,
-          "engajamento": 0.06986250464511334,
+          "views": 8098,
+          "engajamento": 0.06964682637688319,
           "comentarios": 13,
           "duracao": "50s",
           "dicas": [
@@ -204,8 +204,8 @@
           "channelTitle": "Jef Dicas Tech 📱Tecnologia ",
           "thumbnail": "https://i.ytimg.com/vi/2rcHFrYlZBk/mqdefault.jpg",
           "publishedAt": "2026-09-20T01:43:13Z",
-          "views": 19623,
-          "engajamento": 0.06049024104367324,
+          "views": 19642,
+          "engajamento": 0.060431727929946034,
           "comentarios": 44,
           "duracao": "27s",
           "dicas": [
@@ -219,43 +219,43 @@
       "espelho": {
         "nome": "Jef Dicas Tech 📱Tecnologia ",
         "videosColetados": 50,
-        "engMedio": 0.03856123384258115,
-        "engMercado": 0.04478739546659238,
+        "engMedio": 0.038552160142021716,
+        "engMercado": 0.044781154874410437,
         "acimaDaMedia": false,
         "melhoresVideos": [
           {
             "title": "Site que te mostra câmeras ao vivo pelo mundo 😮🌎 até voos e navios",
             "url": "https://www.youtube.com/watch?v=Yrhx_gipcm4",
-            "engajamento": 0.06986250464511334,
-            "views": 8073
+            "engajamento": 0.06964682637688319,
+            "views": 8098
           },
           {
             "title": "NÃO VIAJE EM GRUPO SEM SABER DESSA NOVA FUNÇÃO DO GOOGLE MAPS￼! Como Compartilhar a rota em grupo",
             "url": "https://www.youtube.com/watch?v=jOZdkoX5BaI",
-            "engajamento": 0.061882867264641594,
-            "views": 26534
+            "engajamento": 0.06187120841026414,
+            "views": 26539
           },
           {
             "title": "Pare de postar fotos com IA! Use esses códigos no ChatGPT para disfarçar e parecer fotos de agência",
             "url": "https://www.youtube.com/watch?v=2rcHFrYlZBk",
-            "engajamento": 0.06049024104367324,
-            "views": 19623
+            "engajamento": 0.060431727929946034,
+            "views": 19642
           }
         ],
         "gaps": [
           {
             "termo": "falha",
-            "engMedio": 0.05099821158296227,
+            "engMedio": 0.051000697381274024,
             "n": 6
           },
           {
             "termo": "podcast",
-            "engMedio": 0.050250129400445924,
+            "engMedio": 0.050247728681876144,
             "n": 27
           },
           {
             "termo": "motorola",
-            "engMedio": 0.04968327156322227,
+            "engMedio": 0.04968409044550785,
             "n": 5
           },
           {
@@ -270,12 +270,12 @@
           },
           {
             "termo": "starlink",
-            "engMedio": 0.04786702016137961,
+            "engMedio": 0.0477560666890816,
             "n": 4
           },
           {
             "termo": "samsung",
-            "engMedio": 0.04642142722560963,
+            "engMedio": 0.04629024148790625,
             "n": 6
           }
         ],
@@ -284,28 +284,43 @@
       "daGringaParaTrazer": [
         {
           "termo": "steam",
-          "engMedio": 0.03359711772971094,
+          "engMedio": 0.0335971428887513,
           "n": 6
         },
         {
           "termo": "laptops",
-          "engMedio": 0.03222649758706535,
+          "engMedio": 0.03222509406124562,
           "n": 4
         },
         {
+          "termo": "better",
+          "engMedio": 0.0280047058594664,
+          "n": 7
+        },
+        {
           "termo": "pixel",
-          "engMedio": 0.03173678999598178,
+          "engMedio": 0.027968772025948233,
+          "n": 4
+        },
+        {
+          "termo": "smartphone",
+          "engMedio": 0.02718962671205173,
           "n": 3
         },
         {
-          "termo": "better",
-          "engMedio": 0.028534331086886303,
-          "n": 6
+          "termo": "phone",
+          "engMedio": 0.0264610984889508,
+          "n": 4
         },
         {
-          "termo": "phone",
-          "engMedio": 0.02776831557978608,
-          "n": 5
+          "termo": "laptop",
+          "engMedio": 0.026330907386013677,
+          "n": 8
+        },
+        {
+          "termo": "legion",
+          "engMedio": 0.02631445788158927,
+          "n": 3
         }
       ]
     }
@@ -346,9 +361,9 @@
     {
       "platform": "youtube",
       "region": "intl",
-      "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-      "channelTitle": "Mrwhosetheboss",
-      "subscribers": 23000000,
+      "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+      "channelTitle": "Marques Brownlee",
+      "subscribers": 21400000,
       "videosColetados": 50
     },
     {
@@ -363,264 +378,247 @@
   "plataformas": {
     "youtube": {
       "totalVideos": 300,
-      "mediaEngajamento": 0.0378634924743534,
+      "mediaEngajamento": 0.03738353403051506,
       "topViews": [
         {
           "platform": "youtube",
           "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "Hf-uB8XLdP0",
-          "title": "$10,000 Power Washer!",
-          "publishedAt": "2026-06-30T12:28:06Z",
-          "url": "https://www.youtube.com/watch?v=Hf-uB8XLdP0",
-          "thumbnail": "https://i.ytimg.com/vi/Hf-uB8XLdP0/mqdefault.jpg",
-          "views": 50575411,
-          "likes": 1147169,
-          "comments": 4628,
-          "engagementRate": 0.022773853483859973,
-          "duracaoSeg": 54,
-          "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
-          "descricaoTamanho": 652,
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "Od6M0AXpcxQ",
+          "title": "iPhone 18 Pro/Duo Impressions: Mogged",
+          "publishedAt": "2026-09-10T07:29:55Z",
+          "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
+          "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
+          "views": 28284766,
+          "likes": 366747,
+          "comments": 24920,
+          "engagementRate": 0.013847277364783573,
+          "duracaoSeg": 1034,
+          "descricao": "The first folding iPhone Duo and iPhone 18 Pro are here, and this is everything you need to know.\n\nCheck out Ridge’s latest iPhone tech gear at https://ridge.com/MKBHD\n\niOS 27: https://youtu.be/_oRgdlJUD18\n\nMKBHD Merch: ",
+          "descricaoTamanho": 376,
           "hashtags": [],
           "tags": [
-            "power washer",
-            "pressure washer",
-            "powerful",
-            "most",
-            "cheap",
-            "expensive",
-            "tech",
-            "shorts"
+            "iPhone Duo",
+            "iPhone 18 Pro",
+            "MKBHD"
           ]
         },
         {
           "platform": "youtube",
           "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "1xI_lsZ4sxI",
-          "title": "Which AI is smartest?",
-          "publishedAt": "2026-10-01T14:21:22Z",
-          "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
-          "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
-          "views": 40080261,
-          "likes": 1031615,
-          "comments": 4901,
-          "engagementRate": 0.025861009238437843,
-          "duracaoSeg": 58,
-          "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
-          "descricaoTamanho": 652,
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "DkUuOr21v4s",
+          "title": "Xiaomi 18 Pro Max: They've Done It Again!",
+          "publishedAt": "2026-09-24T22:26:18Z",
+          "url": "https://www.youtube.com/watch?v=DkUuOr21v4s",
+          "thumbnail": "https://i.ytimg.com/vi/DkUuOr21v4s/mqdefault.jpg",
+          "views": 14341793,
+          "likes": 124948,
+          "comments": 6564,
+          "engagementRate": 0.009169843686908603,
+          "duracaoSeg": 716,
+          "descricao": "If one-upping the iPhone was a sport, Xiaomi would be Lebron James.\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\nPhone provided by Xiaomi for review.\n\n~\nhttp://twitter.com/MK",
+          "descricaoTamanho": 276,
+          "hashtags": [],
+          "tags": [
+            "Xiaomi",
+            "Xiaomi 18 Pro",
+            "Xiaomi 18 Pro Max",
+            "18 Pro Max",
+            "Xiaomi vs",
+            "MKBHD",
+            "Xiaomi vs iPhone"
+          ]
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "ESABTN4VtrA",
+          "title": "iPhone Duo Review: First Generation Fun!",
+          "publishedAt": "2026-10-21T12:00:52Z",
+          "url": "https://www.youtube.com/watch?v=ESABTN4VtrA",
+          "thumbnail": "https://i.ytimg.com/vi/ESABTN4VtrA/mqdefault.jpg",
+          "views": 13335031,
+          "likes": 205993,
+          "comments": 15478,
+          "engagementRate": 0.01660821035961596,
+          "duracaoSeg": 1745,
+          "descricao": "What it's actually like to use the first folding iPhone - Duo\n\nDon’t miss Ridge’s friends and family sale at https://ridge.com/MKBHD\nProtect your iPhone Duo at https://dbrand.com/duo \n\nMKBHD Merch: http://shop.MKBHD.com\n",
+          "descricaoTamanho": 508,
+          "hashtags": [],
+          "tags": [
+            "iPhone Duo",
+            "iPhone duo review"
+          ]
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "6D__H_DO2Xk",
+          "title": "iPhone Duo: What We Missed!",
+          "publishedAt": "2026-09-12T21:36:57Z",
+          "url": "https://www.youtube.com/watch?v=6D__H_DO2Xk",
+          "thumbnail": "https://i.ytimg.com/vi/6D__H_DO2Xk/mqdefault.jpg",
+          "views": 12841867,
+          "likes": 155084,
+          "comments": 12964,
+          "engagementRate": 0.013085947705267467,
+          "duracaoSeg": 637,
+          "descricao": "A few new thoughts from the days after the Duo unveil.\n\nThat shirt: http://shop.MKBHD.com\n\nThe full iPhone Duo Hands-on: https://youtu.be/Od6M0AXpcxQ\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitte",
+          "descricaoTamanho": 284,
+          "hashtags": [],
+          "tags": [
+            "iPhone Duo",
+            "iPhone fold",
+            "MKBHD"
+          ]
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "3iRUwVzRDZQ",
+          "title": "Xiaomi 18 Fold: How Does This Happen?",
+          "publishedAt": "2026-10-02T20:50:25Z",
+          "url": "https://www.youtube.com/watch?v=3iRUwVzRDZQ",
+          "thumbnail": "https://i.ytimg.com/vi/3iRUwVzRDZQ/mqdefault.jpg",
+          "views": 12560500,
+          "likes": 102380,
+          "comments": 6614,
+          "engagementRate": 0.008677520799331236,
+          "duracaoSeg": 647,
+          "descricao": "This is not an iPhone Duo. Xiaomi is at it again.\n\nThe desk pad! https://mkbhd.com/products/overlay-deskpad\n\nShoutout to dbrand for helping to source the phone from China.\n\nPlaylist of MKBHD Intro music: https://goo.gl/B",
+          "descricaoTamanho": 306,
+          "hashtags": [],
+          "tags": [
+            "Xiaomi Fold",
+            "Xiaomi 18 Fold",
+            "Xiaomi Fold vs iPhone",
+            "iPhone Duo",
+            "iPhone Duo vs",
+            "MKBHD"
+          ]
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "scwlR0QHGOk",
+          "title": "The NEW Tesla Roadster: My Honest Reaction",
+          "publishedAt": "2026-10-17T02:09:23Z",
+          "url": "https://www.youtube.com/watch?v=scwlR0QHGOk",
+          "thumbnail": "https://i.ytimg.com/vi/scwlR0QHGOk/mqdefault.jpg",
+          "views": 12459225,
+          "likes": 192448,
+          "comments": 22966,
+          "engagementRate": 0.01728951840905032,
+          "duracaoSeg": 1365,
+          "descricao": "Tesla doesn't do marketing. Until they do.\n\nHagerty video: https://youtu.be/22rvpUecLts?si=z7reGi_rtH9mG3R3\n\nAuto Focus: http://youtube.com/AutoFocus\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: ht",
+          "descricaoTamanho": 320,
+          "hashtags": [],
+          "tags": [
+            "Tesla roadster",
+            "flying",
+            "thrust",
+            "rocket"
+          ]
+        },
+        {
+          "platform": "youtube",
+          "region": "intl",
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "ohqxP8EEumo",
+          "title": "iPhone 18 Pro Review: All About that Chip",
+          "publishedAt": "2026-09-16T12:01:27Z",
+          "url": "https://www.youtube.com/watch?v=ohqxP8EEumo",
+          "thumbnail": "https://i.ytimg.com/vi/ohqxP8EEumo/mqdefault.jpg",
+          "views": 12188030,
+          "likes": 164422,
+          "comments": 8527,
+          "engagementRate": 0.014190070093362093,
+          "duracaoSeg": 996,
+          "descricao": "iPhone 18 Pro is basically an S year upgrade. And one part of it is really impressive.\n\nProtect your new iPhone 18 with a case or screen protector at http://dbrand.com/shop/iphone-18\n\nThe scale of a transistor: https://y",
+          "descricaoTamanho": 594,
           "hashtags": [],
           "tags": []
         },
         {
           "platform": "youtube",
           "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "nQdXp6HKKik",
-          "title": "I tested the most Futuristic Tech - it scared me.",
-          "publishedAt": "2026-10-10T10:16:27Z",
-          "url": "https://www.youtube.com/watch?v=nQdXp6HKKik",
-          "thumbnail": "https://i.ytimg.com/vi/nQdXp6HKKik/mqdefault.jpg",
-          "views": 21775512,
-          "likes": 170866,
-          "comments": 5242,
-          "engagementRate": 0.00808743325989304,
-          "duracaoSeg": 1472,
-          "descricao": "getting chased, squeezed and cleaned from the inside by tech that might just be TOO Futuristic... \nStart your next project with Opera, link: https://opr.as/10-Opera-browser-mrwhosethebossyt\n\nFor my tech hot takes: http:/",
-          "descricaoTamanho": 1007,
-          "hashtags": [],
-          "tags": [
-            "tech",
-            "futuristic",
-            "gadgets",
-            "cool tech",
-            "iphone",
-            "smartphone",
-            "gifts"
-          ]
-        },
-        {
-          "platform": "youtube",
-          "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "VTLnDqjfRZQ",
-          "title": "I spent $12,000 on the THINNEST Tech",
-          "publishedAt": "2026-09-08T11:09:52Z",
-          "url": "https://www.youtube.com/watch?v=VTLnDqjfRZQ",
-          "thumbnail": "https://i.ytimg.com/vi/VTLnDqjfRZQ/mqdefault.jpg",
-          "views": 21243998,
-          "likes": 179027,
-          "comments": 6439,
-          "engagementRate": 0.008730277605938393,
-          "duracaoSeg": 1479,
-          "descricao": "Testing the thinnest tech in 2026! Check out the LG OLED evo AI W6 from our sponsor LG here: https://bit.ly/LGOLEDevoAIW6_Mrwhosetheboss \n#4ktv  #wallpapertv \n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor",
-          "descricaoTamanho": 911,
-          "hashtags": [
-            "#4ktv",
-            "#wallpapertv"
-          ],
-          "tags": [
-            "4k tv",
-            "thinnest",
-            "tech",
-            "LG",
-            "TV",
-            "gadgets",
-            "gifts"
-          ]
-        },
-        {
-          "platform": "youtube",
-          "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "eYBEJBfq_Zs",
-          "title": "Xiaomi made an iPhone Duo. It’s Unhinged.",
-          "publishedAt": "2026-09-22T10:48:08Z",
-          "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
-          "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
-          "views": 19079464,
-          "likes": 172011,
-          "comments": 13485,
-          "engagementRate": 0.00972228569943055,
-          "duracaoSeg": 1038,
-          "descricao": "Can the Xiaomi 18 Fold take on the iPhone Duo? 😅 \nGo to https://surfshark.com/boss or use code BOSS at checkout to get 4 extra months of Surfshark!\n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Person",
-          "descricaoTamanho": 932,
-          "hashtags": [],
-          "tags": [
-            "iphone duo",
-            "iphone duo review",
-            "xiaomi",
-            "xiaomi 18 fold",
-            "smartphone",
-            "iphone",
-            "apple",
-            "review"
-          ]
-        },
-        {
-          "platform": "youtube",
-          "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "61CzvMFZRR0",
-          "title": "Why is Everyone Wearing Wired Earphones?",
-          "publishedAt": "2026-05-12T10:43:14Z",
-          "url": "https://www.youtube.com/watch?v=61CzvMFZRR0",
-          "thumbnail": "https://i.ytimg.com/vi/61CzvMFZRR0/mqdefault.jpg",
-          "views": 17884171,
-          "likes": 548126,
-          "comments": 23989,
-          "engagementRate": 0.03199002067247064,
-          "duracaoSeg": 60,
-          "descricao": "",
-          "descricaoTamanho": 0,
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "QVv3mQzlrN0",
+          "title": "Apple Homeview Impressions: Not Convinced!",
+          "publishedAt": "2026-10-13T22:42:38Z",
+          "url": "https://www.youtube.com/watch?v=QVv3mQzlrN0",
+          "thumbnail": "https://i.ytimg.com/vi/QVv3mQzlrN0/mqdefault.jpg",
+          "views": 11220614,
+          "likes": 107663,
+          "comments": 7888,
+          "engagementRate": 0.010298099551414922,
+          "duracaoSeg": 707,
+          "descricao": "New Smart home display from Apple. With plenty of quirks and features.\n\nThe deskpad! http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitter.com/MKBHD\nhttp://instagram.com/MKBHD\nhttp",
+          "descricaoTamanho": 241,
           "hashtags": [],
           "tags": []
         },
         {
           "platform": "youtube",
           "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "5pV3D14y1FQ",
-          "title": "iPhone Duo/18 Pro Hands On - I wasn’t ready",
-          "publishedAt": "2026-09-10T07:11:46Z",
-          "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
-          "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
-          "views": 17193517,
-          "likes": 154368,
-          "comments": 12698,
-          "engagementRate": 0.009716801978327064,
-          "duracaoSeg": 980,
-          "descricao": "iPhone Duo / 18 Pro / 18 Pro Max Hands on! \nTORRAS Ostand Q3 Air Pro. Double Airbags. Double Protection.\n15% off with code [AIRPRO15] - 3 days only\nShop Q3 Air Pro on 🌍website: https://bit.ly/4AlH18j\nShop Q3 Air Pro on ",
-          "descricaoTamanho": 927,
-          "hashtags": [
-            "#iphone18",
-            "#torras"
-          ],
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "2reQut8WNGc",
+          "title": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
+          "publishedAt": "2026-10-29T02:50:34Z",
+          "url": "https://www.youtube.com/watch?v=2reQut8WNGc",
+          "thumbnail": "https://i.ytimg.com/vi/2reQut8WNGc/mqdefault.jpg",
+          "views": 11220375,
+          "likes": 137577,
+          "comments": 11579,
+          "engagementRate": 0.01329331684547085,
+          "duracaoSeg": 654,
+          "descricao": "The first touchscreen Mac is here, and I have thoughts.\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitter.com/MKBHD\nhttp://instagram.com/MKBHD\nhttp://facebook.com",
+          "descricaoTamanho": 226,
+          "hashtags": [],
           "tags": [
-            "iPhone 18",
-            "iPhone 18 pro",
-            "iphone 18 pro max",
-            "iphone duo",
-            "iphone duo hands on",
-            "iphone duo impressions",
-            "iphone duo review",
-            "iphone 18 pro review"
+            "Macbook Pro",
+            "Macbook Pro touchscreen",
+            "touchscreen Mac",
+            "PROLED",
+            "MKBHD"
           ]
         },
         {
           "platform": "youtube",
           "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "6AkGhTBtR4o",
-          "title": "iPhone Duo Hands On!",
-          "publishedAt": "2026-09-09T20:20:43Z",
-          "url": "https://www.youtube.com/watch?v=6AkGhTBtR4o",
-          "thumbnail": "https://i.ytimg.com/vi/6AkGhTBtR4o/mqdefault.jpg",
-          "views": 16716320,
-          "likes": 487925,
-          "comments": 12315,
-          "engagementRate": 0.029925246705016416,
-          "duracaoSeg": 97,
-          "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
-          "descricaoTamanho": 652,
-          "hashtags": [],
-          "tags": []
-        },
-        {
-          "platform": "youtube",
-          "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "Y_exkqiBT4I",
-          "title": "$1 vs $100,000 Speaker",
-          "publishedAt": "2026-04-13T13:09:12Z",
-          "url": "https://www.youtube.com/watch?v=Y_exkqiBT4I",
-          "thumbnail": "https://i.ytimg.com/vi/Y_exkqiBT4I/mqdefault.jpg",
-          "views": 16538179,
-          "likes": 567263,
-          "comments": 2248,
-          "engagementRate": 0.034436137134566024,
-          "duracaoSeg": 49,
-          "descricao": "",
-          "descricaoTamanho": 0,
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "channelTitle": "Marques Brownlee",
+          "videoId": "_0G4OG39XjI",
+          "title": "WTF is a Googlebook?",
+          "publishedAt": "2026-10-08T21:00:40Z",
+          "url": "https://www.youtube.com/watch?v=_0G4OG39XjI",
+          "thumbnail": "https://i.ytimg.com/vi/_0G4OG39XjI/mqdefault.jpg",
+          "views": 9079274,
+          "likes": 101499,
+          "comments": 8081,
+          "engagementRate": 0.012069246946396816,
+          "duracaoSeg": 853,
+          "descricao": "New laptops are dropping left and right! Let's talk about Google's entry.\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\nAsus Googlebook provided by Asus for review.\nXPS Google",
+          "descricaoTamanho": 334,
           "hashtags": [],
           "tags": [
-            "speaker",
-            "cheap",
-            "expensive",
-            "gadget",
-            "tech",
-            "ksi",
-            "gifts"
+            "Googlebook",
+            "MKBHD"
           ]
-        },
-        {
-          "platform": "youtube",
-          "region": "intl",
-          "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-          "channelTitle": "Mrwhosetheboss",
-          "videoId": "iwYxrHF2T80",
-          "title": "I compared every smartwatch",
-          "publishedAt": "2026-04-27T11:47:40Z",
-          "url": "https://www.youtube.com/watch?v=iwYxrHF2T80",
-          "thumbnail": "https://i.ytimg.com/vi/iwYxrHF2T80/mqdefault.jpg",
-          "views": 15965641,
-          "likes": 480310,
-          "comments": 2141,
-          "engagementRate": 0.03021807893588488,
-          "duracaoSeg": 60,
-          "descricao": "I spend a LOT of time trying to make my videos as concise, polished and useful as possible for you - if you would like to support me on that mission then consider subscribing to the channel - you'd make my day 😁\n\nFor my",
-          "descricaoTamanho": 825,
-          "hashtags": [],
-          "tags": []
         }
       ],
       "topEngajamento": [
@@ -782,10 +780,10 @@
           "publishedAt": "2026-10-29T17:55:04Z",
           "url": "https://www.youtube.com/watch?v=rQ_voDsvl-w",
           "thumbnail": "https://i.ytimg.com/vi/rQ_voDsvl-w/mqdefault.jpg",
-          "views": 1963,
+          "views": 1967,
           "likes": 187,
           "comments": 5,
-          "engagementRate": 0.097809475292919,
+          "engagementRate": 0.09761057447890188,
           "duracaoSeg": 62,
           "descricao": "A decisão da EA Games de fechar a BioWare e cancelar o novo Mass Effect gerou grande revolta na comunidade.\n\nEntenda o movimento #SaveMassEffect promovido pelos atores do jogo e confira os detalhes do trailer vazado.\n\nMa",
           "descricaoTamanho": 424,
@@ -1207,11 +1205,11 @@
       "temasQuentes": [
         {
           "termo": "iphone",
-          "n": 46
+          "n": 41
         },
         {
           "termo": "pro",
-          "n": 31
+          "n": 34
         },
         {
           "termo": "podcast",
@@ -1219,6 +1217,10 @@
         },
         {
           "termo": "review",
+          "n": 22
+        },
+        {
+          "termo": "apple",
           "n": 19
         },
         {
@@ -1226,20 +1228,16 @@
           "n": 16
         },
         {
-          "termo": "samsung",
-          "n": 16
-        },
-        {
           "termo": "você",
-          "n": 15
-        },
-        {
-          "termo": "apple",
           "n": 15
         },
         {
           "termo": "duo",
           "n": 15
+        },
+        {
+          "termo": "samsung",
+          "n": 14
         },
         {
           "termo": "macbook",
@@ -1254,15 +1252,15 @@
           "n": 10
         },
         {
-          "termo": "sem",
-          "n": 9
-        },
-        {
-          "termo": "vivo",
-          "n": 9
-        },
-        {
           "termo": "galaxy",
+          "n": 10
+        },
+        {
+          "termo": "fold",
+          "n": 10
+        },
+        {
+          "termo": "sem",
           "n": 9
         }
       ],
@@ -1339,10 +1337,10 @@
           "publishedAt": "2026-11-02T21:00:18Z",
           "url": "https://www.youtube.com/watch?v=RiOrJIer0H4",
           "thumbnail": "https://i.ytimg.com/vi/RiOrJIer0H4/mqdefault.jpg",
-          "views": 3693,
-          "likes": 210,
-          "comments": 7,
-          "engagementRate": 0.05875981586785811,
+          "views": 3817,
+          "likes": 213,
+          "comments": 8,
+          "engagementRate": 0.05789887346083312,
           "duracaoSeg": 1552,
           "descricao": "Seja membro deste canal e apoie nosso trabalho:\nhttps://www.youtube.com/channel/UCdmGjywrxeOPfC7vDllmSgQ/join\n\nTestamos o Galaxy Z Fold 8 Ultra por um mês! Com dobradiça de titânio, tela de 8 polegadas antirreflexo e câm",
           "descricaoTamanho": 3156,
@@ -1381,10 +1379,10 @@
           "publishedAt": "2026-11-01T15:00:24Z",
           "url": "https://www.youtube.com/watch?v=YM3wqtMoRxw",
           "thumbnail": "https://i.ytimg.com/vi/YM3wqtMoRxw/mqdefault.jpg",
-          "views": 7902,
-          "likes": 296,
+          "views": 7923,
+          "likes": 297,
           "comments": 16,
-          "engagementRate": 0.039483675018982534,
+          "engagementRate": 0.03950523791493121,
           "duracaoSeg": 871,
           "descricao": "Seja membro deste canal e apoie nosso trabalho:\nhttps://www.youtube.com/channel/UCdmGjywrxeOPfC7vDllmSgQ/join\n\nColocamos 3 dos melhores smartphones de ponta disponíveis no Brasil para competir em 9 categorias diferentes.",
           "descricaoTamanho": 2812,
@@ -1436,10 +1434,10 @@
           "publishedAt": "2026-11-01T14:00:19Z",
           "url": "https://www.youtube.com/watch?v=zmW3kcM5ba4",
           "thumbnail": "https://i.ytimg.com/vi/zmW3kcM5ba4/mqdefault.jpg",
-          "views": 204,
+          "views": 202,
           "likes": 13,
           "comments": 0,
-          "engagementRate": 0.06372549019607843,
+          "engagementRate": 0.06435643564356436,
           "duracaoSeg": 49,
           "descricao": "Um grande destaque do app do Banco do Brasil é o Meu Assistente BB, um chatbot de IA que pode ajudar o cliente a realizar um Pix ou bloquear seu cartão de crédito, por exemplo.\n\nConversamos com Rodrigo Mulinari, CIO do B",
           "descricaoTamanho": 1088,
@@ -1460,268 +1458,259 @@
       {
         "platform": "youtube",
         "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "Hf-uB8XLdP0",
-        "title": "$10,000 Power Washer!",
-        "publishedAt": "2026-06-30T12:28:06Z",
-        "url": "https://www.youtube.com/watch?v=Hf-uB8XLdP0",
-        "thumbnail": "https://i.ytimg.com/vi/Hf-uB8XLdP0/mqdefault.jpg",
-        "views": 50575411,
-        "likes": 1147169,
-        "comments": 4628,
-        "engagementRate": 0.022773853483859973,
-        "duracaoSeg": 54,
-        "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
-        "descricaoTamanho": 652,
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "Od6M0AXpcxQ",
+        "title": "iPhone 18 Pro/Duo Impressions: Mogged",
+        "publishedAt": "2026-09-10T07:29:55Z",
+        "url": "https://www.youtube.com/watch?v=Od6M0AXpcxQ",
+        "thumbnail": "https://i.ytimg.com/vi/Od6M0AXpcxQ/mqdefault.jpg",
+        "views": 28284766,
+        "likes": 366747,
+        "comments": 24920,
+        "engagementRate": 0.013847277364783573,
+        "duracaoSeg": 1034,
+        "descricao": "The first folding iPhone Duo and iPhone 18 Pro are here, and this is everything you need to know.\n\nCheck out Ridge’s latest iPhone tech gear at https://ridge.com/MKBHD\n\niOS 27: https://youtu.be/_oRgdlJUD18\n\nMKBHD Merch: ",
+        "descricaoTamanho": 376,
         "hashtags": [],
         "tags": [
-          "power washer",
-          "pressure washer",
-          "powerful",
-          "most",
-          "cheap",
-          "expensive",
-          "tech",
-          "shorts"
+          "iPhone Duo",
+          "iPhone 18 Pro",
+          "MKBHD"
         ]
       },
       {
         "platform": "youtube",
         "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "1xI_lsZ4sxI",
-        "title": "Which AI is smartest?",
-        "publishedAt": "2026-10-01T14:21:22Z",
-        "url": "https://www.youtube.com/watch?v=1xI_lsZ4sxI",
-        "thumbnail": "https://i.ytimg.com/vi/1xI_lsZ4sxI/mqdefault.jpg",
-        "views": 40080261,
-        "likes": 1031615,
-        "comments": 4901,
-        "engagementRate": 0.025861009238437843,
-        "duracaoSeg": 58,
-        "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
-        "descricaoTamanho": 652,
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "DkUuOr21v4s",
+        "title": "Xiaomi 18 Pro Max: They've Done It Again!",
+        "publishedAt": "2026-09-24T22:26:18Z",
+        "url": "https://www.youtube.com/watch?v=DkUuOr21v4s",
+        "thumbnail": "https://i.ytimg.com/vi/DkUuOr21v4s/mqdefault.jpg",
+        "views": 14341793,
+        "likes": 124948,
+        "comments": 6564,
+        "engagementRate": 0.009169843686908603,
+        "duracaoSeg": 716,
+        "descricao": "If one-upping the iPhone was a sport, Xiaomi would be Lebron James.\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\nPhone provided by Xiaomi for review.\n\n~\nhttp://twitter.com/MK",
+        "descricaoTamanho": 276,
+        "hashtags": [],
+        "tags": [
+          "Xiaomi",
+          "Xiaomi 18 Pro",
+          "Xiaomi 18 Pro Max",
+          "18 Pro Max",
+          "Xiaomi vs",
+          "MKBHD",
+          "Xiaomi vs iPhone"
+        ]
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "ESABTN4VtrA",
+        "title": "iPhone Duo Review: First Generation Fun!",
+        "publishedAt": "2026-10-21T12:00:52Z",
+        "url": "https://www.youtube.com/watch?v=ESABTN4VtrA",
+        "thumbnail": "https://i.ytimg.com/vi/ESABTN4VtrA/mqdefault.jpg",
+        "views": 13335031,
+        "likes": 205993,
+        "comments": 15478,
+        "engagementRate": 0.01660821035961596,
+        "duracaoSeg": 1745,
+        "descricao": "What it's actually like to use the first folding iPhone - Duo\n\nDon’t miss Ridge’s friends and family sale at https://ridge.com/MKBHD\nProtect your iPhone Duo at https://dbrand.com/duo \n\nMKBHD Merch: http://shop.MKBHD.com\n",
+        "descricaoTamanho": 508,
+        "hashtags": [],
+        "tags": [
+          "iPhone Duo",
+          "iPhone duo review"
+        ]
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "6D__H_DO2Xk",
+        "title": "iPhone Duo: What We Missed!",
+        "publishedAt": "2026-09-12T21:36:57Z",
+        "url": "https://www.youtube.com/watch?v=6D__H_DO2Xk",
+        "thumbnail": "https://i.ytimg.com/vi/6D__H_DO2Xk/mqdefault.jpg",
+        "views": 12841867,
+        "likes": 155084,
+        "comments": 12964,
+        "engagementRate": 0.013085947705267467,
+        "duracaoSeg": 637,
+        "descricao": "A few new thoughts from the days after the Duo unveil.\n\nThat shirt: http://shop.MKBHD.com\n\nThe full iPhone Duo Hands-on: https://youtu.be/Od6M0AXpcxQ\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitte",
+        "descricaoTamanho": 284,
+        "hashtags": [],
+        "tags": [
+          "iPhone Duo",
+          "iPhone fold",
+          "MKBHD"
+        ]
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "3iRUwVzRDZQ",
+        "title": "Xiaomi 18 Fold: How Does This Happen?",
+        "publishedAt": "2026-10-02T20:50:25Z",
+        "url": "https://www.youtube.com/watch?v=3iRUwVzRDZQ",
+        "thumbnail": "https://i.ytimg.com/vi/3iRUwVzRDZQ/mqdefault.jpg",
+        "views": 12560500,
+        "likes": 102380,
+        "comments": 6614,
+        "engagementRate": 0.008677520799331236,
+        "duracaoSeg": 647,
+        "descricao": "This is not an iPhone Duo. Xiaomi is at it again.\n\nThe desk pad! https://mkbhd.com/products/overlay-deskpad\n\nShoutout to dbrand for helping to source the phone from China.\n\nPlaylist of MKBHD Intro music: https://goo.gl/B",
+        "descricaoTamanho": 306,
+        "hashtags": [],
+        "tags": [
+          "Xiaomi Fold",
+          "Xiaomi 18 Fold",
+          "Xiaomi Fold vs iPhone",
+          "iPhone Duo",
+          "iPhone Duo vs",
+          "MKBHD"
+        ]
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "scwlR0QHGOk",
+        "title": "The NEW Tesla Roadster: My Honest Reaction",
+        "publishedAt": "2026-10-17T02:09:23Z",
+        "url": "https://www.youtube.com/watch?v=scwlR0QHGOk",
+        "thumbnail": "https://i.ytimg.com/vi/scwlR0QHGOk/mqdefault.jpg",
+        "views": 12459225,
+        "likes": 192448,
+        "comments": 22966,
+        "engagementRate": 0.01728951840905032,
+        "duracaoSeg": 1365,
+        "descricao": "Tesla doesn't do marketing. Until they do.\n\nHagerty video: https://youtu.be/22rvpUecLts?si=z7reGi_rtH9mG3R3\n\nAuto Focus: http://youtube.com/AutoFocus\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: ht",
+        "descricaoTamanho": 320,
+        "hashtags": [],
+        "tags": [
+          "Tesla roadster",
+          "flying",
+          "thrust",
+          "rocket"
+        ]
+      },
+      {
+        "platform": "youtube",
+        "region": "intl",
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "ohqxP8EEumo",
+        "title": "iPhone 18 Pro Review: All About that Chip",
+        "publishedAt": "2026-09-16T12:01:27Z",
+        "url": "https://www.youtube.com/watch?v=ohqxP8EEumo",
+        "thumbnail": "https://i.ytimg.com/vi/ohqxP8EEumo/mqdefault.jpg",
+        "views": 12188030,
+        "likes": 164422,
+        "comments": 8527,
+        "engagementRate": 0.014190070093362093,
+        "duracaoSeg": 996,
+        "descricao": "iPhone 18 Pro is basically an S year upgrade. And one part of it is really impressive.\n\nProtect your new iPhone 18 with a case or screen protector at http://dbrand.com/shop/iphone-18\n\nThe scale of a transistor: https://y",
+        "descricaoTamanho": 594,
         "hashtags": [],
         "tags": []
       },
       {
         "platform": "youtube",
         "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "nQdXp6HKKik",
-        "title": "I tested the most Futuristic Tech - it scared me.",
-        "publishedAt": "2026-10-10T10:16:27Z",
-        "url": "https://www.youtube.com/watch?v=nQdXp6HKKik",
-        "thumbnail": "https://i.ytimg.com/vi/nQdXp6HKKik/mqdefault.jpg",
-        "views": 21775512,
-        "likes": 170866,
-        "comments": 5242,
-        "engagementRate": 0.00808743325989304,
-        "duracaoSeg": 1472,
-        "descricao": "getting chased, squeezed and cleaned from the inside by tech that might just be TOO Futuristic... \nStart your next project with Opera, link: https://opr.as/10-Opera-browser-mrwhosethebossyt\n\nFor my tech hot takes: http:/",
-        "descricaoTamanho": 1007,
-        "hashtags": [],
-        "tags": [
-          "tech",
-          "futuristic",
-          "gadgets",
-          "cool tech",
-          "iphone",
-          "smartphone",
-          "gifts"
-        ]
-      },
-      {
-        "platform": "youtube",
-        "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "VTLnDqjfRZQ",
-        "title": "I spent $12,000 on the THINNEST Tech",
-        "publishedAt": "2026-09-08T11:09:52Z",
-        "url": "https://www.youtube.com/watch?v=VTLnDqjfRZQ",
-        "thumbnail": "https://i.ytimg.com/vi/VTLnDqjfRZQ/mqdefault.jpg",
-        "views": 21243998,
-        "likes": 179027,
-        "comments": 6439,
-        "engagementRate": 0.008730277605938393,
-        "duracaoSeg": 1479,
-        "descricao": "Testing the thinnest tech in 2026! Check out the LG OLED evo AI W6 from our sponsor LG here: https://bit.ly/LGOLEDevoAIW6_Mrwhosetheboss \n#4ktv  #wallpapertv \n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor",
-        "descricaoTamanho": 911,
-        "hashtags": [
-          "#4ktv",
-          "#wallpapertv"
-        ],
-        "tags": [
-          "4k tv",
-          "thinnest",
-          "tech",
-          "LG",
-          "TV",
-          "gadgets",
-          "gifts"
-        ]
-      },
-      {
-        "platform": "youtube",
-        "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "eYBEJBfq_Zs",
-        "title": "Xiaomi made an iPhone Duo. It’s Unhinged.",
-        "publishedAt": "2026-09-22T10:48:08Z",
-        "url": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
-        "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/mqdefault.jpg",
-        "views": 19079464,
-        "likes": 172011,
-        "comments": 13485,
-        "engagementRate": 0.00972228569943055,
-        "duracaoSeg": 1038,
-        "descricao": "Can the Xiaomi 18 Fold take on the iPhone Duo? 😅 \nGo to https://surfshark.com/boss or use code BOSS at checkout to get 4 extra months of Surfshark!\n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Person",
-        "descricaoTamanho": 932,
-        "hashtags": [],
-        "tags": [
-          "iphone duo",
-          "iphone duo review",
-          "xiaomi",
-          "xiaomi 18 fold",
-          "smartphone",
-          "iphone",
-          "apple",
-          "review"
-        ]
-      },
-      {
-        "platform": "youtube",
-        "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "61CzvMFZRR0",
-        "title": "Why is Everyone Wearing Wired Earphones?",
-        "publishedAt": "2026-05-12T10:43:14Z",
-        "url": "https://www.youtube.com/watch?v=61CzvMFZRR0",
-        "thumbnail": "https://i.ytimg.com/vi/61CzvMFZRR0/mqdefault.jpg",
-        "views": 17884171,
-        "likes": 548126,
-        "comments": 23989,
-        "engagementRate": 0.03199002067247064,
-        "duracaoSeg": 60,
-        "descricao": "",
-        "descricaoTamanho": 0,
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "QVv3mQzlrN0",
+        "title": "Apple Homeview Impressions: Not Convinced!",
+        "publishedAt": "2026-10-13T22:42:38Z",
+        "url": "https://www.youtube.com/watch?v=QVv3mQzlrN0",
+        "thumbnail": "https://i.ytimg.com/vi/QVv3mQzlrN0/mqdefault.jpg",
+        "views": 11220614,
+        "likes": 107663,
+        "comments": 7888,
+        "engagementRate": 0.010298099551414922,
+        "duracaoSeg": 707,
+        "descricao": "New Smart home display from Apple. With plenty of quirks and features.\n\nThe deskpad! http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitter.com/MKBHD\nhttp://instagram.com/MKBHD\nhttp",
+        "descricaoTamanho": 241,
         "hashtags": [],
         "tags": []
       },
       {
         "platform": "youtube",
         "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "5pV3D14y1FQ",
-        "title": "iPhone Duo/18 Pro Hands On - I wasn’t ready",
-        "publishedAt": "2026-09-10T07:11:46Z",
-        "url": "https://www.youtube.com/watch?v=5pV3D14y1FQ",
-        "thumbnail": "https://i.ytimg.com/vi/5pV3D14y1FQ/mqdefault.jpg",
-        "views": 17193517,
-        "likes": 154368,
-        "comments": 12698,
-        "engagementRate": 0.009716801978327064,
-        "duracaoSeg": 980,
-        "descricao": "iPhone Duo / 18 Pro / 18 Pro Max Hands on! \nTORRAS Ostand Q3 Air Pro. Double Airbags. Double Protection.\n15% off with code [AIRPRO15] - 3 days only\nShop Q3 Air Pro on 🌍website: https://bit.ly/4AlH18j\nShop Q3 Air Pro on ",
-        "descricaoTamanho": 927,
-        "hashtags": [
-          "#iphone18",
-          "#torras"
-        ],
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "2reQut8WNGc",
+        "title": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
+        "publishedAt": "2026-10-29T02:50:34Z",
+        "url": "https://www.youtube.com/watch?v=2reQut8WNGc",
+        "thumbnail": "https://i.ytimg.com/vi/2reQut8WNGc/mqdefault.jpg",
+        "views": 11220375,
+        "likes": 137577,
+        "comments": 11579,
+        "engagementRate": 0.01329331684547085,
+        "duracaoSeg": 654,
+        "descricao": "The first touchscreen Mac is here, and I have thoughts.\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\n~\nhttp://twitter.com/MKBHD\nhttp://instagram.com/MKBHD\nhttp://facebook.com",
+        "descricaoTamanho": 226,
+        "hashtags": [],
         "tags": [
-          "iPhone 18",
-          "iPhone 18 pro",
-          "iphone 18 pro max",
-          "iphone duo",
-          "iphone duo hands on",
-          "iphone duo impressions",
-          "iphone duo review",
-          "iphone 18 pro review"
+          "Macbook Pro",
+          "Macbook Pro touchscreen",
+          "touchscreen Mac",
+          "PROLED",
+          "MKBHD"
         ]
       },
       {
         "platform": "youtube",
         "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "6AkGhTBtR4o",
-        "title": "iPhone Duo Hands On!",
-        "publishedAt": "2026-09-09T20:20:43Z",
-        "url": "https://www.youtube.com/watch?v=6AkGhTBtR4o",
-        "thumbnail": "https://i.ytimg.com/vi/6AkGhTBtR4o/mqdefault.jpg",
-        "views": 16716320,
-        "likes": 487925,
-        "comments": 12315,
-        "engagementRate": 0.029925246705016416,
-        "duracaoSeg": 97,
-        "descricao": "For my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https",
-        "descricaoTamanho": 652,
-        "hashtags": [],
-        "tags": []
-      },
-      {
-        "platform": "youtube",
-        "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "Y_exkqiBT4I",
-        "title": "$1 vs $100,000 Speaker",
-        "publishedAt": "2026-04-13T13:09:12Z",
-        "url": "https://www.youtube.com/watch?v=Y_exkqiBT4I",
-        "thumbnail": "https://i.ytimg.com/vi/Y_exkqiBT4I/mqdefault.jpg",
-        "views": 16538179,
-        "likes": 567263,
-        "comments": 2248,
-        "engagementRate": 0.034436137134566024,
-        "duracaoSeg": 49,
-        "descricao": "",
-        "descricaoTamanho": 0,
+        "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+        "channelTitle": "Marques Brownlee",
+        "videoId": "_0G4OG39XjI",
+        "title": "WTF is a Googlebook?",
+        "publishedAt": "2026-10-08T21:00:40Z",
+        "url": "https://www.youtube.com/watch?v=_0G4OG39XjI",
+        "thumbnail": "https://i.ytimg.com/vi/_0G4OG39XjI/mqdefault.jpg",
+        "views": 9079274,
+        "likes": 101499,
+        "comments": 8081,
+        "engagementRate": 0.012069246946396816,
+        "duracaoSeg": 853,
+        "descricao": "New laptops are dropping left and right! Let's talk about Google's entry.\n\nMKBHD Merch: http://shop.MKBHD.com\n\nPlaylist of MKBHD Intro music: https://goo.gl/B3AWV5\n\nAsus Googlebook provided by Asus for review.\nXPS Google",
+        "descricaoTamanho": 334,
         "hashtags": [],
         "tags": [
-          "speaker",
-          "cheap",
-          "expensive",
-          "gadget",
-          "tech",
-          "ksi",
-          "gifts"
+          "Googlebook",
+          "MKBHD"
         ]
-      },
-      {
-        "platform": "youtube",
-        "region": "intl",
-        "channelId": "UCMiJRAwDNSNzuYeN2uWa0pA",
-        "channelTitle": "Mrwhosetheboss",
-        "videoId": "iwYxrHF2T80",
-        "title": "I compared every smartwatch",
-        "publishedAt": "2026-04-27T11:47:40Z",
-        "url": "https://www.youtube.com/watch?v=iwYxrHF2T80",
-        "thumbnail": "https://i.ytimg.com/vi/iwYxrHF2T80/mqdefault.jpg",
-        "views": 15965641,
-        "likes": 480310,
-        "comments": 2141,
-        "engagementRate": 0.03021807893588488,
-        "duracaoSeg": 60,
-        "descricao": "I spend a LOT of time trying to make my videos as concise, polished and useful as possible for you - if you would like to support me on that mission then consider subscribing to the channel - you'd make my day 😁\n\nFor my",
-        "descricaoTamanho": 825,
-        "hashtags": [],
-        "tags": []
       }
     ],
     "temasParaTrazer": [
       {
+        "termo": "impressions",
+        "n": 8
+      },
+      {
         "termo": "laptop",
+        "n": 8
+      },
+      {
+        "termo": "better",
         "n": 7
       },
       {
-        "termo": "tech",
+        "termo": "they",
         "n": 6
       },
       {
@@ -1729,27 +1718,19 @@
         "n": 6
       },
       {
-        "termo": "better",
-        "n": 6
+        "termo": "about",
+        "n": 4
+      },
+      {
+        "termo": "pixel",
+        "n": 4
       },
       {
         "termo": "phone",
-        "n": 5
-      },
-      {
-        "termo": "can",
-        "n": 5
-      },
-      {
-        "termo": "tested",
         "n": 4
       },
       {
-        "termo": "gaming",
-        "n": 4
-      },
-      {
-        "termo": "world",
+        "termo": "ever",
         "n": 4
       },
       {
@@ -1757,11 +1738,11 @@
         "n": 4
       },
       {
-        "termo": "than",
+        "termo": "can",
         "n": 3
       },
       {
-        "termo": "most",
+        "termo": "first",
         "n": 3
       }
     ]
@@ -1771,5 +1752,8 @@
     "totalCanais": 6,
     "videosNovos48h": 3
   },
-  "pendentes": []
+  "pendentes": [
+    "tiktok",
+    "instagram"
+  ]
 }
