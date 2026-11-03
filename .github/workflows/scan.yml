@@ -1,11 +1,9 @@
 name: Radar de conteudo
 
-# Roda de hora em hora e tambem pode ser disparado na mao pela aba Actions.
-# A cada rodada: coleta os dados reais, salva no repo e republica o painel online.
-# IMPORTANTE: o agendamento (schedule) so funciona a partir do branch padrao do repo.
+# FOCO ATUAL: coleta e 1x por dia (Instagram/TikTok do Jef), feita pelo workflow
+# social.yml disparado por um agendamento. O horario de hora em hora foi desligado
+# pra nao gastar cota a toa. Este workflow fica so pra disparo manual, se precisar.
 on:
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:

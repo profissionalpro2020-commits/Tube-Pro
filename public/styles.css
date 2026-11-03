@@ -144,3 +144,12 @@ code { background: var(--panel2); padding: 2px 6px; border-radius: 6px; font-siz
 .rep-meta { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
 .rep-dicas { margin: 0; padding-left: 16px; }
 .rep-dicas li { font-size: 12.5px; margin-bottom: 4px; color: var(--text); }
+
+/* ===== Cruzamento Instagram x TikTok ===== */
+.panel.cruzamento { border-color: #a855f7; box-shadow: 0 0 0 1px rgba(168,85,247,.12) inset; }
+.cruz-lista { display: flex; flex-direction: column; gap: 10px; }
+.cruz-card { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; background: var(--panel); }
+.cruz-ttl { font-size: 13px; font-weight: 600; margin: 0 0 6px; }
+.cruz-item { font-size: 13px; color: var(--muted); display: flex; gap: 8px; align-items: baseline; padding: 2px 0; }
+.cruz-item.melhor { color: var(--text); }
+.cruz-item b { color: var(--green); }

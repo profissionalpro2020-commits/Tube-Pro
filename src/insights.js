@@ -320,7 +320,10 @@ function montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher }) 
   const medTaxaCom = mediana(comViews.map(taxaCom));
   const hotTags = (hashtagsQuentes || []).map((h) => h.tag);
 
-  let recentes = comViews.filter((v) => dias(v.publishedAt) <= 120);
+  // "Nao muito velhos": de outubro (mes 10) do ano atual pra ca.
+  const cutoff = Date.UTC(new Date().getUTCFullYear(), 9, 1);
+  let recentes = comViews.filter((v) => v.publishedAt && new Date(v.publishedAt).getTime() >= cutoff);
+  if (recentes.length < 9) recentes = comViews.filter((v) => dias(v.publishedAt) <= 120);
   if (recentes.length < 9) recentes = comViews;
   // Equilibra engajamento E alcance, pra sugerir hits de verdade (nao video nicho com 1k views).
   const score = (v) => (v.engagementRate || 0) * Math.log10((v.views || 0) + 10);
@@ -380,12 +383,77 @@ function montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher }) 
   });
 }
 
+function tituloTokens(t = "") {
+  return new Set(tokens(t));
+}
+function jaccard(a, b) {
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const x of a) if (b.has(x)) inter++;
+  return inter / new Set([...a, ...b]).size;
+}
+
+// Cruza as plataformas: temas que bombam nas duas e o MESMO conteudo postado nas duas (cross-post),
+// pra comparar onde rendeu mais.
+function cruzarPlataformas(videos, blocos, referenciaMatcher) {
+  const plats = Object.keys(blocos);
+  if (plats.length < 2) return null;
+
+  const termosPorPlat = {};
+  for (const p of plats) {
+    const m = new Map();
+    for (const t of [...(blocos[p].temasQuentesRentaveis || []), ...(blocos[p].temasSubaproveitados || [])]) {
+      if (!m.has(t.termo)) m.set(t.termo, t.engMedio);
+    }
+    termosPorPlat[p] = m;
+  }
+  const todosTermos = new Set(plats.flatMap((p) => [...termosPorPlat[p].keys()]));
+  const temasEmComum = [];
+  for (const termo of todosTermos) {
+    const em = plats.filter((p) => termosPorPlat[p].has(termo));
+    if (em.length >= 2) temasEmComum.push({ termo, plataformas: em.map((p) => ({ plataforma: p, engMedio: termosPorPlat[p].get(termo) })) });
+  }
+  temasEmComum.sort((a, b) => b.plataformas.length - a.plataformas.length);
+
+  // Mesmo conteudo do Jef postado em mais de uma rede (titulo/legenda parecidos).
+  const jefPorPlat = {};
+  for (const p of plats) jefPorPlat[p] = videos.filter((v) => v.platform === p && (!referenciaMatcher || referenciaMatcher(v.channelTitle)));
+  const mesmoConteudo = [];
+  for (let i = 0; i < plats.length; i++) {
+    for (let j = i + 1; j < plats.length; j++) {
+      for (const a of jefPorPlat[plats[i]]) {
+        const ta = tituloTokens(a.title);
+        if (ta.size < 2) continue;
+        let best = null, bs = 0;
+        for (const b of jefPorPlat[plats[j]]) {
+          const s = jaccard(ta, tituloTokens(b.title));
+          if (s > bs) { bs = s; best = b; }
+        }
+        if (best && bs >= 0.4) {
+          mesmoConteudo.push({
+            titulo: (a.title || "").replace(/\s+/g, " ").slice(0, 70),
+            similaridade: bs,
+            itens: [
+              { plataforma: plats[i], views: a.views, engajamento: a.engagementRate, url: a.url },
+              { plataforma: plats[j], views: best.views, engajamento: best.engagementRate, url: best.url },
+            ],
+          });
+        }
+      }
+    }
+  }
+  mesmoConteudo.sort((a, b) => b.similaridade - a.similaridade);
+
+  return { temasEmComum: temasEmComum.slice(0, 10), mesmoConteudo: mesmoConteudo.slice(0, 8) };
+}
+
 export function gerarInteligencia(videos, referenciaMatcher) {
   const plataformas = [...new Set(videos.map((v) => v.platform))];
-  const out = {};
+  const blocos = {};
   for (const p of plataformas) {
     const bloco = paraPlataforma(videos, p, referenciaMatcher);
-    if (bloco) out[p] = bloco;
+    if (bloco) blocos[p] = bloco;
   }
-  return Object.keys(out).length ? out : null;
+  if (!Object.keys(blocos).length) return null;
+  return { plataformas: blocos, cruzamento: cruzarPlataformas(videos, blocos, referenciaMatcher) };
 }

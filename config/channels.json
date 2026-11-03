@@ -1,19 +1,19 @@
 {
-  "_ajuda": "Monitore canais informando apenas o NOME (campo name). A ferramenta acha o canal sozinha pela busca do YouTube, voce nao precisa do handle. Se quiser travar num canal exato, preencha handle com @handle ou o channelId (UC...). region: 'br' (Brasil) ou 'intl' (gringa).",
+  "_ajuda": "FOCO ATUAL: so o proprio Jef no Instagram e TikTok, 1x por dia. YouTube e concorrentes estao em 'pausados' (nao sao coletados). Para religar algum, mova de volta para 'channels'.",
   "maxVideosPerChannel": 40,
   "channels": [
+    { "platform": "instagram", "handle": "jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.instagram.com/jefdicastech/", "region": "br", "label": "REFERENCIA (conta propria do dono para espelhar)" },
+    { "platform": "tiktok", "handle": "@jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.tiktok.com/@jefdicastech", "region": "br", "label": "REFERENCIA (conta propria do dono para espelhar)" }
+  ],
+  "pausados": [
     { "platform": "youtube", "handle": "@JefDicasTech", "name": "Jef Dicas Tech", "region": "br", "label": "REFERENCIA principal (foco em Shorts)" },
     { "platform": "youtube", "name": "Manual do Mundo", "region": "br" },
     { "platform": "youtube", "name": "TecMundo", "region": "br" },
     { "platform": "youtube", "name": "Tecnoblog", "region": "br" },
     { "platform": "youtube", "name": "Me ajuda Nick", "region": "br" },
-
     { "platform": "youtube", "name": "Mrwhosetheboss", "region": "intl" },
     { "platform": "youtube", "name": "Marques Brownlee MKBHD", "region": "intl" },
     { "platform": "youtube", "name": "Dave2D", "region": "intl" },
-
-    { "platform": "tiktok", "handle": "@jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.tiktok.com/@jefdicastech", "region": "br", "label": "REFERENCIA. Coleta liga quando houver fonte (servico pago ou sua conta)" },
-    { "platform": "instagram", "handle": "jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.instagram.com/jefdicastech/", "region": "br", "label": "REFERENCIA. Coleta liga quando houver fonte (Business Discovery ou servico pago)" },
     { "platform": "facebook", "name": "", "region": "br", "label": "Preencher quando ligar a integracao do Facebook" }
   ]
 }
