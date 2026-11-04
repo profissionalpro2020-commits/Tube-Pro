@@ -1,8 +1,12 @@
 {
-  "_ajuda": "FOCO ATUAL: so o proprio Jef no Instagram e TikTok, 1x por dia. YouTube e concorrentes estao em 'pausados' (nao sao coletados). Para religar algum, mova de volta para 'channels'.",
+  "_ajuda": "FOCO ATUAL: Instagram do Jef + 2 concorrentes (Jornada Top e Islam Sousa), e TikTok do Jef. 1x por dia, MODO EFICIENTE (poucos posts, sem detailed-info) pra caber na cota gratis. YouTube em 'pausados'.",
   "maxVideosPerChannel": 40,
+  "maxInstagramPosts": 12,
+  "ensembleSkipDetailed": true,
   "channels": [
     { "platform": "instagram", "handle": "jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.instagram.com/jefdicastech/", "region": "br", "label": "REFERENCIA (conta propria do dono para espelhar)" },
+    { "platform": "instagram", "handle": "jornadatop", "name": "Jornada Top", "url": "https://www.instagram.com/jornadatop/", "region": "br", "label": "Concorrente/inspiracao" },
+    { "platform": "instagram", "handle": "islamsousa", "name": "Islam Sousa", "url": "https://www.instagram.com/islamsousa/", "region": "br", "label": "Concorrente/inspiracao" },
     { "platform": "tiktok", "handle": "@jefdicastech", "name": "Jef Dicas Tech", "url": "https://www.tiktok.com/@jefdicastech", "region": "br", "label": "REFERENCIA (conta propria do dono para espelhar)" }
   ],
   "pausados": [

@@ -317,12 +317,11 @@ function fmtDuracao(seg) {
 function montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher }) {
   const agora = Date.now();
   const dias = (iso) => (iso ? (agora - new Date(iso).getTime()) / 86400000 : Infinity);
-  // Foca no canal de referencia (o Jef): sao os videos dele pra estudar e fazer melhor.
-  // Se o Jef nao estiver nesta rede, cai pro mercado todo.
-  const doJef = br.filter((v) => referenciaMatcher && referenciaMatcher(v.channelTitle));
-  const universo = doJef.length ? doJef : br;
-  const comViews = universo.filter((v) => (v.views || 0) > 0);
+  // Mostra os melhores da rede. Se houver varios canais (Jef + concorrentes),
+  // equilibra ate 3 por canal pra ver todos. Se for so um canal, mostra os 9 dele.
+  const comViews = br.filter((v) => (v.views || 0) > 0);
   if (!comViews.length) return [];
+  const canaisDistintos = new Set(comViews.map((v) => v.channelTitle)).size;
 
   const comDur = comViews.filter((v) => v.duracaoSeg > 0);
   const topEng = [...comDur].sort((a, b) => b.engagementRate - a.engagementRate).slice(0, Math.max(3, Math.round(comDur.length * 0.25)));
@@ -339,9 +338,8 @@ function montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher }) 
   // Equilibra engajamento E alcance, pra sugerir hits de verdade (nao video nicho com 1k views).
   const score = (v) => (v.engagementRate || 0) * Math.log10((v.views || 0) + 10);
   const ordenado = [...recentes].sort((a, b) => score(b) - score(a));
-  // Se o foco e o proprio Jef (um criador so), pega os 9 melhores dele.
-  // Se for mercado (varios canais), limita a 3 por canal pra variar.
-  const capPorCanal = doJef.length ? 99 : 3;
+  // Um canal so -> 9 dele. Varios canais -> 3 por canal, pra ver todos.
+  const capPorCanal = canaisDistintos > 1 ? 3 : 9;
   const porCanal = new Map();
   const escolhidos = [];
   for (const v of ordenado) {
