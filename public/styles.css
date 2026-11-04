@@ -162,3 +162,8 @@ body { overflow-x: hidden; }
 .pauta-ex a, .rep-ttl { word-break: break-word; }
 .row, .row .info { min-width: 0; }
 .ttl { overflow-wrap: anywhere; }
+
+/* Caixa didatica "como ler" */
+.panel.comoler { border-color: var(--green); background: linear-gradient(180deg, rgba(63,185,80,.06), transparent 100px), var(--panel); }
+.comoler-lista { margin: 6px 0 0; padding-left: 18px; }
+.comoler-lista li { font-size: 13.5px; margin-bottom: 6px; }
