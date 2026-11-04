@@ -66,13 +66,10 @@ function render() {
   if (!abaFixada) abaAtual = escolherAbaInicial();
 
   renderKpis();
+  renderTabs();
   renderInteligencia(abaAtual);
   renderReplicar(abaAtual);
   renderCruzamento();
-  renderGringa();
-  renderTabs();
-  renderAba();
-  renderCanais();
 }
 
 function renderKpis() {
@@ -267,7 +264,7 @@ function renderTabs() {
     const tab = el(
       `<button class="tab ${key === abaAtual ? "active" : ""} ${ativa ? "" : "disabled"}">${nome}${ativa ? "" : " (em breve)"}</button>`
     );
-    if (ativa) tab.onclick = () => { abaAtual = key; abaFixada = true; renderTabs(); renderAba(); renderInteligencia(abaAtual); renderReplicar(abaAtual); };
+    if (ativa) tab.onclick = () => { abaAtual = key; abaFixada = true; renderTabs(); renderInteligencia(abaAtual); renderReplicar(abaAtual); };
     nav.appendChild(tab);
   }
 }

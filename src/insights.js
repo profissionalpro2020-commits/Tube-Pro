@@ -23,11 +23,22 @@ const STOPWORDS = new Set([
   "about","than","then","world","air","biggest","most","least","does","did","his","her","its","our","their",
   // ruido de plataforma
   "video","videos","canal","2024","2025","2026","parte","ep","live","oficial","shorts","short",
+  // ruido de legenda/CTA de rede social (aparecem em quase todo post, nao sao tema)
+  "dica","dicas","comenta","comentario","comentarios","comentou","salva","salve","salvar","manda",
+  "mandar","deixa","compartilha","compartilhe","marca","marque","segue","siga","segueai","perfil",
+  "bio","conta","quem","saber","sabia","sabe","usa","usar","usou","usam","precisa","precisam","fica",
+  "ficar","gente","galera","pessoal","melhor","pior","absurdo","gostou","olha","veja","vem","nao",
+  "sim","hoje","agora","esses","essas","estes","estas","voce","muito","ter","faz",
+  "qual","quais","nem","faca","faria","muita","muitas","outro","outra","outros","nivel","tanto",
+  "tantos","tanta","nunca","sempre","mundo","vez","vezes","apenas","ainda","toda","todo","tudo","coisa",
+  "suas","seus","sua","seu","vao","dai","pois","entao","assim","aqui","ali","isso","aquilo",
 ]);
 
 export function tokens(text = "") {
   return text
     .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "") // tira acento: "voce/nao/comentarios" batem com a lista
     .replace(/#[\p{L}\p{N}_]+/gu, " ")
     .replace(/[^\p{L}\p{N}\s]/gu, " ")
     .split(/\s+/)
@@ -328,12 +339,14 @@ function montarReplicar(br, { engMercado, hashtagsQuentes, referenciaMatcher }) 
   // Equilibra engajamento E alcance, pra sugerir hits de verdade (nao video nicho com 1k views).
   const score = (v) => (v.engagementRate || 0) * Math.log10((v.views || 0) + 10);
   const ordenado = [...recentes].sort((a, b) => score(b) - score(a));
-  // No maximo 3 por canal, pra variar formato e incluir mais de um criador.
+  // Se o foco e o proprio Jef (um criador so), pega os 9 melhores dele.
+  // Se for mercado (varios canais), limita a 3 por canal pra variar.
+  const capPorCanal = doJef.length ? 99 : 3;
   const porCanal = new Map();
   const escolhidos = [];
   for (const v of ordenado) {
     const c = v.channelTitle || "?";
-    if ((porCanal.get(c) || 0) >= 3) continue;
+    if ((porCanal.get(c) || 0) >= capPorCanal) continue;
     porCanal.set(c, (porCanal.get(c) || 0) + 1);
     escolhidos.push(v);
     if (escolhidos.length >= 9) break;
