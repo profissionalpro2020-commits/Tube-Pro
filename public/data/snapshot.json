@@ -1,59 +1,59 @@
 {
-  "geradoEm": "2026-11-04T00:12:16.291Z",
+  "geradoEm": "2026-11-04T17:25:14.356Z",
   "sample": false,
   "inteligencia": {
     "plataformas": {
       "tiktok": {
-        "recado": "O tema mais quente e rentavel agora e \"qual\" (4 videos, 4.5% de engajamento).",
+        "recado": "O tema mais quente e rentavel agora e \"chatgpt\" (5 videos, 3.0% de engajamento).",
         "engMercado": 0.03205247351248308,
         "temasQuentesRentaveis": [
           {
-            "termo": "qual",
+            "termo": "chatgpt",
+            "n": 5,
+            "engMedio": 0.029806472798055168,
+            "viewsMediano": 16301
+          },
+          {
+            "termo": "hora",
             "n": 4,
-            "engMedio": 0.04532573945352558,
-            "viewsMediano": 1705273
+            "engMedio": 0.02939911709115573,
+            "viewsMediano": 7095
           },
           {
-            "termo": "melhor",
-            "n": 4,
-            "engMedio": 0.041224464612215454,
-            "viewsMediano": 82358
+            "termo": "fotos",
+            "n": 9,
+            "engMedio": 0.028030886964816586,
+            "viewsMediano": 56518
           },
           {
-            "termo": "salva",
-            "n": 7,
-            "engMedio": 0.03935486834733032,
-            "viewsMediano": 87989
-          },
-          {
-            "termo": "sabia",
+            "termo": "celular",
             "n": 6,
-            "engMedio": 0.03804912258803949,
-            "viewsMediano": 438708
+            "engMedio": 0.02764671956900773,
+            "viewsMediano": 136396
           },
           {
-            "termo": "precisa",
-            "n": 8,
-            "engMedio": 0.036923787753668,
-            "viewsMediano": 90713
+            "termo": "iphone",
+            "n": 9,
+            "engMedio": 0.027122153633568853,
+            "viewsMediano": 182012
           },
           {
-            "termo": "dica",
-            "n": 6,
-            "engMedio": 0.036488657038917224,
-            "viewsMediano": 524138
-          },
-          {
-            "termo": "manda",
-            "n": 12,
-            "engMedio": 0.03478179428383372,
-            "viewsMediano": 54404
-          },
-          {
-            "termo": "gente",
+            "termo": "tirar",
             "n": 4,
-            "engMedio": 0.03454880244917315,
-            "viewsMediano": 89823
+            "engMedio": 0.026752048570235575,
+            "viewsMediano": 168156
+          },
+          {
+            "termo": "camera",
+            "n": 5,
+            "engMedio": 0.024767910980714618,
+            "viewsMediano": 187838
+          },
+          {
+            "termo": "foto",
+            "n": 6,
+            "engMedio": 0.023925711418247283,
+            "viewsMediano": 208062
           }
         ],
         "temasSubaproveitados": [
@@ -64,16 +64,10 @@
             "viewsMediano": 153685
           },
           {
-            "termo": "preço",
+            "termo": "preco",
             "n": 2,
             "engMedio": 0.04920495625181759,
             "viewsMediano": 9643
-          },
-          {
-            "termo": "comentários",
-            "n": 3,
-            "engMedio": 0.046103847069458186,
-            "viewsMediano": 20819
           },
           {
             "termo": "dessas",
@@ -88,10 +82,16 @@
             "viewsMediano": 362464
           },
           {
-            "termo": "sempre",
+            "termo": "economizar",
             "n": 2,
             "engMedio": 0.04571965016424462,
             "viewsMediano": 362464
+          },
+          {
+            "termo": "falar",
+            "n": 3,
+            "engMedio": 0.045150861095389565,
+            "viewsMediano": 3123
           }
         ],
         "formula": {
@@ -99,7 +99,7 @@
             "Os campeoes de engajamento rendem 4.9% em media, contra 2.6% do resto. Essa e a barra a mirar.",
             "Titulo com NUMERO (\"5 coisas\", \"em 2 minutos\") aparece em 40% dos campeoes, contra 17% do resto.",
             "Titulo mais LONGO tende a render: campeoes tem ~61 palavras, resto ~47.",
-            "Palavras que mais aparecem nos campeoes: salva, perder, comentários, quem, windows, manda, precisa, qual."
+            "Palavras que mais aparecem nos campeoes: perder, windows, preco, dessas, tempo, economizar, computador, falar."
           ],
           "base": 40
         },
@@ -117,20 +117,8 @@
             }
           },
           {
-            "tema": "preço",
-            "motivo": "O tema \"preço\" aparece em 2 videos do mercado e engaja 4.9% em media (acima da media do mercado, que e 3.2%). Views tipicas: 9.643.",
-            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
-            "exemploParaEstudar": {
-              "title": "#ad Faça isso e seus stories podem aparecer pra sua cidade inteira! 😮📍 O passo a passo: Stories → duas linhas → Turbinar story → Visitas ao perfil → crie seu público com a sua cidade e os interesses do seu cliente → escolha o valor por dia, durante 5 dias. Pronto! 🚀 Só que aí vem o problema bom: chuva de comentário e DM perguntando preço. E mensagem sem resposta é venda perdida. 😬 É aí que entra a automação da Manychat, A pessoa comenta e recebe na DM, na hora, o link, o preço ou o que você quiser, com o SEU jeito de falar. Mesmo enquanto você está gravando, editando ou dormindo. Só pedir nos comentários que a Manychat te manda o link com 30 dias grátis do plano Pro 👇 Salva esse vídeo pra fazer depois e manda pra quem precisa. @manychatbr #publi #manychatbr #automacao #instagramparanegocios #anuncios ",
-              "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=GB&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7698883544889724212&source=h5_t",
-              "engajamento": 0.0507380073800738,
-              "views": 2168
-            }
-          },
-          {
-            "tema": "comentários",
-            "motivo": "O tema \"comentários\" aparece em 3 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 20.819.",
+            "tema": "preco",
+            "motivo": "O tema \"preco\" aparece em 2 videos do mercado e engaja 4.9% em media (acima da media do mercado, que e 3.2%). Views tipicas: 9.643.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "#ad Faça isso e seus stories podem aparecer pra sua cidade inteira! 😮📍 O passo a passo: Stories → duas linhas → Turbinar story → Visitas ao perfil → crie seu público com a sua cidade e os interesses do seu cliente → escolha o valor por dia, durante 5 dias. Pronto! 🚀 Só que aí vem o problema bom: chuva de comentário e DM perguntando preço. E mensagem sem resposta é venda perdida. 😬 É aí que entra a automação da Manychat, A pessoa comenta e recebe na DM, na hora, o link, o preço ou o que você quiser, com o SEU jeito de falar. Mesmo enquanto você está gravando, editando ou dormindo. Só pedir nos comentários que a Manychat te manda o link com 30 dias grátis do plano Pro 👇 Salva esse vídeo pra fazer depois e manda pra quem precisa. @manychatbr #publi #manychatbr #automacao #instagramparanegocios #anuncios ",
@@ -155,6 +143,18 @@
           {
             "tema": "tempo",
             "motivo": "O tema \"tempo\" aparece em 2 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 362.464.",
+            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
+            "exemploParaEstudar": {
+              "title": "#ad O Booking vai me odiar por te revelar isso! 😱🚨 Quem ensinou você que o jeito mais barato de reservar um hotel é no Booking? (Não é) 😮 Esse é o segredo que as agências de viagem não te falam. Eu viajo há muito tempo e sempre pra economizar eu uso a extensão Directo. 1️⃣ É só você procurar uma hospedagem no Booking 2️⃣ Usa o Directo @getdirectoextension  3️⃣ Ele vai te mostrar o preço real direto do hotel ✅ Sem nenhum intermediário, sem comissão surpresa, e muitas vezes muito mais econômico. Basicamente você vai poder reservar o mesmo hotel, no mesmo local, mas com o custo menor. Você sabia desse truque? Já salva pra não perder. E aí conta pra mim pra onde você vai viajar? #dicas #publi #viagem #hotel #directodeals ",
+              "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+              "url": "https://www.tiktok.com/@jefdicastech/video/7698516517213703430?_r=1&u_code=0&region=GB&mid=7698516868125985554&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698516517213703430&source=h5_t",
+              "engajamento": 0.04767190512356137,
+              "views": 17117
+            }
+          },
+          {
+            "tema": "economizar",
+            "motivo": "O tema \"economizar\" aparece em 2 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 362.464.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "#ad O Booking vai me odiar por te revelar isso! 😱🚨 Quem ensinou você que o jeito mais barato de reservar um hotel é no Booking? (Não é) 😮 Esse é o segredo que as agências de viagem não te falam. Eu viajo há muito tempo e sempre pra economizar eu uso a extensão Directo. 1️⃣ É só você procurar uma hospedagem no Booking 2️⃣ Usa o Directo @getdirectoextension  3️⃣ Ele vai te mostrar o preço real direto do hotel ✅ Sem nenhum intermediário, sem comissão surpresa, e muitas vezes muito mais econômico. Basicamente você vai poder reservar o mesmo hotel, no mesmo local, mas com o custo menor. Você sabia desse truque? Já salva pra não perder. E aí conta pra mim pra onde você vai viajar? #dicas #publi #viagem #hotel #directodeals ",
@@ -215,6 +215,105 @@
               "Duracao (28s) esta na faixa que engaja. Mantenha.",
               "Hashtags em alta que faltaram: #tecnologia, #curiosidades, #celular."
             ]
+          },
+          {
+            "title": "#ad O Booking vai me odiar por te revelar isso! 😱🚨 Quem ensinou você que o jeito mais barato de reservar um hotel é no Booking? (Não é) 😮 Esse é o segredo que as agências de viagem não te falam. Eu viajo há muito tempo e sempre pra economizar eu uso a extensão Directo. 1️⃣ É só você procurar uma hospedagem no Booking 2️⃣ Usa o Directo @getdirectoextension  3️⃣ Ele vai te mostrar o preço real direto do hotel ✅ Sem nenhum intermediário, sem comissão surpresa, e muitas vezes muito mais econômico. Basicamente você vai poder reservar o mesmo hotel, no mesmo local, mas com o custo menor. Você sabia desse truque? Já salva pra não perder. E aí conta pra mim pra onde você vai viajar? #dicas #publi #viagem #hotel #directodeals ",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7698516517213703430?_r=1&u_code=0&region=GB&mid=7698516868125985554&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698516517213703430&source=h5_t",
+            "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o4cC1NLADqDDJfsnAAARD2fAEYBFWoEqgEEIXb~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=07954e9f&x-expires=1793836800&x-signature=6zFssBVMe1OPvywcCjcQ7K6Tl7M%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+            "publishedAt": "2026-10-19T22:56:56.000Z",
+            "views": 17117,
+            "engajamento": 0.04767190512356137,
+            "comentarios": 70,
+            "duracao": "56s",
+            "dicas": [
+              "Engaja 4.8%, acima da media (3.2%). O gancho funciona, repita o tipo.",
+              "Gera muita conversa nos comentarios. Mantenha esse tipo de tema.",
+              "Duracao (56s) esta na faixa que engaja. Mantenha.",
+              "Hashtags em alta que faltaram: #tecnologia, #curiosidades, #celular."
+            ]
+          },
+          {
+            "title": "Novo truque nos status do WhatsApp! ✅😮 Você não vai mais baixar vídeos, e muita gente nem sabe disso. [nova atualização, recurso secreto do WhatsApp, dicas, truques] ",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7696191474194599169?_r=1&u_code=0&region=GB&mid=7696191575667297044&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7696191474194599169&source=h5_t",
+            "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+            "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oQOubAdIjIKAW4weADEAPfGVAmeLIDZLEAwrXn~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=84b8429f&x-expires=1793836800&x-signature=IWSHkXTXPUhvZMvn7LT7VbDPOLA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&s=PUBLISH&sc=cover&biz_tag=tt_video",
+            "publishedAt": "2026-10-13T16:33:51.000Z",
+            "views": 1600711,
+            "engajamento": 0.03180836515773303,
+            "comentarios": 616,
+            "duracao": "29s",
+            "dicas": [
+              "Engaja 3.2%, abaixo da media (3.2%). Reforce o gancho nos 3 primeiros segundos.",
+              "Duracao (29s) esta na faixa que engaja. Mantenha.",
+              "Titulo sem pergunta nem numero. Teste 'Como...' ou 'X coisas que...'.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
+          },
+          {
+            "title": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮 #dicas #tecnologia #iphone #apple #jefdicastech ",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7697657249711328513?_r=1&u_code=0&region=GB&mid=7697657587258329876&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7697657249711328513&source=h5_t",
+            "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUDaOEJIBQolcBk8wifpAOAAmiF8A1AChw3ILT~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=80dfd942&x-expires=1793836800&x-signature=h4REIGKO%2BP5RLWOtNkH9QyhyM60%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+            "publishedAt": "2026-10-17T15:21:58.000Z",
+            "views": 108655,
+            "engajamento": 0.03791818139984354,
+            "comentarios": 38,
+            "duracao": "1min 12s",
+            "dicas": [
+              "Engaja 3.8%, acima da media (3.2%). O gancho funciona, repita o tipo.",
+              "Duracao (1min 12s) esta na faixa que engaja. Mantenha.",
+              "Hashtags em alta que faltaram: #curiosidades, #celular, #ia."
+            ]
+          },
+          {
+            "title": "99,9% dos técnicos de computador não vão tii mostra isso!!! Vai te levar pra outro nível. Já deixem mais comandos úteis nos comentários também. ✅ Windows + D = minimiza a tela ✅ Windows +setas = divide janelas corretamente ✅ Ctrl + W = fecha janelas ✅ Ctrl + Shift + T = Reabre uma janela fechada ✅ Alt + Tab = Alterna janelas rapidamente ✅ Word.new /usar ferramentas online Já manda pra quem precisa saber dessas dicas de pc.",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7698033605234134278?_r=1&u_code=0&region=GB&mid=7698033703076301576&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698033605234134278&source=h5_t",
+            "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oMaUPAApNEYt0Bn1i6i1oiDAIE64B22ATww9A~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=4224cf05&x-expires=1793836800&x-signature=YqdBnBhz%2FpzrnPzgLjwkRAWbjyo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+            "publishedAt": "2026-10-18T15:42:19.000Z",
+            "views": 20819,
+            "engajamento": 0.04380613862337288,
+            "comentarios": 9,
+            "duracao": "1min 1s",
+            "dicas": [
+              "Engaja 4.4%, acima da media (3.2%). O gancho funciona, repita o tipo.",
+              "Duracao (1min 1s) esta na faixa que engaja. Mantenha.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
+          },
+          {
+            "title": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada. Esse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos de 1 segundo e mais de 370km/h em velocidade máxima. O sistema de sucção multimodos fornece até 2Gs de downforce estacionário. Propulsores de colflyas montados no perímetro apoiando aceleração para a frente e para cima mais movimento de rotação lateral, desenvolvidos com a Spacex Construído com materiais resistentes, incluindo magnésio, titânio e fibra de carbono.",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7697349280566103348?_r=1&u_code=0&region=GB&mid=7697349445658839826&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7697349280566103348&source=h5_t",
+            "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8EETGF0bIDzG9AAqKAgfFE0qkQaRmWBcAoneC~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=55444868&x-expires=1793836800&x-signature=qr22UmOuNwXjCpJPHx8Z2Ux1NSs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+            "publishedAt": "2026-10-16T19:27:05.000Z",
+            "views": 653436,
+            "engajamento": 0.0324163345759952,
+            "comentarios": 223,
+            "duracao": "1min 23s",
+            "dicas": [
+              "Engaja 3.2%, acima da media (3.2%). O gancho funciona, repita o tipo.",
+              "Duracao (1min 23s) esta na faixa que engaja. Mantenha.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
+          },
+          {
+            "title": "Códigos absurdos do ChatGPT que não te revelam 😮 Qual você mais gostou e não sabia? Transforme suas fotos e leve pra outro nível usando inteligência artificial #dicas #foto #lula #bolsonaro #chatgpt ",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7700010004920782101?_r=1&u_code=0&region=GB&mid=7700010037770504980&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7700010004920782101&source=h5_t",
+            "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oYAAxMIIEDAVnCtef7L4bQDGely9pIA7GE9jAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=7f59bfa7&x-expires=1793836800&x-signature=XjdZRlLeY7K9S5NOKhwj43r4hBQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+            "publishedAt": "2026-10-23T23:31:33.000Z",
+            "views": 145861,
+            "engajamento": 0.036377098744695295,
+            "comentarios": 147,
+            "duracao": "28s",
+            "dicas": [
+              "Engaja 3.6%, acima da media (3.2%). O gancho funciona, repita o tipo.",
+              "Gera muita conversa nos comentarios. Mantenha esse tipo de tema.",
+              "Duracao (28s) esta na faixa que engaja. Mantenha.",
+              "Hashtags em alta que faltaram: #tecnologia, #curiosidades, #celular."
+            ]
           }
         ],
         "espelho": {
@@ -249,61 +348,61 @@
         "daGringaParaTrazer": []
       },
       "instagram": {
-        "recado": "O tema mais quente e rentavel agora e \"comentários\" (4 videos, 5.1% de engajamento).",
+        "recado": "O tema mais quente e rentavel agora e \"iphone\" (6 videos, 1.3% de engajamento).",
         "engMercado": 0.010402033659530227,
         "temasQuentesRentaveis": [
           {
-            "termo": "comentários",
-            "n": 4,
-            "engMedio": 0.05061811964095284,
-            "viewsMediano": 976800
-          },
-          {
-            "termo": "usa",
-            "n": 5,
-            "engMedio": 0.041436743448000274,
-            "viewsMediano": 359084
-          },
-          {
-            "termo": "dicas",
-            "n": 7,
-            "engMedio": 0.034401964535211445,
-            "viewsMediano": 574071
-          },
-          {
-            "termo": "saber",
-            "n": 9,
-            "engMedio": 0.023412440771057086,
-            "viewsMediano": 293795
-          },
-          {
-            "termo": "precisa",
-            "n": 10,
-            "engMedio": 0.021895584455897055,
-            "viewsMediano": 384669
-          },
-          {
-            "termo": "quem",
-            "n": 13,
-            "engMedio": 0.017546967541718007,
-            "viewsMediano": 293795
-          },
-          {
-            "termo": "sabe",
+            "termo": "iphone",
             "n": 6,
-            "engMedio": 0.015760223455814303,
-            "viewsMediano": 565375
+            "engMedio": 0.013322466736262516,
+            "viewsMediano": 865641
           },
           {
-            "termo": "você",
-            "n": 24,
-            "engMedio": 0.014629012924625684,
-            "viewsMediano": 377946
+            "termo": "foto",
+            "n": 6,
+            "engMedio": 0.012490851352934644,
+            "viewsMediano": 397701
+          },
+          {
+            "termo": "fotos",
+            "n": 7,
+            "engMedio": 0.0046437195665513945,
+            "viewsMediano": 389459
+          },
+          {
+            "termo": "windows",
+            "n": 4,
+            "engMedio": 0.004333324788938825,
+            "viewsMediano": 466578
+          },
+          {
+            "termo": "chatgpt",
+            "n": 5,
+            "engMedio": 0.003412724803897367,
+            "viewsMediano": 389459
+          },
+          {
+            "termo": "celular",
+            "n": 7,
+            "engMedio": 0.0031079607989868323,
+            "viewsMediano": 373861
+          },
+          {
+            "termo": "codigos",
+            "n": 4,
+            "engMedio": 0.002896813093008777,
+            "viewsMediano": 445533
+          },
+          {
+            "termo": "computador",
+            "n": 4,
+            "engMedio": 0.002781068735206054,
+            "viewsMediano": 466578
           }
         ],
         "temasSubaproveitados": [
           {
-            "termo": "inteligência",
+            "termo": "inteligencia",
             "n": 2,
             "engMedio": 0.09805702224574077,
             "viewsMediano": 9672882
@@ -313,12 +412,6 @@
             "n": 2,
             "engMedio": 0.09805702224574077,
             "viewsMediano": 9672882
-          },
-          {
-            "termo": "vídeo",
-            "n": 2,
-            "engMedio": 0.09679063763773008,
-            "viewsMediano": 9497305
           },
           {
             "termo": "proteger",
@@ -333,10 +426,16 @@
             "viewsMediano": 9378343
           },
           {
-            "termo": "segurança",
+            "termo": "seguranca",
             "n": 2,
             "engMedio": 0.09615270495047001,
             "viewsMediano": 9449792
+          },
+          {
+            "termo": "conteudo",
+            "n": 2,
+            "engMedio": 0.0950563596455036,
+            "viewsMediano": 9210270
           }
         ],
         "formula": {
@@ -344,14 +443,14 @@
             "Os campeoes de engajamento rendem 4.1% em media, contra 0.3% do resto. Essa e a barra a mirar.",
             "Titulo em forma de PERGUNTA funciona: 75% dos campeoes usam, contra 42% do resto.",
             "Titulo mais CURTO tende a render: campeoes tem ~45 palavras, resto ~48.",
-            "Palavras que mais aparecem nos campeoes: não, iphone, você, dicas, comentários, usa, foto, até."
+            "Palavras que mais aparecem nos campeoes: iphone, foto."
           ],
           "base": 32
         },
         "pautas": [
           {
-            "tema": "inteligência",
-            "motivo": "O tema \"inteligência\" aparece em 2 videos do mercado e engaja 9.8% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.672.882.",
+            "tema": "inteligencia",
+            "motivo": "O tema \"inteligencia\" aparece em 2 videos do mercado e engaja 9.8% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.672.882.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
@@ -364,18 +463,6 @@
           {
             "tema": "artificial",
             "motivo": "O tema \"artificial\" aparece em 2 videos do mercado e engaja 9.8% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.672.882.",
-            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
-            "exemploParaEstudar": {
-              "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
-              "channelTitle": "Jeferson de Oliveira Tecnologia",
-              "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-              "engajamento": 0.1898253116099711,
-              "views": 18420539
-            }
-          },
-          {
-            "tema": "vídeo",
-            "motivo": "O tema \"vídeo\" aparece em 2 videos do mercado e engaja 9.7% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.497.305.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
@@ -400,6 +487,18 @@
           {
             "tema": "real",
             "motivo": "O tema \"real\" aparece em 2 videos do mercado e engaja 9.6% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.378.343.",
+            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
+            "exemploParaEstudar": {
+              "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
+              "channelTitle": "Jeferson de Oliveira Tecnologia",
+              "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
+              "engajamento": 0.1898253116099711,
+              "views": 18420539
+            }
+          },
+          {
+            "tema": "seguranca",
+            "motivo": "O tema \"seguranca\" aparece em 2 videos do mercado e engaja 9.6% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.449.792.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
@@ -459,42 +558,348 @@
               "Poucos comentarios pro tamanho. Termine com uma PERGUNTA direta pra puxar conversa.",
               "Hashtags em alta que faltaram: #tecnologia, #curiosidades, #ia."
             ]
+          },
+          {
+            "title": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂\n\nEstes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques.\n\nQual você mais gostou e não sabia? Deixa nos comentários a que você não fica sem.\n\nsalva essa dica pra não perder e já manda pra quem não sabia disso.\n#dicas #pc #windows #informatica #jefdicastech",
+            "url": "https://www.instagram.com/p/DeLNIKGIeoI/",
+            "channelTitle": "Jeferson de Oliveira Tecnologia",
+            "thumbnail": "https://instagram.fadd1-1.fna.fbcdn.net/v/t51.71878-15/839617852_990974300697518_6194795135573594881_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAwMjM1MDQyOTA0OTU4MDA0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=zdpjzbcgk7kQ7kNvwFn1v0B&_nc_oc=AdoLAkjzAIc0AdS0Q3x6FhTDR5HAJvG-u1AxIJ947pTZlzPdrEq2c_ExUAxbGVmOvtQ&_nc_ad=z-m&_nc_cid=1735&_nc_zt=23&_nc_ht=instagram.fadd1-1.fna&_nc_gid=GLNxz_Vhg5N76A3oLoIHuw&_nc_ss=7a20f&oh=00_AQS2T3UqDGEKe2z_bZ9IEsxUq_UYIWp_JeylTU8UAiFc2g&oe=6AF05250",
+            "publishedAt": "2026-10-07T01:46:46.000Z",
+            "views": 1893023,
+            "engajamento": 0.011970872276167003,
+            "comentarios": 609,
+            "duracao": null,
+            "dicas": [
+              "Engaja 1.2%, acima da media (1.0%). O gancho funciona, repita o tipo.",
+              "Hashtags em alta que faltaram: #tecnologia, #curiosidades, #ia."
+            ]
+          },
+          {
+            "title": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada.\n\nEsse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos de 1 segundo e mais de 370km/h em velocidade máxima.\n\nO sistema de sucção multimodos fornece até 2Gs de downforce estacionário.\n\nPropulsores de colflyas montados no perímetro apoiando aceleração para a frente e para cima mais movimento de rotação lateral, desenvolvidos com a Spacex\n\nConstruído com materiais resistentes, incluindo magnésio, titânio e fibra de carbono.",
+            "url": "https://www.instagram.com/p/DekQYf9oy0s/",
+            "channelTitle": "Jeferson de Oliveira Tecnologia",
+            "thumbnail": "https://instagram.floo1-2.fna.fbcdn.net/v/t51.82787-15/850584183_18011270603996476_6650317430868588152_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTQwMTYyMDU5ODMwNDA0NDE4MDExMjcwNTk3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=dJaeIzU4PW0Q7kNvwFk6cJn&_nc_oc=Adqs4XbXjEMGP_yBc1LAwaCFYoPtvHbqEby1QbHWQOk-lxbwW6qoRw9OlRb1AQn6VG4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.floo1-2.fna&_nc_gid=oG7eLWEnDKZu54gkbYxpmw&_nc_ss=7a20f&oh=00_AQQyp3I-jspYsbYuI4GMM6hSHLJq1NV5QV3ypwQdPkJtZA&oe=6AF065A2",
+            "publishedAt": "2026-10-16T19:17:39.000Z",
+            "views": 1225272,
+            "engajamento": 0.012325172032019709,
+            "comentarios": 491,
+            "duracao": null,
+            "dicas": [
+              "Engaja 1.2%, acima da media (1.0%). O gancho funciona, repita o tipo.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
+          },
+          {
+            "title": "Não precisa mais colocar credencial encima do painel agora você consegue ter uma credencial on-line! 😮\n\nDa uma olhada como conseguir a sua.",
+            "url": "https://www.instagram.com/p/DfA6lwmo4pJ/",
+            "channelTitle": "Jeferson de Oliveira Tecnologia",
+            "thumbnail": "https://scontent-cdg4-3.cdninstagram.com/v/t51.82787-15/870344409_18013186127996476_2411144987224522158_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAxNzQ2ODU0OTEyMDYyNTIyNTE4MDEzMTg2MTI0OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=GGhFr64b8q4Q7kNvwEYAtfo&_nc_oc=AdrbpuqWwVby99Hbxzd7p0_JRo7RPGmETuCZ7oMTQnXtdyqgL8nqfvjyEJ6eNsD-BGzpkPEi-t4w45PcoTIYbH8I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-3.cdninstagram.com&_nc_gid=FNyY5saSJLAUwpmP5Ia9gg&_nc_ss=7a20f&oh=00_AQSwiJcMJGTkyeHt-a1wI3lKR19Dcpv1aZPoPxM6UfxMFA&oe=6AF040B5",
+            "publishedAt": "2026-10-27T22:21:49.000Z",
+            "views": 2257741,
+            "engajamento": 0.010719937806171698,
+            "comentarios": 1300,
+            "duracao": null,
+            "dicas": [
+              "Engaja 1.1%, acima da media (1.0%). O gancho funciona, repita o tipo.",
+              "Gera muita conversa nos comentarios. Mantenha esse tipo de tema.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
+          },
+          {
+            "title": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
+            "url": "https://www.instagram.com/p/DemZ6VxI_wK/",
+            "channelTitle": "Jeferson de Oliveira Tecnologia",
+            "thumbnail": "https://instagram.fbhx4-2.fna.fbcdn.net/v/t51.82787-15/855410387_18011408564996476_343845814592910048_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMDAwNjQ3ODQ4NTQ1MzgzNDE4MDExNDA4NTU4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=reg1XBdntEAQ7kNvwHp47jp&_nc_oc=Adq13vvpqm7SV-rprL_ffcmp8akcKMSFam42JP8E_CQBC3JI6B_cxwlS2l8Tck2IDUA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbhx4-2.fna&_nc_gid=fw3Odz_yfLBL_4dZuz0q5Q&_nc_ss=7a20f&oh=00_AQR86Q5grZcG4MItP50FzJTKVwpg_M9LzCMbnwZtAje2Sw&oe=6AF03089",
+            "publishedAt": "2026-10-17T15:16:38.000Z",
+            "views": 1731282,
+            "engajamento": 0.007404478643871159,
+            "comentarios": 281,
+            "duracao": null,
+            "dicas": [
+              "Engaja 0.7%, abaixo da media (1.0%). Reforce o gancho nos 3 primeiros segundos.",
+              "Poucos comentarios pro tamanho. Termine com uma PERGUNTA direta pra puxar conversa.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
+          },
+          {
+            "title": "Cuidado com o seu Telefone! Desative agora essa função para ter mais privacidade e não registrar sua voz em ferramentas. 😮",
+            "url": "https://www.instagram.com/p/Dehj-6dIsgL/",
+            "channelTitle": "Jeferson de Oliveira Tecnologia",
+            "thumbnail": "https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/848110831_18011099993996476_911567228322440928_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAwODY0MzM5ODMzNzc0Mjg1OTE4MDExMDk5OTg3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=FwtdszeRlSgQ7kNvwFP-JXN&_nc_oc=AdrzWq4fY6tfetvGDhGd8cdT37HkvHaiuye2_4fJ4zkBQ56-4PN5R6c-JY3ucSdpztE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mxp2-1.cdninstagram.com&_nc_gid=uUYYDikx1v2WvT_PUvCDcg&_nc_ss=7a20f&oh=00_AQTgdioToaMiYnKjZORtNOXW_Qxxa7fVZdnDRQatJW55tw&oe=6AF0352B",
+            "publishedAt": "2026-10-15T18:07:00.000Z",
+            "views": 1988101,
+            "engajamento": 0.006582109934052491,
+            "comentarios": 554,
+            "duracao": null,
+            "dicas": [
+              "Engaja 0.7%, abaixo da media (1.0%). Reforce o gancho nos 3 primeiros segundos.",
+              "Titulo sem pergunta nem numero. Teste 'Como...' ou 'X coisas que...'.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
+          },
+          {
+            "title": "Códigos absurdos do ChatGPT que não te revelam 😮\n\nQual você mais gostou e não sabia? Transforme suas fotos e leve pra outro nível usando inteligência artificial sem ninguém achar que é feita por ia.",
+            "url": "https://www.instagram.com/p/De2uvddoT6F/",
+            "channelTitle": "Jeferson de Oliveira Tecnologia",
+            "thumbnail": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/862725069_18012418901996476_6855181991527586630_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=NDAxNDYwMTY4OTQzNzkxMjcwOTE4MDEyNDE4ODk4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=OnyIfgnIDaoQ7kNvwGP6EKB&_nc_oc=Adqgd6cymsY3TNJBeleo0KX8_Jr3J10zqi4L4uElkIFDOGKndHsjcPyJnCpT3qAvSX0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=ViAz7Xjc4qOVOe7ZmNvh6A&_nc_ss=7a20f&oh=00_AQStKVHUIxVrshIOd-VjG6Ot-vQA5v7Dpt1WR8kCjnaO9w&oe=6AF066E0",
+            "publishedAt": "2026-10-23T23:26:14.000Z",
+            "views": 925225,
+            "engajamento": 0.006288732881510433,
+            "comentarios": 4652,
+            "duracao": null,
+            "dicas": [
+              "Engaja 0.6%, abaixo da media (1.0%). Reforce o gancho nos 3 primeiros segundos.",
+              "Gera muita conversa nos comentarios. Mantenha esse tipo de tema.",
+              "Hashtags em alta que faltaram: #dicas, #tecnologia, #curiosidades."
+            ]
           }
         ],
-        "espelho": null,
+        "espelho": {
+          "nome": "Jeferson de Oliveira Tecnologia",
+          "videosColetados": 40,
+          "engMedio": 0.010402033659530227,
+          "engMercado": null,
+          "acimaDaMedia": null,
+          "melhoresVideos": [
+            {
+              "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
+              "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
+              "engajamento": 0.1898253116099711,
+              "views": 18420539
+            },
+            {
+              "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
+              "url": "https://www.instagram.com/p/DerksAMI7m1/",
+              "engajamento": 0.04960547721438225,
+              "views": 7528530
+            },
+            {
+              "title": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
+              "url": "https://www.instagram.com/p/DecO6HuI2kp/",
+              "engajamento": 0.03594246368603072,
+              "views": 9431110
+            }
+          ],
+          "gaps": [],
+          "veredito": "Seu espelho engaja 1.0% em media nesta rede. Cadastre concorrentes desta rede para eu comparar e achar brechas."
+        },
         "daGringaParaTrazer": []
       }
     },
     "cruzamento": {
       "temasEmComum": [
         {
-          "termo": "precisa",
+          "termo": "chatgpt",
           "plataformas": [
             {
               "plataforma": "tiktok",
-              "engMedio": 0.036923787753668
+              "engMedio": 0.029806472798055168
             },
             {
               "plataforma": "instagram",
-              "engMedio": 0.021895584455897055
+              "engMedio": 0.003412724803897367
             }
           ]
         },
         {
-          "termo": "comentários",
+          "termo": "fotos",
           "plataformas": [
             {
               "plataforma": "tiktok",
-              "engMedio": 0.046103847069458186
+              "engMedio": 0.028030886964816586
             },
             {
               "plataforma": "instagram",
-              "engMedio": 0.05061811964095284
+              "engMedio": 0.0046437195665513945
+            }
+          ]
+        },
+        {
+          "termo": "celular",
+          "plataformas": [
+            {
+              "plataforma": "tiktok",
+              "engMedio": 0.02764671956900773
+            },
+            {
+              "plataforma": "instagram",
+              "engMedio": 0.0031079607989868323
+            }
+          ]
+        },
+        {
+          "termo": "iphone",
+          "plataformas": [
+            {
+              "plataforma": "tiktok",
+              "engMedio": 0.027122153633568853
+            },
+            {
+              "plataforma": "instagram",
+              "engMedio": 0.013322466736262516
+            }
+          ]
+        },
+        {
+          "termo": "foto",
+          "plataformas": [
+            {
+              "plataforma": "tiktok",
+              "engMedio": 0.023925711418247283
+            },
+            {
+              "plataforma": "instagram",
+              "engMedio": 0.012490851352934644
             }
           ]
         }
       ],
-      "mesmoConteudo": []
+      "mesmoConteudo": [
+        {
+          "titulo": "Nunca presenciamos tantos brasileiros mudando pra o Paraguai 🇵🇾 quan",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 56331,
+              "engajamento": 0.03502511938364311,
+              "url": "https://www.tiktok.com/@jefdicastech/video/7702955199995858196?_r=1&u_code=0&region=GB&mid=7702955297338051380&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7702955199995858196&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": 676325,
+              "engajamento": 0.003942418740174678,
+              "url": "https://www.instagram.com/p/DfLK-8goTZm/"
+            }
+          ]
+        },
+        {
+          "titulo": "Não precisa mais colocar credencial encima do painel agora você conseg",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 663687,
+              "engajamento": 0.026220191144319536,
+              "url": "https://www.tiktok.com/@jefdicastech/video/7701477725986475285?_r=1&u_code=0&region=GB&mid=7701477792315198209&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7701477725986475285&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": 2257741,
+              "engajamento": 0.010719937806171698,
+              "url": "https://www.instagram.com/p/DfA6lwmo4pJ/"
+            }
+          ]
+        },
+        {
+          "titulo": "iPhone tira foto da lua sim! 😮 Você que não sabia! Bora aprender o je",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 1124294,
+              "engajamento": 0.02893104472673518,
+              "url": "https://www.tiktok.com/@jefdicastech/video/7699665267936218388?_r=1&u_code=0&region=GB&mid=7449245126930548787&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7699665267936218388&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": 2638158,
+              "engajamento": 0.012794821113737245,
+              "url": "https://www.instagram.com/p/De0Vma8oCPS/"
+            }
+          ]
+        },
+        {
+          "titulo": "#ad Faça isso e seus stories podem aparecer pra sua cidade inteira! 😮",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 2168,
+              "engajamento": 0.0507380073800738,
+              "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=GB&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7698883544889724212&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": 163362,
+              "engajamento": 0.0009995185877450209,
+              "url": "https://www.instagram.com/p/Deu5alNI1RP/"
+            }
+          ]
+        },
+        {
+          "titulo": "#ad O Booking vai me odiar por te revelar isso! 😱🚨 Quem ensinou você",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 17117,
+              "engajamento": 0.04767190512356137,
+              "url": "https://www.tiktok.com/@jefdicastech/video/7698516517213703430?_r=1&u_code=0&region=GB&mid=7698516868125985554&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698516517213703430&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": 336146,
+              "engajamento": 0.002985739171472303,
+              "url": "https://www.instagram.com/p/DesWL1oIbJz/"
+            }
+          ]
+        },
+        {
+          "titulo": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 2525090,
+              "engajamento": 0.028260378837982013,
+              "url": "https://www.tiktok.com/@jefdicastech/video/7698402604367318324?_r=1&u_code=0&region=GB&mid=7698402809787583252&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698402604367318324&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": 7528530,
+              "engajamento": 0.04960547721438225,
+              "url": "https://www.instagram.com/p/DerksAMI7m1/"
+            }
+          ]
+        },
+        {
+          "titulo": "Seu iPhone está drenando a bateria mais rápido depois de atualizar? 🔋",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 87989,
+              "engajamento": 0.014763209037493324,
+              "url": "https://www.tiktok.com/@jefdicastech/photo/7698144000338922804?_r=1&u_code=0&region=GB&mid=7645319579548092417&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698144000338922804&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": null,
+              "engajamento": 0.0013980619206417706,
+              "url": "https://www.instagram.com/p/DepypvHFcpb/"
+            }
+          ]
+        },
+        {
+          "titulo": "99,9% dos técnicos de computador não vão tii mostra isso!!! Vai te lev",
+          "similaridade": 1,
+          "itens": [
+            {
+              "plataforma": "tiktok",
+              "views": 20819,
+              "engajamento": 0.04380613862337288,
+              "url": "https://www.tiktok.com/@jefdicastech/video/7698033605234134278?_r=1&u_code=0&region=GB&mid=7698033703076301576&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698033605234134278&source=h5_t"
+            },
+            {
+              "plataforma": "instagram",
+              "views": 60577,
+              "engajamento": 0.0002331566282321074,
+              "url": "https://www.instagram.com/p/DepAzRuIS9K/"
+            }
+          ]
+        }
+      ]
     }
   },
   "canais": [

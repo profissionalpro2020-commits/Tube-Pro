@@ -2,9 +2,10 @@
 
 import { gerarInteligencia } from "./insights.js";
 
-// Reconhece o canal de referencia (o espelho) pelo nome, sem depender de acento/emoji.
+// Reconhece o canal de referencia (o Jef) pelo nome. Ele aparece com nomes diferentes
+// em cada rede: "Jef Dicas Tech" (TikTok/YouTube) e "Jeferson de Oliveira" (Instagram).
 function ehReferencia(nome = "") {
-  return /jef.*dicas|dicas.*tech/i.test(nome);
+  return /jef|dicas tech|jeferson|oliveira tecnologia/i.test(nome);
 }
 
 const STOPWORDS = new Set([

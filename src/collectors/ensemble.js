@@ -96,7 +96,9 @@ async function coletarTikTok(canal, token, depth) {
 }
 
 // ---------- Instagram ----------
-async function coletarInstagram(canal, token, depth) {
+// MODO EFICIENTE (padrao): pega poucos posts (maxPosts) e NAO chama o detailed-info
+// (10 unidades) para economizar cota. Sem seguidores, o engajamento sai pelas views dos reels.
+async function coletarInstagram(canal, token, maxPosts = 12, skipDetailed = true) {
   const username = handleLimpo(canal.handle || canal.name);
   if (!username) return { videos: [], channelStats: [] };
 
@@ -106,12 +108,16 @@ async function coletarInstagram(canal, token, depth) {
   const nome = pick(uinfo, ["full_name", "username"], canal.name);
   if (!userId) return { videos: [], channelStats: [{ platform: "instagram", region: canal.region || "br", channelTitle: nome, subscribers: 0, videosColetados: 0 }] };
 
-  // Seguidores vem no detailed-info (custa mais unidades, mas precisamos pro engajamento do IG).
-  const det = await edGet("/instagram/user/detailed-info", { username }, token).catch(() => null);
-  const seguidores = num(pick(det || {}, ["data.follower_count", "data.edge_followed_by.count"]) ?? pick(uinfo, ["follower_count"]));
+  // Seguidores so se nao estiver no modo eficiente (detailed-info custa 10 unidades).
+  let seguidores = num(pick(uinfo, ["follower_count"]));
+  if (!skipDetailed) {
+    const det = await edGet("/instagram/user/detailed-info", { username }, token).catch(() => null);
+    seguidores = num(pick(det || {}, ["data.follower_count", "data.edge_followed_by.count"]) ?? seguidores);
+  }
 
-  const resp = await edGet("/instagram/user/posts", { user_id: userId, depth }, token);
-  const posts = pick(resp, ["data.posts"], []);
+  // 1 unidade por post: pega so maxPosts recentes (chunk_size), 1 pagina.
+  const resp = await edGet("/instagram/user/posts", { user_id: userId, depth: 1, chunk_size: maxPosts }, token);
+  const posts = pick(resp, ["data.posts"], []).slice(0, maxPosts);
 
   const videos = posts.map((wrap) => {
     const n = wrap.node || wrap;
@@ -158,14 +164,16 @@ async function coletarInstagram(canal, token, depth) {
 }
 
 // Orquestra uma plataforma (tiktok|instagram) para a lista de canais dela.
-export async function collectEnsemble(plataforma, canais, { token, maxVideosPerChannel = 40 }) {
+export async function collectEnsemble(plataforma, canais, { token, maxVideosPerChannel = 40, skipDetailed = true }) {
   const depth = Math.max(1, Math.ceil(maxVideosPerChannel / 10));
-  const fn = plataforma === "tiktok" ? coletarTikTok : coletarInstagram;
   const out = { videos: [], channelStats: [] };
   for (const canal of canais) {
     if (!(canal.handle || canal.name)) continue;
     try {
-      const r = await fn(canal, token, depth);
+      const r =
+        plataforma === "tiktok"
+          ? await coletarTikTok(canal, token, depth)
+          : await coletarInstagram(canal, token, maxVideosPerChannel, skipDetailed);
       out.videos.push(...r.videos);
       out.channelStats.push(...r.channelStats);
     } catch (err) {

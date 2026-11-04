@@ -11,9 +11,9 @@ async function collectTikTok(canais, env, maxVideos) {
   return { ...r, pendente: r.videos.length ? undefined : "tiktok" };
 }
 
-async function collectInstagram(canais, env, maxVideos) {
+async function collectInstagram(canais, env, maxPosts, skipDetailed) {
   if (!env.ENSEMBLE_TOKEN) return { videos: [], channelStats: [], pendente: "instagram" };
-  const r = await collectEnsemble("instagram", canais, { token: env.ENSEMBLE_TOKEN, maxVideosPerChannel: maxVideos });
+  const r = await collectEnsemble("instagram", canais, { token: env.ENSEMBLE_TOKEN, maxVideosPerChannel: maxPosts, skipDetailed });
   return { ...r, pendente: r.videos.length ? undefined : "instagram" };
 }
 
@@ -53,8 +53,11 @@ export async function collectAll(config, env, options = {}) {
   // Redes sociais (TikTok/Instagram) so quando pedido, pra economizar a cota diaria do EnsembleData.
   const maxVideos = Number(env.MAX_VIDEOS_PER_CHANNEL || config.maxVideosPerChannel || 40);
   if (options.collectSocial) {
+    // Instagram e caro (1 unidade por post): coleta poucos posts e sem o detailed-info.
+    const igMax = Number(env.MAX_INSTAGRAM_POSTS || config.maxInstagramPosts || 12);
+    const igSkipDetailed = config.ensembleSkipDetailed !== false;
     if (porPlataforma.tiktok?.length) push(await collectTikTok(porPlataforma.tiktok, env, maxVideos));
-    if (porPlataforma.instagram?.length) push(await collectInstagram(porPlataforma.instagram, env, maxVideos));
+    if (porPlataforma.instagram?.length) push(await collectInstagram(porPlataforma.instagram, env, igMax, igSkipDetailed));
   }
   push(await collectFacebook());
 
