@@ -1,104 +1,103 @@
 {
-  "geradoEm": "2026-11-04T00:12:16.291Z",
+  "geradoEm": "2026-11-05T00:12:35.355Z",
   "sample": false,
   "inteligencia": {
     "plataformas": {
       "tiktok": {
         "recado": "O tema mais quente e rentavel agora e \"qual\" (4 videos, 4.5% de engajamento).",
-        "engMercado": 0.03205247351248308,
+        "engMercado": 0.03170234082940006,
         "temasQuentesRentaveis": [
           {
             "termo": "qual",
             "n": 4,
-            "engMedio": 0.04532573945352558,
-            "viewsMediano": 1705273
-          },
-          {
-            "termo": "melhor",
-            "n": 4,
-            "engMedio": 0.041224464612215454,
-            "viewsMediano": 82358
+            "engMedio": 0.045403715393602044,
+            "viewsMediano": 1709590
           },
           {
             "termo": "salva",
             "n": 7,
-            "engMedio": 0.03935486834733032,
-            "viewsMediano": 87989
+            "engMedio": 0.03896970703522216,
+            "viewsMediano": 89180
           },
           {
             "termo": "sabia",
             "n": 6,
-            "engMedio": 0.03804912258803949,
-            "viewsMediano": 438708
+            "engMedio": 0.037992220952139825,
+            "viewsMediano": 443997
           },
           {
             "termo": "precisa",
             "n": 8,
-            "engMedio": 0.036923787753668,
-            "viewsMediano": 90713
+            "engMedio": 0.03673751015381109,
+            "viewsMediano": 92175
           },
           {
             "termo": "dica",
             "n": 6,
-            "engMedio": 0.036488657038917224,
-            "viewsMediano": 524138
+            "engMedio": 0.036443395890799736,
+            "viewsMediano": 531343
           },
           {
             "termo": "manda",
             "n": 12,
-            "engMedio": 0.03478179428383372,
-            "viewsMediano": 54404
+            "engMedio": 0.03466598364367038,
+            "viewsMediano": 55274
           },
           {
             "termo": "gente",
             "n": 4,
-            "engMedio": 0.03454880244917315,
-            "viewsMediano": 89823
+            "engMedio": 0.03448034485105141,
+            "viewsMediano": 90992
+          },
+          {
+            "termo": "quem",
+            "n": 11,
+            "engMedio": 0.03404349041176075,
+            "viewsMediano": 21368
           }
         ],
         "temasSubaproveitados": [
           {
             "termo": "perder",
             "n": 3,
-            "engMedio": 0.0507116263156974,
-            "viewsMediano": 153685
+            "engMedio": 0.05040508260600491,
+            "viewsMediano": 155935
           },
           {
             "termo": "preço",
             "n": 2,
-            "engMedio": 0.04920495625181759,
-            "viewsMediano": 9643
-          },
-          {
-            "termo": "comentários",
-            "n": 3,
-            "engMedio": 0.046103847069458186,
-            "viewsMediano": 20819
+            "engMedio": 0.04795881134249413,
+            "viewsMediano": 10181
           },
           {
             "termo": "dessas",
             "n": 2,
-            "engMedio": 0.045815054917519624,
-            "viewsMediano": 3389834
+            "engMedio": 0.046141305963409304,
+            "viewsMediano": 3390176
           },
           {
-            "termo": "tempo",
-            "n": 2,
-            "engMedio": 0.04571965016424462,
-            "viewsMediano": 362464
+            "termo": "comentários",
+            "n": 3,
+            "engMedio": 0.04572521754648524,
+            "viewsMediano": 21368
           },
           {
-            "termo": "sempre",
-            "n": 2,
-            "engMedio": 0.04571965016424462,
-            "viewsMediano": 362464
+            "termo": "qual",
+            "n": 4,
+            "engMedio": 0.045403715393602044,
+            "viewsMediano": 1709590
+          },
+          {
+            "termo": "windows",
+            "n": 3,
+            "engMedio": 0.045333829206486265,
+            "viewsMediano": 716281
           }
         ],
         "formula": {
           "dicas": [
-            "Os campeoes de engajamento rendem 4.9% em media, contra 2.6% do resto. Essa e a barra a mirar.",
-            "Titulo com NUMERO (\"5 coisas\", \"em 2 minutos\") aparece em 40% dos campeoes, contra 17% do resto.",
-            "Titulo mais LONGO tende a render: campeoes tem ~61 palavras, resto ~47.",
+            "Os campeoes de engajamento rendem 4.8% em media, contra 2.6% do resto. Essa e a barra a mirar.",
+            "Titulo mais LONGO tende a render: campeoes tem ~60 palavras, resto ~48.",
             "Palavras que mais aparecem nos campeoes: salva, perder, comentários, quem, windows, manda, precisa, qual."
           ],
           "base": 40
@@ -106,75 +105,75 @@
         "pautas": [
           {
             "tema": "perder",
-            "motivo": "O tema \"perder\" aparece em 3 videos do mercado e engaja 5.1% em media (acima da media do mercado, que e 3.2%). Views tipicas: 153.685.",
+            "motivo": "O tema \"perder\" aparece em 3 videos do mercado e engaja 5.0% em media (acima da media do mercado, que e 3.2%). Views tipicas: 155.935.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "🚨Agora você pode estudar de graça e não te falaram isso! 😮 Tem um site oficial concursos on-line com até opções de pós-graduação, e eu melhor você pode estudar no conforto da sua casa. Existe muita gente que não sabe dessa oportunidade. Já manda pra todo mundo que precisa saber disso e salva para não perder e conseguir fazer depois. #dicas #cursos #curiosidades #cursoonline #utilidadepublica ",
               "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7691481810798169345?_r=1&u_code=0&region=US&mid=7691482174129818389&preview_pb=0&sharer_language=en&_d=f66ikeb17m4773&share_item_id=7691481810798169345&source=h5_t",
-              "engajamento": 0.06069557861860299,
-              "views": 153685
+              "url": "https://www.tiktok.com/@jefdicastech/video/7691481810798169345?_r=1&u_code=0&region=US&mid=7691482174129818389&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7691481810798169345&source=h5_t",
+              "engajamento": 0.06057652226889409,
+              "views": 155935
             }
           },
           {
             "tema": "preço",
-            "motivo": "O tema \"preço\" aparece em 2 videos do mercado e engaja 4.9% em media (acima da media do mercado, que e 3.2%). Views tipicas: 9.643.",
+            "motivo": "O tema \"preço\" aparece em 2 videos do mercado e engaja 4.8% em media (acima da media do mercado, que e 3.2%). Views tipicas: 10.181.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "#ad Faça isso e seus stories podem aparecer pra sua cidade inteira! 😮📍 O passo a passo: Stories → duas linhas → Turbinar story → Visitas ao perfil → crie seu público com a sua cidade e os interesses do seu cliente → escolha o valor por dia, durante 5 dias. Pronto! 🚀 Só que aí vem o problema bom: chuva de comentário e DM perguntando preço. E mensagem sem resposta é venda perdida. 😬 É aí que entra a automação da Manychat, A pessoa comenta e recebe na DM, na hora, o link, o preço ou o que você quiser, com o SEU jeito de falar. Mesmo enquanto você está gravando, editando ou dormindo. Só pedir nos comentários que a Manychat te manda o link com 30 dias grátis do plano Pro 👇 Salva esse vídeo pra fazer depois e manda pra quem precisa. @manychatbr #publi #manychatbr #automacao #instagramparanegocios #anuncios ",
               "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=GB&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7698883544889724212&source=h5_t",
-              "engajamento": 0.0507380073800738,
-              "views": 2168
-            }
-          },
-          {
-            "tema": "comentários",
-            "motivo": "O tema \"comentários\" aparece em 3 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 20.819.",
-            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
-            "exemploParaEstudar": {
-              "title": "#ad Faça isso e seus stories podem aparecer pra sua cidade inteira! 😮📍 O passo a passo: Stories → duas linhas → Turbinar story → Visitas ao perfil → crie seu público com a sua cidade e os interesses do seu cliente → escolha o valor por dia, durante 5 dias. Pronto! 🚀 Só que aí vem o problema bom: chuva de comentário e DM perguntando preço. E mensagem sem resposta é venda perdida. 😬 É aí que entra a automação da Manychat, A pessoa comenta e recebe na DM, na hora, o link, o preço ou o que você quiser, com o SEU jeito de falar. Mesmo enquanto você está gravando, editando ou dormindo. Só pedir nos comentários que a Manychat te manda o link com 30 dias grátis do plano Pro 👇 Salva esse vídeo pra fazer depois e manda pra quem precisa. @manychatbr #publi #manychatbr #automacao #instagramparanegocios #anuncios ",
-              "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=GB&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7698883544889724212&source=h5_t",
-              "engajamento": 0.0507380073800738,
-              "views": 2168
+              "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=US&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7698883544889724212&source=h5_t",
+              "engajamento": 0.04899777282850779,
+              "views": 2245
             }
           },
           {
             "tema": "dessas",
-            "motivo": "O tema \"dessas\" aparece em 2 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 3.389.834.",
+            "motivo": "O tema \"dessas\" aparece em 2 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 3.390.176.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "O seu Windows faz muito mais que isso! Você nem fazia ideia desses segredos! 😮 qual dessas funções você não conhecia e mais gostou? Já manda pra quem precisa aprender essas funções secretas. #dicas #pc #tecnologia #windows #jefdicastech ",
               "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7446452282574523654?_r=1&u_code=0&region=GB&mid=7446452293510826758&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7446452282574523654&source=h5_t",
-              "engajamento": 0.047823971211666365,
-              "views": 6758849
+              "url": "https://www.tiktok.com/@jefdicastech/video/7446452282574523654?_r=1&u_code=0&region=US&mid=7446452293510826758&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7446452282574523654&source=h5_t",
+              "engajamento": 0.047823607808510867,
+              "views": 6758984
             }
           },
           {
-            "tema": "tempo",
-            "motivo": "O tema \"tempo\" aparece em 2 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 362.464.",
+            "tema": "comentários",
+            "motivo": "O tema \"comentários\" aparece em 3 videos do mercado e engaja 4.6% em media (acima da media do mercado, que e 3.2%). Views tipicas: 21.368.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
-              "title": "#ad O Booking vai me odiar por te revelar isso! 😱🚨 Quem ensinou você que o jeito mais barato de reservar um hotel é no Booking? (Não é) 😮 Esse é o segredo que as agências de viagem não te falam. Eu viajo há muito tempo e sempre pra economizar eu uso a extensão Directo. 1️⃣ É só você procurar uma hospedagem no Booking 2️⃣ Usa o Directo @getdirectoextension  3️⃣ Ele vai te mostrar o preço real direto do hotel ✅ Sem nenhum intermediário, sem comissão surpresa, e muitas vezes muito mais econômico. Basicamente você vai poder reservar o mesmo hotel, no mesmo local, mas com o custo menor. Você sabia desse truque? Já salva pra não perder. E aí conta pra mim pra onde você vai viajar? #dicas #publi #viagem #hotel #directodeals ",
+              "title": "#ad Faça isso e seus stories podem aparecer pra sua cidade inteira! 😮📍 O passo a passo: Stories → duas linhas → Turbinar story → Visitas ao perfil → crie seu público com a sua cidade e os interesses do seu cliente → escolha o valor por dia, durante 5 dias. Pronto! 🚀 Só que aí vem o problema bom: chuva de comentário e DM perguntando preço. E mensagem sem resposta é venda perdida. 😬 É aí que entra a automação da Manychat, A pessoa comenta e recebe na DM, na hora, o link, o preço ou o que você quiser, com o SEU jeito de falar. Mesmo enquanto você está gravando, editando ou dormindo. Só pedir nos comentários que a Manychat te manda o link com 30 dias grátis do plano Pro 👇 Salva esse vídeo pra fazer depois e manda pra quem precisa. @manychatbr #publi #manychatbr #automacao #instagramparanegocios #anuncios ",
               "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7698516517213703430?_r=1&u_code=0&region=GB&mid=7698516868125985554&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698516517213703430&source=h5_t",
-              "engajamento": 0.04767190512356137,
-              "views": 17117
+              "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=US&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7698883544889724212&source=h5_t",
+              "engajamento": 0.04899777282850779,
+              "views": 2245
+            }
+          },
+          {
+            "tema": "qual",
+            "motivo": "O tema \"qual\" aparece em 4 videos do mercado e engaja 4.5% em media (acima da media do mercado, que e 3.2%). Views tipicas: 1.709.590.",
+            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
+            "exemploParaEstudar": {
+              "title": "Dica secreta no whatsapp! ✅ já ouviu falar dessa? Qual você sabia? #dicas #jefdicastech ",
+              "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+              "url": "https://www.tiktok.com/@jefdicastech/video/7362331727475363077?_r=1&u_code=0&region=US&mid=7362331758828079878&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7362331727475363077&source=h5_t",
+              "engajamento": 0.05333460604136745,
+              "views": 2702898
             }
           }
         ],
         "replicar": [
           {
             "title": "Dica urgente de segurança pra você mudar agora no seu Gmail 😮 #dicas #tecnologia #LifeHack #google #curiosidades  ",
-            "url": "https://www.tiktok.com/@jefdicastech/video/7693334042116132097?_r=1&u_code=0&region=US&mid=7693334345448213269&preview_pb=0&sharer_language=en&_d=f66ikeb17m4773&share_item_id=7693334042116132097&source=h5_t",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7693334042116132097?_r=1&u_code=0&region=US&mid=7693334345448213269&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7693334042116132097&source=h5_t",
             "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAEEEFqWDCAkBlD8IfOIAcAgEENpAxePiDbARs~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0949a07e&x-expires=1793836800&x-signature=V91zTBU4ogYESQ0MA0da2LBTGMk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&sc=cover&biz_tag=tt_video&s=PUBLISH",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAEEEFqWDCAkBlD8IfOIAcAgEENpAxePiDbARs~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=98e365ed&x-expires=1793923200&x-signature=%2FDB1MqGWY%2BHDt9YOmy%2BxC6A%2FdzY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
             "publishedAt": "2026-10-05T23:46:26.000Z",
-            "views": 340465,
-            "engajamento": 0.05215807792284082,
-            "comentarios": 199,
+            "views": 346404,
+            "engajamento": 0.05216741146176141,
+            "comentarios": 203,
             "duracao": "1min 10s",
             "dicas": [
               "Engaja 5.2%, acima da media (3.2%). O gancho funciona, repita o tipo.",
@@ -185,13 +184,13 @@
           },
           {
             "title": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂 Estes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques. Qual você mais gostou e não sabia? Deixa nos comentários a que você não fica sem. salva essa dica pra não perder e já manda pra quem não sabia disso. #dicas #pc #windows #informatica #jefdicastech ",
-            "url": "https://www.tiktok.com/@jefdicastech/video/7693738049632570676?_r=1&u_code=0&region=US&mid=7693738270857546517&preview_pb=0&sharer_language=en&_d=f66g8fhgbcb3k5&share_item_id=7693738049632570676&source=h5_t",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7693738049632570676?_r=1&u_code=0&region=US&mid=7693738270857546517&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7693738049632570676&source=h5_t",
             "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEnBAYqIFKzDaCxpgmUiafELFEARDAxiYeoiAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=f78d8e1d&x-expires=1793836800&x-signature=XAk%2FuV2BPwB8uc4N4JOwlztrPng%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEnBAYqIFKzDaCxpgmUiafELFEARDAxiYeoiAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=04163e5e&x-expires=1793923200&x-signature=%2F8%2B%2BbBvm7Nz%2FqI0rSXyBsjESdCY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
             "publishedAt": "2026-10-07T01:53:44.000Z",
-            "views": 707810,
-            "engajamento": 0.043767395204927874,
-            "comentarios": 289,
+            "views": 716281,
+            "engajamento": 0.04371887569264018,
+            "comentarios": 292,
             "duracao": "47s",
             "dicas": [
               "Engaja 4.4%, acima da media (3.2%). O gancho funciona, repita o tipo.",
@@ -201,12 +200,12 @@
           },
           {
             "title": "Seu computador demora uma vida para ligar? Olhe isso agora! 😮 #dicas #pc #windows #informatica #jefdicastech ",
-            "url": "https://www.tiktok.com/@jefdicastech/video/7695150373245340980?_r=1&u_code=0&region=US&mid=7695150535829146375&preview_pb=0&sharer_language=en&_d=f66g8fhgbcb3k5&share_item_id=7695150373245340980&source=h5_t",
+            "url": "https://www.tiktok.com/@jefdicastech/video/7695150373245340980?_r=1&u_code=0&region=US&mid=7695150535829146375&preview_pb=0&sharer_language=en&_d=f6694k373ehjj1&share_item_id=7695150373245340980&source=h5_t",
             "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUKAFoAziAqDq34sBYITaPqiEAEBqh8dvnIAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=04aeffa4&x-expires=1793836800&x-signature=hDzN5oE9CAcQpe3KsKX0%2BOnPNaY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+            "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUKAFoAziAqDq34sBYITaPqiEAEBqh8dvnIAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=5b5da7c2&x-expires=1793923200&x-signature=mTcxssTz2NSxHp1wuIegX9tnjE8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&sc=cover&biz_tag=tt_video&s=PUBLISH",
             "publishedAt": "2026-10-10T21:14:13.000Z",
-            "views": 160097,
-            "engajamento": 0.041606026346527415,
+            "views": 161796,
+            "engajamento": 0.04173156320304581,
             "comentarios": 38,
             "duracao": "28s",
             "dicas": [
@@ -220,27 +219,27 @@
         "espelho": {
           "nome": "Jef Dicas Tech 📱Tecnologia",
           "videosColetados": 40,
-          "engMedio": 0.03205247351248308,
+          "engMedio": 0.03170234082940006,
           "engMercado": null,
           "acimaDaMedia": null,
           "melhoresVideos": [
             {
               "title": "🚨Agora você pode estudar de graça e não te falaram isso! 😮 Tem um site oficial concursos on-line com até opções de pós-graduação, e eu melhor você pode estudar no conforto da sua casa. Existe muita gente que não sabe dessa oportunidade. Já manda pra todo mundo que precisa saber disso e salva para não perder e conseguir fazer depois. #dicas #cursos #curiosidades #cursoonline #utilidadepublica ",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7691481810798169345?_r=1&u_code=0&region=US&mid=7691482174129818389&preview_pb=0&sharer_language=en&_d=f66ikeb17m4773&share_item_id=7691481810798169345&source=h5_t",
-              "engajamento": 0.06069557861860299,
-              "views": 153685
+              "url": "https://www.tiktok.com/@jefdicastech/video/7691481810798169345?_r=1&u_code=0&region=US&mid=7691482174129818389&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7691481810798169345&source=h5_t",
+              "engajamento": 0.06057652226889409,
+              "views": 155935
             },
             {
               "title": "Dica secreta no whatsapp! ✅ já ouviu falar dessa? Qual você sabia? #dicas #jefdicastech ",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7362331727475363077?_r=1&u_code=0&region=GB&mid=7362331758828079878&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7362331727475363077&source=h5_t",
-              "engajamento": 0.0533344926528128,
-              "views": 2702735
+              "url": "https://www.tiktok.com/@jefdicastech/video/7362331727475363077?_r=1&u_code=0&region=US&mid=7362331758828079878&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7362331727475363077&source=h5_t",
+              "engajamento": 0.05333460604136745,
+              "views": 2702898
             },
             {
               "title": "Dica urgente de segurança pra você mudar agora no seu Gmail 😮 #dicas #tecnologia #LifeHack #google #curiosidades  ",
-              "url": "https://www.tiktok.com/@jefdicastech/video/7693334042116132097?_r=1&u_code=0&region=US&mid=7693334345448213269&preview_pb=0&sharer_language=en&_d=f66ikeb17m4773&share_item_id=7693334042116132097&source=h5_t",
-              "engajamento": 0.05215807792284082,
-              "views": 340465
+              "url": "https://www.tiktok.com/@jefdicastech/video/7693334042116132097?_r=1&u_code=0&region=US&mid=7693334345448213269&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7693334042116132097&source=h5_t",
+              "engajamento": 0.05216741146176141,
+              "views": 346404
             }
           ],
           "gaps": [],
@@ -249,177 +248,177 @@
         "daGringaParaTrazer": []
       },
       "instagram": {
-        "recado": "O tema mais quente e rentavel agora e \"comentários\" (4 videos, 5.1% de engajamento).",
-        "engMercado": 0.010402033659530227,
+        "recado": "O tema mais quente e rentavel agora e \"usa\" (5 videos, 4.2% de engajamento).",
+        "engMercado": 0.010447468378430764,
         "temasQuentesRentaveis": [
-          {
-            "termo": "comentários",
-            "n": 4,
-            "engMedio": 0.05061811964095284,
-            "viewsMediano": 976800
-          },
           {
             "termo": "usa",
             "n": 5,
-            "engMedio": 0.041436743448000274,
-            "viewsMediano": 359084
+            "engMedio": 0.04151280733244009,
+            "viewsMediano": 361333
+          },
+          {
+            "termo": "comentários",
+            "n": 5,
+            "engMedio": 0.0407642616577764,
+            "viewsMediano": 163668
           },
           {
             "termo": "dicas",
             "n": 7,
-            "engMedio": 0.034401964535211445,
-            "viewsMediano": 574071
+            "engMedio": 0.03444281693498001,
+            "viewsMediano": 576750
+          },
+          {
+            "termo": "precisa",
+            "n": 9,
+            "engMedio": 0.024323511273030524,
+            "viewsMediano": 436560
           },
           {
             "termo": "saber",
             "n": 9,
-            "engMedio": 0.023412440771057086,
-            "viewsMediano": 293795
-          },
-          {
-            "termo": "precisa",
-            "n": 10,
-            "engMedio": 0.021895584455897055,
-            "viewsMediano": 384669
+            "engMedio": 0.023375301141082435,
+            "viewsMediano": 101071
           },
           {
             "termo": "quem",
-            "n": 13,
-            "engMedio": 0.017546967541718007,
-            "viewsMediano": 293795
+            "n": 12,
+            "engMedio": 0.018985845081697834,
+            "viewsMediano": 277824
           },
           {
             "termo": "sabe",
             "n": 6,
-            "engMedio": 0.015760223455814303,
-            "viewsMediano": 565375
+            "engMedio": 0.01586620253721603,
+            "viewsMediano": 566819
           },
           {
-            "termo": "você",
-            "n": 24,
-            "engMedio": 0.014629012924625684,
-            "viewsMediano": 377946
+            "termo": "foto",
+            "n": 5,
+            "engMedio": 0.014915963731050233,
+            "viewsMediano": 506155
           }
         ],
         "temasSubaproveitados": [
           {
             "termo": "inteligência",
             "n": 2,
-            "engMedio": 0.09805702224574077,
-            "viewsMediano": 9672882
+            "engMedio": 0.09811201043799701,
+            "viewsMediano": 9682086
           },
           {
             "termo": "artificial",
             "n": 2,
-            "engMedio": 0.09805702224574077,
-            "viewsMediano": 9672882
-          },
-          {
-            "termo": "vídeo",
-            "n": 2,
-            "engMedio": 0.09679063763773008,
-            "viewsMediano": 9497305
+            "engMedio": 0.09811201043799701,
+            "viewsMediano": 9682086
           },
           {
             "termo": "proteger",
             "n": 2,
-            "engMedio": 0.09655203834724256,
-            "viewsMediano": 9525347
+            "engMedio": 0.0965666580994194,
+            "viewsMediano": 9530030
           },
           {
             "termo": "real",
             "n": 2,
-            "engMedio": 0.0964055253907217,
-            "viewsMediano": 9378343
+            "engMedio": 0.09641085006755486,
+            "viewsMediano": 9380555
           },
           {
             "termo": "segurança",
             "n": 2,
-            "engMedio": 0.09615270495047001,
-            "viewsMediano": 9449792
+            "engMedio": 0.09615576379116142,
+            "viewsMediano": 9451723
+          },
+          {
+            "termo": "conteúdo",
+            "n": 2,
+            "engMedio": 0.09504974621285538,
+            "viewsMediano": 9210471
           }
         ],
         "formula": {
           "dicas": [
-            "Os campeoes de engajamento rendem 4.1% em media, contra 0.3% do resto. Essa e a barra a mirar.",
-            "Titulo em forma de PERGUNTA funciona: 75% dos campeoes usam, contra 42% do resto.",
-            "Titulo mais CURTO tende a render: campeoes tem ~45 palavras, resto ~48.",
-            "Palavras que mais aparecem nos campeoes: não, iphone, você, dicas, comentários, usa, foto, até."
+            "Os campeoes de engajamento rendem 4.2% em media, contra 0.3% do resto. Essa e a barra a mirar.",
+            "Titulo em forma de PERGUNTA funciona: 75% dos campeoes usam, contra 44% do resto.",
+            "Titulo mais CURTO tende a render: campeoes tem ~45 palavras, resto ~49.",
+            "Palavras que mais aparecem nos campeoes: iphone, dicas, foto, comentários, usa, não, sabe, sabia."
           ],
-          "base": 32
+          "base": 33
         },
         "pautas": [
           {
             "tema": "inteligência",
-            "motivo": "O tema \"inteligência\" aparece em 2 videos do mercado e engaja 9.8% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.672.882.",
+            "motivo": "O tema \"inteligência\" aparece em 2 videos do mercado e engaja 9.8% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.682.086.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
               "channelTitle": "Jeferson de Oliveira Tecnologia",
               "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-              "engajamento": 0.1898253116099711,
-              "views": 18420539
+              "engajamento": 0.18981192785535117,
+              "views": 18420941
             }
           },
           {
             "tema": "artificial",
-            "motivo": "O tema \"artificial\" aparece em 2 videos do mercado e engaja 9.8% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.672.882.",
+            "motivo": "O tema \"artificial\" aparece em 2 videos do mercado e engaja 9.8% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.682.086.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
               "channelTitle": "Jeferson de Oliveira Tecnologia",
               "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-              "engajamento": 0.1898253116099711,
-              "views": 18420539
-            }
-          },
-          {
-            "tema": "vídeo",
-            "motivo": "O tema \"vídeo\" aparece em 2 videos do mercado e engaja 9.7% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.497.305.",
-            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
-            "exemploParaEstudar": {
-              "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
-              "channelTitle": "Jeferson de Oliveira Tecnologia",
-              "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-              "engajamento": 0.1898253116099711,
-              "views": 18420539
+              "engajamento": 0.18981192785535117,
+              "views": 18420941
             }
           },
           {
             "tema": "proteger",
-            "motivo": "O tema \"proteger\" aparece em 2 videos do mercado e engaja 9.7% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.525.347.",
+            "motivo": "O tema \"proteger\" aparece em 2 videos do mercado e engaja 9.7% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.530.030.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
               "channelTitle": "Jeferson de Oliveira Tecnologia",
               "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-              "engajamento": 0.1898253116099711,
-              "views": 18420539
+              "engajamento": 0.18981192785535117,
+              "views": 18420941
             }
           },
           {
             "tema": "real",
-            "motivo": "O tema \"real\" aparece em 2 videos do mercado e engaja 9.6% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.378.343.",
+            "motivo": "O tema \"real\" aparece em 2 videos do mercado e engaja 9.6% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.380.555.",
             "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
             "exemploParaEstudar": {
               "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
               "channelTitle": "Jeferson de Oliveira Tecnologia",
               "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-              "engajamento": 0.1898253116099711,
-              "views": 18420539
+              "engajamento": 0.18981192785535117,
+              "views": 18420941
+            }
+          },
+          {
+            "tema": "segurança",
+            "motivo": "O tema \"segurança\" aparece em 2 videos do mercado e engaja 9.6% em media (acima da media do mercado, que e 1.0%). Views tipicas: 9.451.723.",
+            "formatoSugerido": "Siga a formula dos campeoes (veja a secao 'O que faz engajar').",
+            "exemploParaEstudar": {
+              "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
+              "channelTitle": "Jeferson de Oliveira Tecnologia",
+              "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
+              "engajamento": 0.18981192785535117,
+              "views": 18420941
             }
           }
         ],
         "replicar": [
           {
-            "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
+            "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
             "url": "https://www.instagram.com/p/DerksAMI7m1/",
             "channelTitle": "Jeferson de Oliveira Tecnologia",
-            "thumbnail": "https://scontent-cdg4-1.cdninstagram.com/v/t51.82787-15/858475343_18011761889996476_4984130094059977390_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=NDAxMTQ2MTI0NjYzODYwMjY3NzE4MDExNzYxODg2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=H6aL5w70ZCcQ7kNvwG1w0WL&_nc_oc=Adp_RtDrNpFTwsyg0SgKH6xGT0c3O5nx8PERVXtzqQ9IIEAvqUDMfAHOPnXt8vdPXbc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_gid=e9KWH0Zji9x9pvQ7OCG5MQ&_nc_ss=7a20f&oh=00_AQTZ4y20vLjsE57duEReVZ69ExWIMsNRng6eoj9b6x4Dkg&oe=6AF04357",
+            "thumbnail": "https://instagram.fbog14-1.fna.fbcdn.net/v/t51.82787-15/858475343_18011761889996476_4984130094059977390_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMTQ2MTI0NjYzODYwMjY3NzE4MDExNzYxODg2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzIifQ%3D%3D&_nc_ohc=H6aL5w70ZCcQ7kNvwHo64UP&_nc_oc=AdqoAOP4u-aFE5hCdYlnw6y-kaaB-ui-ci3e1JANgj3qOyPVvDzU5DJxEnI46x3sKHU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbog14-1.fna&_nc_gid=jhwAWvDK_C3rQEiOFn5-Mg&_nc_ss=7a20f&oh=00_AQT_eCLsuiTciO-QF6DPTLe_q_tG5vr-h-5_OfM9PTXstg&oe=6AF194D7",
             "publishedAt": "2026-10-19T15:27:23.000Z",
-            "views": 7528530,
-            "engajamento": 0.04960547721438225,
-            "comentarios": 1671,
+            "views": 7587532,
+            "engajamento": 0.0499740875881654,
+            "comentarios": 1674,
             "duracao": null,
             "dicas": [
               "Engaja 5.0%, acima da media (1.0%). O gancho funciona, repita o tipo.",
@@ -429,14 +428,14 @@
             ]
           },
           {
-            "title": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
+            "title": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
             "url": "https://www.instagram.com/p/DecO6HuI2kp/",
             "channelTitle": "Jeferson de Oliveira Tecnologia",
-            "thumbnail": "https://instagram.forn3-5.fna.fbcdn.net/v/t51.82787-15/846704703_18010798469996476_2127610545156918812_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzE0MzMzNTEyMzk3MDM0NTE4MDEwNzk4NDYzOTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=SgFoxuiPNacQ7kNvwEEPiXr&_nc_oc=AdoxYUEyGoprgwmeDXZU4vzXLzdflqU2QXsUqBxb0i3lmimlD_rDUQ6XYOT0YphTM-U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.forn3-5.fna&_nc_gid=D_yIrPuth7nUBU9UGTpiyw&_nc_ss=7a20f&oh=00_AQTJT_76HmtC_iNu212GiGKJsOHEr4flR9iriz4dXDG6sQ&oe=6AF034E7",
+            "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/846704703_18010798469996476_2127610545156918812_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAwNzE0MzMzNTEyMzk3MDM0NTE4MDEwNzk4NDYzOTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=SgFoxuiPNacQ7kNvwFWPijD&_nc_oc=Adp-y4P0kcXUk43aADe3stz0qM9cKUuEHpULBm38cYSi-FlZZQQT5n_m6mfN-RXRvPuR9rFJxXnVEjgj_13MPy1Z&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_gid=RIWIWgaGh-6iOXpbJnfBPQ&_nc_ss=7a20f&oh=00_AQRlGAgnYklPklUMbt0VMMAQYg63ymFnNzWKw5Gp4qTbtw&oe=6AF18667",
             "publishedAt": "2026-10-13T16:28:23.000Z",
-            "views": 9431110,
-            "engajamento": 0.03594246368603072,
-            "comentarios": 3477,
+            "views": 9505375,
+            "engajamento": 0.03617836166142801,
+            "comentarios": 3510,
             "duracao": null,
             "dicas": [
               "Engaja 3.6%, acima da media (1.0%). O gancho funciona, repita o tipo.",
@@ -448,11 +447,11 @@
             "title": "iPhone tira foto da lua sim! 😮 Você que não\nsabia! Bora aprender o jeito certo de fazer? É rápido e fácil.\n\n#dicas #foto #lua #iphone #ios",
             "url": "https://www.instagram.com/p/De0Vma8oCPS/",
             "channelTitle": "Jeferson de Oliveira Tecnologia",
-            "thumbnail": "https://scontent-fco2-1.cdninstagram.com/v/t51.82787-15/863378410_18012275522996476_3975075023059516081_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxMzkyODE2NzE0NTIxOTAyNjE4MDEyMjc1NTE2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=yt5hvPnaxckQ7kNvwFxOX_E&_nc_oc=AdomX1qr9hhbJSxpylppFnJerpscshm2TooYpZHV-nBn1IwjaMTRiWNnpfG3ORB-d_4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=Ir_cjrWv9WLkn0iYKby9Xw&_nc_ss=7a20f&oh=00_AQTeji-tSSV6npQBUV2rQHjD_cTkai2LagAfbTTR6sq9TA&oe=6AF056C5",
+            "thumbnail": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/863378410_18012275522996476_3975075023059516081_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxMzkyODE2NzE0NTIxOTAyNjE4MDEyMjc1NTE2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=yt5hvPnaxckQ7kNvwHdLA5A&_nc_oc=Adpctgo8BTaJNJ_JW7Z539ywhFGIv_wsJOUl0d2yqA3YEqlXAaW8kR5JuNnIg4afV38&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=GyO-CVnnySjN4zaQdIXHbg&_nc_ss=7a20f&oh=00_AQT4obOcH-LH2mQry87LMTrXMtHcXXDeY0OjFqIZI-tXMg&oe=6AF1A845",
             "publishedAt": "2026-10-23T01:07:25.000Z",
-            "views": 2638158,
-            "engajamento": 0.012794821113737245,
-            "comentarios": 192,
+            "views": 2656096,
+            "engajamento": 0.012877731336743378,
+            "comentarios": 194,
             "duracao": null,
             "dicas": [
               "Engaja 1.3%, acima da media (1.0%). O gancho funciona, repita o tipo.",
@@ -472,11 +471,24 @@
           "plataformas": [
             {
               "plataforma": "tiktok",
-              "engMedio": 0.036923787753668
+              "engMedio": 0.03673751015381109
             },
             {
               "plataforma": "instagram",
-              "engMedio": 0.021895584455897055
+              "engMedio": 0.024323511273030524
+            }
+          ]
+        },
+        {
+          "termo": "quem",
+          "plataformas": [
+            {
+              "plataforma": "tiktok",
+              "engMedio": 0.03404349041176075
+            },
+            {
+              "plataforma": "instagram",
+              "engMedio": 0.018985845081697834
             }
           ]
         },
@@ -485,11 +497,11 @@
           "plataformas": [
             {
               "plataforma": "tiktok",
-              "engMedio": 0.046103847069458186
+              "engMedio": 0.04572521754648524
             },
             {
               "plataforma": "instagram",
-              "engMedio": 0.05061811964095284
+              "engMedio": 0.0407642616577764
             }
           ]
         }
@@ -511,14 +523,14 @@
       "region": "br",
       "channelId": "59873876475",
       "channelTitle": "Jeferson de Oliveira Tecnologia",
-      "subscribers": 5695742,
+      "subscribers": 5696112,
       "videosColetados": 40
     }
   ],
   "plataformas": {
     "tiktok": {
       "totalVideos": 40,
-      "mediaEngajamento": 0.03205247351248308,
+      "mediaEngajamento": 0.03170234082940006,
       "topViews": [
         {
           "platform": "tiktok",
@@ -528,12 +540,12 @@
           "videoId": "7444956565473447223",
           "title": "Dica de story simples de fazer e todo mundo vai querer saber como você fez! 😮  Uma ótima forma de aumentar o seu engajamento com um bom dia estilos e fácil de fazer, todo mundo vai adorar quando ver isso no seu perfil. ✅ já salva essa dica de story para quando você for fazer ou manda pra quem gosta de fazer isso !  #dicas #foto #celular #story #cafe #bomdia #stories #jefdicastech #fotografia ",
           "publishedAt": "2024-12-05T15:53:56.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7444956565473447223?_r=1&u_code=0&region=GB&mid=7444956578103823159&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7444956565473447223&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/o0WCAkOIRNWGAErzglSJ5eIRLIAjBAozJvefAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=c959e151&x-expires=1793836800&x-signature=Td5vAr%2BYIb7CJMrWyyCGpAchd0E%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 7886761,
-          "likes": 187407,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7444956565473447223?_r=1&u_code=0&region=US&mid=7444956578103823159&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7444956565473447223&source=h5_t",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/o0WCAkOIRNWGAErzglSJ5eIRLIAjBAozJvefAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=6bb11f30&x-expires=1793923200&x-signature=gz6HTo%2FbmpuD23U2ErVM5IdHYhs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&s=PUBLISH&sc=cover&biz_tag=tt_video",
+          "views": 7886910,
+          "likes": 187418,
           "comments": 1165,
-          "engagementRate": 0.026467899813370787,
+          "engagementRate": 0.026469301665671345,
           "duracaoSeg": 45,
           "hashtags": [
             "#dicas",
@@ -566,12 +578,12 @@
           "videoId": "7446452282574523654",
           "title": "O seu Windows faz muito mais que isso! Você nem fazia ideia desses segredos! 😮 qual dessas funções você não conhecia e mais gostou? Já manda pra quem precisa aprender essas funções secretas. #dicas #pc #tecnologia #windows #jefdicastech ",
           "publishedAt": "2024-12-09T16:38:06.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7446452282574523654?_r=1&u_code=0&region=GB&mid=7446452293510826758&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7446452282574523654&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/oMBLAnxCvfzEE4FR3qIADwAJPHQfTssXABVEOD~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=28c16c1c&x-expires=1793836800&x-signature=k5nxibfEuE2b7sR8tkRquaxHtBw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 6758849,
-          "likes": 267865,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7446452282574523654?_r=1&u_code=0&region=US&mid=7446452293510826758&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7446452282574523654&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/oMBLAnxCvfzEE4FR3qIADwAJPHQfTssXABVEOD~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=342dc4ce&x-expires=1793923200&x-signature=fosP%2BzAXntl23b5nB4tTyKsi6jg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 6758984,
+          "likes": 267869,
           "comments": 1404,
-          "engagementRate": 0.047823971211666365,
+          "engagementRate": 0.047823607808510867,
           "duracaoSeg": 59,
           "hashtags": [
             "#dicas",
@@ -596,12 +608,12 @@
           "videoId": "7362331727475363077",
           "title": "Dica secreta no whatsapp! ✅ já ouviu falar dessa? Qual você sabia? #dicas #jefdicastech ",
           "publishedAt": "2024-04-27T00:07:19.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7362331727475363077?_r=1&u_code=0&region=GB&mid=7362331758828079878&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7362331727475363077&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/1895fd5d950f492e9d3a97eb847f51f3_1714176442~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=512cad95&x-expires=1793836800&x-signature=w91Inh6YHY%2BAj4U2P0Bu2Qqs08Q%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 2702735,
-          "likes": 120761,
-          "comments": 7809,
-          "engagementRate": 0.0533344926528128,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7362331727475363077?_r=1&u_code=0&region=US&mid=7362331758828079878&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7362331727475363077&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/1895fd5d950f492e9d3a97eb847f51f3_1714176442~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=c020101e&x-expires=1793923200&x-signature=%2B3eZXCHihA7qeBxK%2FGAmtc5p6Pg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 2702898,
+          "likes": 120767,
+          "comments": 7810,
+          "engagementRate": 0.05333460604136745,
           "duracaoSeg": 61,
           "hashtags": [
             "#dicas",
@@ -620,12 +632,12 @@
           "videoId": "7698402604367318324",
           "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes! Até o pôr do sol vai ficar mais bonito calibrando assim.",
           "publishedAt": "2026-10-19T15:34:41.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7698402604367318324?_r=1&u_code=0&region=GB&mid=7698402809787583252&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698402604367318324&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/ooAqAfhKDBDqFABEOWEOjcEI1CcI4Ieg77R2iA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=bd5084ed&x-expires=1793836800&x-signature=Ksn3ieW0LZbcMjmSN6WrEX%2Fwx3s%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 2525090,
-          "likes": 60652,
-          "comments": 369,
-          "engagementRate": 0.028260378837982013,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7698402604367318324?_r=1&u_code=0&region=US&mid=7698402809787583252&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7698402604367318324&source=h5_t",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/ooAqAfhKDBDqFABEOWEOjcEI1CcI4Ieg77R2iA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ca9ba812&x-expires=1793923200&x-signature=aKB44XFHo2%2B3se7NlT9aRa%2BFCuw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 2674482,
+          "likes": 64548,
+          "comments": 400,
+          "engagementRate": 0.02845822106860319,
           "duracaoSeg": 33,
           "hashtags": [],
           "tags": []
@@ -638,12 +650,12 @@
           "videoId": "7696191474194599169",
           "title": "Novo truque nos status do WhatsApp! ✅😮 Você não vai mais baixar vídeos, e muita gente nem sabe disso. [nova atualização, recurso secreto do WhatsApp, dicas, truques] ",
           "publishedAt": "2026-10-13T16:33:51.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7696191474194599169?_r=1&u_code=0&region=GB&mid=7696191575667297044&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7696191474194599169&source=h5_t",
-          "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oQOubAdIjIKAW4weADEAPfGVAmeLIDZLEAwrXn~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=84b8429f&x-expires=1793836800&x-signature=IWSHkXTXPUhvZMvn7LT7VbDPOLA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&s=PUBLISH&sc=cover&biz_tag=tt_video",
-          "views": 1600711,
-          "likes": 42382,
-          "comments": 616,
-          "engagementRate": 0.03180836515773303,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7696191474194599169?_r=1&u_code=0&region=US&mid=7696191575667297044&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7696191474194599169&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oQOubAdIjIKAW4weADEAPfGVAmeLIDZLEAwrXn~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=77cd8cfe&x-expires=1793923200&x-signature=ZHy2cD27v0Q%2BuKiuZAInBgVuBh8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 1612198,
+          "likes": 42683,
+          "comments": 619,
+          "engagementRate": 0.03181495076907427,
           "duracaoSeg": 29,
           "hashtags": [],
           "tags": []
@@ -656,12 +668,12 @@
           "videoId": "7699665267936218388",
           "title": "iPhone tira foto da lua sim! 😮 Você que não sabia! Bora aprender o jeito certo de fazer? É rápido e fácil. #dicas #foto #lua #iphone #ios ",
           "publishedAt": "2026-10-23T01:13:49.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7699665267936218388?_r=1&u_code=0&region=GB&mid=7449245126930548787&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7699665267936218388&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/osH7EBAFZIFe3RBgUAE2sTIrWJtADf0BcNrqwa~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=085fee34&x-expires=1793836800&x-signature=1i%2B2%2BOXYsQQSFWs5%2FUJViN%2BbmPo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 1124294,
-          "likes": 27637,
-          "comments": 319,
-          "engagementRate": 0.02893104472673518,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7699665267936218388?_r=1&u_code=0&region=US&mid=7449245126930548787&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7699665267936218388&source=h5_t",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/osH7EBAFZIFe3RBgUAE2sTIrWJtADf0BcNrqwa~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=92b32210&x-expires=1793923200&x-signature=O3hdIChq5%2BHXK%2FnhHNePKn0PiBQ%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 1145685,
+          "likes": 28311,
+          "comments": 324,
+          "engagementRate": 0.02908391049895914,
           "duracaoSeg": 62,
           "hashtags": [
             "#dicas",
@@ -686,12 +698,12 @@
           "videoId": "7693738049632570676",
           "title": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂 Estes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques. Qual você mais gostou e não sabia? Deixa nos comentários a que você não fica sem. salva essa dica pra não perder e já manda pra quem não sabia disso. #dicas #pc #windows #informatica #jefdicastech ",
           "publishedAt": "2026-10-07T01:53:44.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7693738049632570676?_r=1&u_code=0&region=US&mid=7693738270857546517&preview_pb=0&sharer_language=en&_d=f66g8fhgbcb3k5&share_item_id=7693738049632570676&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEnBAYqIFKzDaCxpgmUiafELFEARDAxiYeoiAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=f78d8e1d&x-expires=1793836800&x-signature=XAk%2FuV2BPwB8uc4N4JOwlztrPng%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 707810,
-          "likes": 25009,
-          "comments": 289,
-          "engagementRate": 0.043767395204927874,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7693738049632570676?_r=1&u_code=0&region=US&mid=7693738270857546517&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7693738049632570676&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEnBAYqIFKzDaCxpgmUiafELFEARDAxiYeoiAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=04163e5e&x-expires=1793923200&x-signature=%2F8%2B%2BbBvm7Nz%2FqI0rSXyBsjESdCY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 716281,
+          "likes": 25292,
+          "comments": 292,
+          "engagementRate": 0.04371887569264018,
           "duracaoSeg": 47,
           "hashtags": [
             "#dicas",
@@ -716,12 +728,12 @@
           "videoId": "7701477725986475285",
           "title": "Não precisa mais colocar credencial encima do painel agora você consegue ter uma credencial on-line! 😮 Da uma olhada como conseguir a sua.",
           "publishedAt": "2026-10-27T22:27:08.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7701477725986475285?_r=1&u_code=0&region=GB&mid=7701477792315198209&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7701477725986475285&source=h5_t",
-          "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUJqlZUrAAApAR5EgEFf4JcD5fBnrTSEBECDhI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0db5af7c&x-expires=1793836800&x-signature=I6qVBBgIKXkh9hsK4GecO8vIblw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 663687,
-          "likes": 7139,
-          "comments": 126,
-          "engagementRate": 0.026220191144319536,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7701477725986475285?_r=1&u_code=0&region=US&mid=7701477792315198209&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7701477725986475285&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUJqlZUrAAApAR5EgEFf4JcD5fBnrTSEBECDhI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=f3d1a93f&x-expires=1793923200&x-signature=gOq7K9DAdkvFwiwMRtL7ejE7CHs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 673140,
+          "likes": 7222,
+          "comments": 127,
+          "engagementRate": 0.026184746115221202,
           "duracaoSeg": 56,
           "hashtags": [],
           "tags": []
@@ -734,12 +746,12 @@
           "videoId": "7697349280566103348",
           "title": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada. Esse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos de 1 segundo e mais de 370km/h em velocidade máxima. O sistema de sucção multimodos fornece até 2Gs de downforce estacionário. Propulsores de colflyas montados no perímetro apoiando aceleração para a frente e para cima mais movimento de rotação lateral, desenvolvidos com a Spacex Construído com materiais resistentes, incluindo magnésio, titânio e fibra de carbono.",
           "publishedAt": "2026-10-16T19:27:05.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7697349280566103348?_r=1&u_code=0&region=GB&mid=7697349445658839826&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7697349280566103348&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8EETGF0bIDzG9AAqKAgfFE0qkQaRmWBcAoneC~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=55444868&x-expires=1793836800&x-signature=qr22UmOuNwXjCpJPHx8Z2Ux1NSs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 653436,
-          "likes": 17768,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7697349280566103348?_r=1&u_code=0&region=US&mid=7697349445658839826&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7697349280566103348&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8EETGF0bIDzG9AAqKAgfFE0qkQaRmWBcAoneC~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=bde692d3&x-expires=1793923200&x-signature=nN08RDlZy%2Fj5nBtZtpvYWRpPySo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 653576,
+          "likes": 17770,
           "comments": 223,
-          "engagementRate": 0.0324163345759952,
+          "engagementRate": 0.03241245088558944,
           "duracaoSeg": 83,
           "hashtags": [],
           "tags": []
@@ -752,12 +764,12 @@
           "videoId": "7702060474732514580",
           "title": "Agora a Starlink conecta no seu celular e você pode se comunicar até fora de área e usar o Google maps! 😮 #dicas #starlink #elonmusk #vivo #internet ",
           "publishedAt": "2026-10-29T12:08:26.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7702060474732514580?_r=1&u_code=0&region=GB&mid=7702060558131972872&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7702060474732514580&source=h5_t",
-          "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAI1crAxEEFpWkABzNqEjDzC4IYBcWAfgAeFDR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ef80f2c2&x-expires=1793836800&x-signature=8iXNoiKBEkEN5hiFK7eHobcySrY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&s=PUBLISH&sc=cover&biz_tag=tt_video",
-          "views": 488422,
-          "likes": 7824,
-          "comments": 196,
-          "engagementRate": 0.0241840048155079,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7702060474732514580?_r=1&u_code=0&region=US&mid=7702060558131972872&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7702060474732514580&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAI1crAxEEFpWkABzNqEjDzC4IYBcWAfgAeFDR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=9a541fb1&x-expires=1793923200&x-signature=jM2Q8zjOMdYqHDX5MhhwjGrIVtw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 512147,
+          "likes": 8318,
+          "comments": 206,
+          "engagementRate": 0.02448906271051085,
           "duracaoSeg": 78,
           "hashtags": [
             "#dicas",
@@ -784,12 +796,12 @@
           "videoId": "7691481810798169345",
           "title": "🚨Agora você pode estudar de graça e não te falaram isso! 😮 Tem um site oficial concursos on-line com até opções de pós-graduação, e eu melhor você pode estudar no conforto da sua casa. Existe muita gente que não sabe dessa oportunidade. Já manda pra todo mundo que precisa saber disso e salva para não perder e conseguir fazer depois. #dicas #cursos #curiosidades #cursoonline #utilidadepublica ",
           "publishedAt": "2026-09-30T23:59:04.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7691481810798169345?_r=1&u_code=0&region=US&mid=7691482174129818389&preview_pb=0&sharer_language=en&_d=f66ikeb17m4773&share_item_id=7691481810798169345&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/ocAQAA2IIREBYBkTavnaiECiVr9Ioii9AAQ3q~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=b279a9ad&x-expires=1793836800&x-signature=nN8SjK0uCN%2FFSs%2BobfUYA9YYbRY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 153685,
-          "likes": 6129,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7691481810798169345?_r=1&u_code=0&region=US&mid=7691482174129818389&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7691481810798169345&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/ocAQAA2IIREBYBkTavnaiECiVr9Ioii9AAQ3q~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=a87c3a47&x-expires=1793923200&x-signature=Qxs98mo5veFSupfwQTq9bix8RuM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 155935,
+          "likes": 6200,
           "comments": 31,
-          "engagementRate": 0.06069557861860299,
+          "engagementRate": 0.06057652226889409,
           "duracaoSeg": 63,
           "hashtags": [
             "#dicas",
@@ -814,12 +826,12 @@
           "videoId": "7362331727475363077",
           "title": "Dica secreta no whatsapp! ✅ já ouviu falar dessa? Qual você sabia? #dicas #jefdicastech ",
           "publishedAt": "2024-04-27T00:07:19.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7362331727475363077?_r=1&u_code=0&region=GB&mid=7362331758828079878&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7362331727475363077&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/1895fd5d950f492e9d3a97eb847f51f3_1714176442~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=512cad95&x-expires=1793836800&x-signature=w91Inh6YHY%2BAj4U2P0Bu2Qqs08Q%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 2702735,
-          "likes": 120761,
-          "comments": 7809,
-          "engagementRate": 0.0533344926528128,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7362331727475363077?_r=1&u_code=0&region=US&mid=7362331758828079878&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7362331727475363077&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/1895fd5d950f492e9d3a97eb847f51f3_1714176442~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=c020101e&x-expires=1793923200&x-signature=%2B3eZXCHihA7qeBxK%2FGAmtc5p6Pg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 2702898,
+          "likes": 120767,
+          "comments": 7810,
+          "engagementRate": 0.05333460604136745,
           "duracaoSeg": 61,
           "hashtags": [
             "#dicas",
@@ -838,12 +850,12 @@
           "videoId": "7693334042116132097",
           "title": "Dica urgente de segurança pra você mudar agora no seu Gmail 😮 #dicas #tecnologia #LifeHack #google #curiosidades  ",
           "publishedAt": "2026-10-05T23:46:26.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7693334042116132097?_r=1&u_code=0&region=US&mid=7693334345448213269&preview_pb=0&sharer_language=en&_d=f66ikeb17m4773&share_item_id=7693334042116132097&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAEEEFqWDCAkBlD8IfOIAcAgEENpAxePiDbARs~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0949a07e&x-expires=1793836800&x-signature=V91zTBU4ogYESQ0MA0da2LBTGMk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&sc=cover&biz_tag=tt_video&s=PUBLISH",
-          "views": 340465,
-          "likes": 8965,
-          "comments": 199,
-          "engagementRate": 0.05215807792284082,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7693334042116132097?_r=1&u_code=0&region=US&mid=7693334345448213269&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7693334042116132097&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAEEEFqWDCAkBlD8IfOIAcAgEENpAxePiDbARs~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=98e365ed&x-expires=1793923200&x-signature=%2FDB1MqGWY%2BHDt9YOmy%2BxC6A%2FdzY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 346404,
+          "likes": 9127,
+          "comments": 203,
+          "engagementRate": 0.05216741146176141,
           "duracaoSeg": 70,
           "hashtags": [
             "#dicas",
@@ -868,12 +880,12 @@
           "videoId": "7698883544889724212",
           "title": "#ad Faça isso e seus stories podem aparecer pra sua cidade inteira! 😮📍 O passo a passo: Stories → duas linhas → Turbinar story → Visitas ao perfil → crie seu público com a sua cidade e os interesses do seu cliente → escolha o valor por dia, durante 5 dias. Pronto! 🚀 Só que aí vem o problema bom: chuva de comentário e DM perguntando preço. E mensagem sem resposta é venda perdida. 😬 É aí que entra a automação da Manychat, A pessoa comenta e recebe na DM, na hora, o link, o preço ou o que você quiser, com o SEU jeito de falar. Mesmo enquanto você está gravando, editando ou dormindo. Só pedir nos comentários que a Manychat te manda o link com 30 dias grátis do plano Pro 👇 Salva esse vídeo pra fazer depois e manda pra quem precisa. @manychatbr #publi #manychatbr #automacao #instagramparanegocios #anuncios ",
           "publishedAt": "2026-10-20T22:41:02.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=GB&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7698883544889724212&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oYI3f5hA4AAXAQ9taijjur81AvMxDEAAqAfVof~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=87b39b02&x-expires=1793836800&x-signature=BX9v5rIBBmw1bJTImjF8gomggig%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 2168,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7698883544889724212?_r=1&u_code=0&region=US&mid=7698883788553702162&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7698883544889724212&source=h5_t",
+          "thumbnail": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oYI3f5hA4AAXAQ9taijjur81AvMxDEAAqAfVof~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=f6cd54e6&x-expires=1793923200&x-signature=1hNAwkZoXz6uJiacGl2Qi98V8ws%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 2245,
           "likes": 91,
           "comments": 7,
-          "engagementRate": 0.0507380073800738,
+          "engagementRate": 0.04899777282850779,
           "duracaoSeg": 55,
           "hashtags": [
             "#ad",
@@ -899,12 +911,12 @@
           "videoId": "7446452282574523654",
           "title": "O seu Windows faz muito mais que isso! Você nem fazia ideia desses segredos! 😮 qual dessas funções você não conhecia e mais gostou? Já manda pra quem precisa aprender essas funções secretas. #dicas #pc #tecnologia #windows #jefdicastech ",
           "publishedAt": "2024-12-09T16:38:06.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7446452282574523654?_r=1&u_code=0&region=GB&mid=7446452293510826758&preview_pb=0&sharer_language=en&_d=f66l82f7lg2fkd&share_item_id=7446452282574523654&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/oMBLAnxCvfzEE4FR3qIADwAJPHQfTssXABVEOD~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=28c16c1c&x-expires=1793836800&x-signature=k5nxibfEuE2b7sR8tkRquaxHtBw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 6758849,
-          "likes": 267865,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7446452282574523654?_r=1&u_code=0&region=US&mid=7446452293510826758&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7446452282574523654&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/oMBLAnxCvfzEE4FR3qIADwAJPHQfTssXABVEOD~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=342dc4ce&x-expires=1793923200&x-signature=fosP%2BzAXntl23b5nB4tTyKsi6jg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 6758984,
+          "likes": 267869,
           "comments": 1404,
-          "engagementRate": 0.047823971211666365,
+          "engagementRate": 0.047823607808510867,
           "duracaoSeg": 59,
           "hashtags": [
             "#dicas",
@@ -929,12 +941,12 @@
           "videoId": "7698516517213703430",
           "title": "#ad O Booking vai me odiar por te revelar isso! 😱🚨 Quem ensinou você que o jeito mais barato de reservar um hotel é no Booking? (Não é) 😮 Esse é o segredo que as agências de viagem não te falam. Eu viajo há muito tempo e sempre pra economizar eu uso a extensão Directo. 1️⃣ É só você procurar uma hospedagem no Booking 2️⃣ Usa o Directo @getdirectoextension  3️⃣ Ele vai te mostrar o preço real direto do hotel ✅ Sem nenhum intermediário, sem comissão surpresa, e muitas vezes muito mais econômico. Basicamente você vai poder reservar o mesmo hotel, no mesmo local, mas com o custo menor. Você sabia desse truque? Já salva pra não perder. E aí conta pra mim pra onde você vai viajar? #dicas #publi #viagem #hotel #directodeals ",
           "publishedAt": "2026-10-19T22:56:56.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7698516517213703430?_r=1&u_code=0&region=GB&mid=7698516868125985554&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698516517213703430&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o4cC1NLADqDDJfsnAAARD2fAEYBFWoEqgEEIXb~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=07954e9f&x-expires=1793836800&x-signature=6zFssBVMe1OPvywcCjcQ7K6Tl7M%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 17117,
-          "likes": 437,
-          "comments": 70,
-          "engagementRate": 0.04767190512356137,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7698516517213703430?_r=1&u_code=0&region=US&mid=7698516868125985554&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7698516517213703430&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o4cC1NLADqDDJfsnAAARD2fAEYBFWoEqgEEIXb~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=82b2c9d4&x-expires=1793923200&x-signature=amzqL%2FlcY27S3S1UkStErWzM%2Fpc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 18116,
+          "likes": 456,
+          "comments": 72,
+          "engagementRate": 0.04691984985648046,
           "duracaoSeg": 56,
           "hashtags": [
             "#ad",
@@ -957,45 +969,15 @@
           "region": "br",
           "channelId": "7241432769535575046",
           "channelTitle": "Jef Dicas Tech 📱Tecnologia",
-          "videoId": "7690232306749033729",
-          "title": "Xiaomi 18 Pro Max é o melhor celular do ano? 😱 espere para comprar o seu iPhone por que esse Xiaomi é insano. #dicas #tecnologia #celular #xiaomi #curiosidades",
-          "publishedAt": "2026-09-27T15:09:38.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7690232306749033729?_r=1&u_code=0&region=US&mid=7690232815045430036&preview_pb=0&sharer_language=en&_d=f66ikeb17m4773&share_item_id=7690232306749033729&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8FGIcEDACfBuifAYqTyE4iQ1AF3BRAuzvC6Qg~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=d597693a&x-expires=1793836800&x-signature=PxNyeXCsBYFL72WOVkXPX3uZ%2BRA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&sc=cover&biz_tag=tt_video&s=PUBLISH",
-          "views": 182012,
-          "likes": 7379,
-          "comments": 153,
-          "engagementRate": 0.045535459200492276,
-          "duracaoSeg": 74,
-          "hashtags": [
-            "#dicas",
-            "#tecnologia",
-            "#celular",
-            "#xiaomi",
-            "#curiosidades"
-          ],
-          "tags": [
-            "dicas",
-            "tecnologia",
-            "celular",
-            "xiaomi",
-            "curiosidades"
-          ]
-        },
-        {
-          "platform": "tiktok",
-          "region": "br",
-          "channelId": "7241432769535575046",
-          "channelTitle": "Jef Dicas Tech 📱Tecnologia",
           "videoId": "7698033605234134278",
           "title": "99,9% dos técnicos de computador não vão tii mostra isso!!! Vai te levar pra outro nível. Já deixem mais comandos úteis nos comentários também. ✅ Windows + D = minimiza a tela ✅ Windows +setas = divide janelas corretamente ✅ Ctrl + W = fecha janelas ✅ Ctrl + Shift + T = Reabre uma janela fechada ✅ Alt + Tab = Alterna janelas rapidamente ✅ Word.new /usar ferramentas online Já manda pra quem precisa saber dessas dicas de pc.",
           "publishedAt": "2026-10-18T15:42:19.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7698033605234134278?_r=1&u_code=0&region=GB&mid=7698033703076301576&preview_pb=0&sharer_language=en&_d=f66j1abjm7844a&share_item_id=7698033605234134278&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oMaUPAApNEYt0Bn1i6i1oiDAIE64B22ATww9A~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=4224cf05&x-expires=1793836800&x-signature=YqdBnBhz%2FpzrnPzgLjwkRAWbjyo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 20819,
-          "likes": 710,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7698033605234134278?_r=1&u_code=0&region=US&mid=7698033703076301576&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7698033605234134278&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oMaUPAApNEYt0Bn1i6i1oiDAIE64B22ATww9A~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=a836e3b4&x-expires=1793923200&x-signature=3pm%2BmqpgaDdYc%2BxMPRFs5J8Fhwg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 21368,
+          "likes": 745,
           "comments": 9,
-          "engagementRate": 0.04380613862337288,
+          "engagementRate": 0.04445900411830775,
           "duracaoSeg": 61,
           "hashtags": [],
           "tags": []
@@ -1008,12 +990,12 @@
           "videoId": "7693738049632570676",
           "title": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂 Estes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques. Qual você mais gostou e não sabia? Deixa nos comentários a que você não fica sem. salva essa dica pra não perder e já manda pra quem não sabia disso. #dicas #pc #windows #informatica #jefdicastech ",
           "publishedAt": "2026-10-07T01:53:44.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7693738049632570676?_r=1&u_code=0&region=US&mid=7693738270857546517&preview_pb=0&sharer_language=en&_d=f66g8fhgbcb3k5&share_item_id=7693738049632570676&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEnBAYqIFKzDaCxpgmUiafELFEARDAxiYeoiAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=f78d8e1d&x-expires=1793836800&x-signature=XAk%2FuV2BPwB8uc4N4JOwlztrPng%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 707810,
-          "likes": 25009,
-          "comments": 289,
-          "engagementRate": 0.043767395204927874,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7693738049632570676?_r=1&u_code=0&region=US&mid=7693738270857546517&preview_pb=0&sharer_language=en&_d=f66aj6038g9ca6&share_item_id=7693738049632570676&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEnBAYqIFKzDaCxpgmUiafELFEARDAxiYeoiAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=04163e5e&x-expires=1793923200&x-signature=%2F8%2B%2BbBvm7Nz%2FqI0rSXyBsjESdCY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 716281,
+          "likes": 25292,
+          "comments": 292,
+          "engagementRate": 0.04371887569264018,
           "duracaoSeg": 47,
           "hashtags": [
             "#dicas",
@@ -1038,12 +1020,12 @@
           "videoId": "7695150373245340980",
           "title": "Seu computador demora uma vida para ligar? Olhe isso agora! 😮 #dicas #pc #windows #informatica #jefdicastech ",
           "publishedAt": "2026-10-10T21:14:13.000Z",
-          "url": "https://www.tiktok.com/@jefdicastech/video/7695150373245340980?_r=1&u_code=0&region=US&mid=7695150535829146375&preview_pb=0&sharer_language=en&_d=f66g8fhgbcb3k5&share_item_id=7695150373245340980&source=h5_t",
-          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUKAFoAziAqDq34sBYITaPqiEAEBqh8dvnIAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=04aeffa4&x-expires=1793836800&x-signature=hDzN5oE9CAcQpe3KsKX0%2BOnPNaY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
-          "views": 160097,
-          "likes": 5530,
+          "url": "https://www.tiktok.com/@jefdicastech/video/7695150373245340980?_r=1&u_code=0&region=US&mid=7695150535829146375&preview_pb=0&sharer_language=en&_d=f6694k373ehjj1&share_item_id=7695150373245340980&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUKAFoAziAqDq34sBYITaPqiEAEBqh8dvnIAE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=5b5da7c2&x-expires=1793923200&x-signature=mTcxssTz2NSxHp1wuIegX9tnjE8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&sc=cover&biz_tag=tt_video&s=PUBLISH",
+          "views": 161796,
+          "likes": 5612,
           "comments": 38,
-          "engagementRate": 0.041606026346527415,
+          "engagementRate": 0.04173156320304581,
           "duracaoSeg": 28,
           "hashtags": [
             "#dicas",
@@ -1059,16 +1041,46 @@
             "informatica",
             "jefdicastech"
           ]
+        },
+        {
+          "platform": "tiktok",
+          "region": "br",
+          "channelId": "7241432769535575046",
+          "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+          "videoId": "7697657249711328513",
+          "title": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮 #dicas #tecnologia #iphone #apple #jefdicastech ",
+          "publishedAt": "2026-10-17T15:21:58.000Z",
+          "url": "https://www.tiktok.com/@jefdicastech/video/7697657249711328513?_r=1&u_code=0&region=US&mid=7697657587258329876&preview_pb=0&sharer_language=en&_d=f669l7mh9fij83&share_item_id=7697657249711328513&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oUDaOEJIBQolcBk8wifpAOAAmiF8A1AChw3ILT~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=713d629d&x-expires=1793923200&x-signature=TbXaziOWHbxwHacOJkeIra%2B1mdg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 111786,
+          "likes": 3543,
+          "comments": 40,
+          "engagementRate": 0.03833217039700857,
+          "duracaoSeg": 72,
+          "hashtags": [
+            "#dicas",
+            "#tecnologia",
+            "#iphone",
+            "#apple",
+            "#jefdicastech"
+          ],
+          "tags": [
+            "dicas",
+            "tecnologia",
+            "iphone",
+            "apple",
+            "jefdicastech"
+          ]
         }
       ],
       "temasQuentes": [
         {
           "termo": "você",
-          "n": 51
+          "n": 53
         },
         {
           "termo": "não",
-          "n": 28
+          "n": 29
         },
         {
           "termo": "manda",
@@ -1083,8 +1095,12 @@
           "n": 11
         },
         {
+          "termo": "sem",
+          "n": 10
+        },
+        {
           "termo": "iphone",
-          "n": 11
+          "n": 10
         },
         {
           "termo": "muito",
@@ -1099,49 +1115,45 @@
           "n": 9
         },
         {
+          "termo": "saber",
+          "n": 9
+        },
+        {
+          "termo": "celular",
+          "n": 9
+        },
+        {
           "termo": "até",
           "n": 9
         },
         {
-          "termo": "sem",
-          "n": 9
-        },
-        {
-          "termo": "saber",
+          "termo": "pode",
           "n": 8
         },
         {
-          "termo": "agora",
-          "n": 8
-        },
-        {
-          "termo": "foto",
-          "n": 8
-        },
-        {
-          "termo": "está",
+          "termo": "usar",
           "n": 8
         }
       ],
       "hashtags": [
         {
           "tag": "#dicas",
-          "n": 30
+          "n": 29
         },
         {
           "tag": "#tecnologia",
-          "n": 13
-        },
-        {
-          "tag": "#curiosidades",
           "n": 12
         },
         {
-          "tag": "#celular",
-          "n": 8
+          "tag": "#curiosidades",
+          "n": 11
         },
         {
           "tag": "#jefdicastech",
+          "n": 7
+        },
+        {
+          "tag": "#celular",
           "n": 7
         },
         {
@@ -1185,11 +1197,30 @@
           "n": 2
         }
       ],
-      "novos": []
+      "novos": [
+        {
+          "platform": "tiktok",
+          "region": "br",
+          "channelId": "7241432769535575046",
+          "channelTitle": "Jef Dicas Tech 📱Tecnologia",
+          "videoId": "7704292882328440084",
+          "title": "Não compre seu celular sem saber disso antes! 😮 vai te chocar. Conheça o menor celular do mundo que você pode usar a câmera frontal e traseira em 50MP da ikko  encontrei na cellshop  do Paraguai 🇵🇾  Você queria ter um celular desse?",
+          "publishedAt": "2026-11-04T12:31:15.000Z",
+          "url": "https://www.tiktok.com/@jefdicastech/video/7704292882328440084?_r=1&u_code=0&region=US&mid=7704292912808381192&preview_pb=0&sharer_language=en&_d=f66jaegi8bmb1f&share_item_id=7704292882328440084&source=h5_t",
+          "thumbnail": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oEIGV1AbQohkIEfWRAsDFgAAID4ZryAEeAeLjJ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=480e96ee&x-expires=1793923200&x-signature=ht%2ByP9ub7nKA%2FQlg5ZqcTtIBiAE%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=132edbea&idc=no1a&biz_tag=tt_video&s=PUBLISH&sc=cover",
+          "views": 2101,
+          "likes": 61,
+          "comments": 5,
+          "engagementRate": 0.03284150404569253,
+          "duracaoSeg": 69,
+          "hashtags": [],
+          "tags": []
+        }
+      ]
     },
     "instagram": {
       "totalVideos": 40,
-      "mediaEngajamento": 0.010402033659530227,
+      "mediaEngajamento": 0.010447468378430764,
       "topViews": [
         {
           "platform": "instagram",
@@ -1200,11 +1231,11 @@
           "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
           "publishedAt": "2026-01-10T23:55:41.000Z",
           "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-          "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/613195607_876177248483599_2230078114680580629_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=MzgwNzMzMTUzMDEzMDI3OTUyNjE5NTI3NDcwNTU1ODc2NTk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=chanaKHHtTcQ7kNvwHGWiIO&_nc_oc=AdqbzoXdZVJIUUWLqlwrMl0ProieJNNlLotk9idrvcEWTPn8QqDyX4Apa1UeF53-I9vpNlT7sFX5peYirDOULB5U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=WfxMsmOSWbGIO9vdO8WJkw&_nc_ss=7a20f&oh=00_AQQyC4iDZxT2JtONOvgd_QL_eAqQhzOn1TqcUeus81071Q&oe=6AF03A12",
-          "views": 18420539,
-          "likes": 1068742,
-          "comments": 12454,
-          "engagementRate": 0.1898253116099711,
+          "thumbnail": "https://scontent-gru2-1.cdninstagram.com/v/t51.71878-15/613195607_876177248483599_2230078114680580629_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=MzgwNzMzMTUzMDEzMDI3OTUyNjE5NTI3NDcwNTU1ODc2NTk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=chanaKHHtTcQ7kNvwHmVQ1V&_nc_oc=AdoZrSjYCt0hNKo--VQx7UfAOPwLaCsIj9RBz7gouwvBbt8Or-c0DYIxqA1uWU7l4GE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru2-1.cdninstagram.com&_nc_gid=d1RYH_fGPeykfC41Ip_Biw&_nc_ss=7a20f&oh=00_AQSeIt3NtZKcNew6yfavMtmDxrWZ56NZlshwNV7QnO_kLQ&oe=6AF18B92",
+          "views": 18420941,
+          "likes": 1068737,
+          "comments": 12453,
+          "engagementRate": 0.18981192785535117,
           "duracaoSeg": 0,
           "descricao": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se ",
           "descricaoTamanho": 348,
@@ -1223,17 +1254,17 @@
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DecO6HuI2kp",
-          "title": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
+          "title": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
           "publishedAt": "2026-10-13T16:28:23.000Z",
           "url": "https://www.instagram.com/p/DecO6HuI2kp/",
-          "thumbnail": "https://instagram.forn3-5.fna.fbcdn.net/v/t51.82787-15/846704703_18010798469996476_2127610545156918812_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzE0MzMzNTEyMzk3MDM0NTE4MDEwNzk4NDYzOTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=SgFoxuiPNacQ7kNvwEEPiXr&_nc_oc=AdoxYUEyGoprgwmeDXZU4vzXLzdflqU2QXsUqBxb0i3lmimlD_rDUQ6XYOT0YphTM-U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.forn3-5.fna&_nc_gid=D_yIrPuth7nUBU9UGTpiyw&_nc_ss=7a20f&oh=00_AQTJT_76HmtC_iNu212GiGKJsOHEr4flR9iriz4dXDG6sQ&oe=6AF034E7",
-          "views": 9431110,
-          "likes": 201242,
-          "comments": 3477,
-          "engagementRate": 0.03594246368603072,
+          "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/846704703_18010798469996476_2127610545156918812_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAwNzE0MzMzNTEyMzk3MDM0NTE4MDEwNzk4NDYzOTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=SgFoxuiPNacQ7kNvwFWPijD&_nc_oc=Adp-y4P0kcXUk43aADe3stz0qM9cKUuEHpULBm38cYSi-FlZZQQT5n_m6mfN-RXRvPuR9rFJxXnVEjgj_13MPy1Z&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_gid=RIWIWgaGh-6iOXpbJnfBPQ&_nc_ss=7a20f&oh=00_AQRlGAgnYklPklUMbt0VMMAQYg63ymFnNzWKw5Gp4qTbtw&oe=6AF18667",
+          "views": 9505375,
+          "likes": 202566,
+          "comments": 3510,
+          "engagementRate": 0.03617836166142801,
           "duracaoSeg": 0,
-          "descricao": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
-          "descricaoTamanho": 168,
+          "descricao": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
+          "descricaoTamanho": 173,
           "hashtags": [],
           "tags": []
         },
@@ -1243,17 +1274,17 @@
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DerksAMI7m1",
-          "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
+          "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
           "publishedAt": "2026-10-19T15:27:23.000Z",
           "url": "https://www.instagram.com/p/DerksAMI7m1/",
-          "thumbnail": "https://scontent-cdg4-1.cdninstagram.com/v/t51.82787-15/858475343_18011761889996476_4984130094059977390_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=NDAxMTQ2MTI0NjYzODYwMjY3NzE4MDExNzYxODg2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=H6aL5w70ZCcQ7kNvwG1w0WL&_nc_oc=Adp_RtDrNpFTwsyg0SgKH6xGT0c3O5nx8PERVXtzqQ9IIEAvqUDMfAHOPnXt8vdPXbc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_gid=e9KWH0Zji9x9pvQ7OCG5MQ&_nc_ss=7a20f&oh=00_AQTZ4y20vLjsE57duEReVZ69ExWIMsNRng6eoj9b6x4Dkg&oe=6AF04357",
-          "views": 7528530,
-          "likes": 280869,
-          "comments": 1671,
-          "engagementRate": 0.04960547721438225,
+          "thumbnail": "https://instagram.fbog14-1.fna.fbcdn.net/v/t51.82787-15/858475343_18011761889996476_4984130094059977390_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMTQ2MTI0NjYzODYwMjY3NzE4MDExNzYxODg2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzIifQ%3D%3D&_nc_ohc=H6aL5w70ZCcQ7kNvwHo64UP&_nc_oc=AdqoAOP4u-aFE5hCdYlnw6y-kaaB-ui-ci3e1JANgj3qOyPVvDzU5DJxEnI46x3sKHU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbog14-1.fna&_nc_gid=jhwAWvDK_C3rQEiOFn5-Mg&_nc_ss=7a20f&oh=00_AQT_eCLsuiTciO-QF6DPTLe_q_tG5vr-h-5_OfM9PTXstg&oe=6AF194D7",
+          "views": 7587532,
+          "likes": 282984,
+          "comments": 1674,
+          "engagementRate": 0.0499740875881654,
           "duracaoSeg": 0,
-          "descricao": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
-          "descricaoTamanho": 193,
+          "descricao": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
+          "descricaoTamanho": 200,
           "hashtags": [],
           "tags": []
         },
@@ -1266,11 +1297,11 @@
           "title": "iPhone tira foto da lua sim! 😮 Você que não\nsabia! Bora aprender o jeito certo de fazer? É rápido e fácil.\n\n#dicas #foto #lua #iphone #ios",
           "publishedAt": "2026-10-23T01:07:25.000Z",
           "url": "https://www.instagram.com/p/De0Vma8oCPS/",
-          "thumbnail": "https://scontent-fco2-1.cdninstagram.com/v/t51.82787-15/863378410_18012275522996476_3975075023059516081_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxMzkyODE2NzE0NTIxOTAyNjE4MDEyMjc1NTE2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=yt5hvPnaxckQ7kNvwFxOX_E&_nc_oc=AdomX1qr9hhbJSxpylppFnJerpscshm2TooYpZHV-nBn1IwjaMTRiWNnpfG3ORB-d_4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=Ir_cjrWv9WLkn0iYKby9Xw&_nc_ss=7a20f&oh=00_AQTeji-tSSV6npQBUV2rQHjD_cTkai2LagAfbTTR6sq9TA&oe=6AF056C5",
-          "views": 2638158,
-          "likes": 72684,
-          "comments": 192,
-          "engagementRate": 0.012794821113737245,
+          "thumbnail": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/863378410_18012275522996476_3975075023059516081_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxMzkyODE2NzE0NTIxOTAyNjE4MDEyMjc1NTE2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=yt5hvPnaxckQ7kNvwHdLA5A&_nc_oc=Adpctgo8BTaJNJ_JW7Z539ywhFGIv_wsJOUl0d2yqA3YEqlXAaW8kR5JuNnIg4afV38&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=GyO-CVnnySjN4zaQdIXHbg&_nc_ss=7a20f&oh=00_AQT4obOcH-LH2mQry87LMTrXMtHcXXDeY0OjFqIZI-tXMg&oe=6AF1A845",
+          "views": 2656096,
+          "likes": 73159,
+          "comments": 194,
+          "engagementRate": 0.012877731336743378,
           "duracaoSeg": 0,
           "descricao": "iPhone tira foto da lua sim! 😮 Você que não\nsabia! Bora aprender o jeito certo de fazer? É rápido e fácil.\n\n#dicas #foto #lua #iphone #ios",
           "descricaoTamanho": 139,
@@ -1292,11 +1323,11 @@
           "title": "Não precisa mais colocar credencial encima do painel agora você consegue ter uma credencial on-line! 😮\n\nDa uma olhada como conseguir a sua.",
           "publishedAt": "2026-10-27T22:21:49.000Z",
           "url": "https://www.instagram.com/p/DfA6lwmo4pJ/",
-          "thumbnail": "https://scontent-cdg4-3.cdninstagram.com/v/t51.82787-15/870344409_18013186127996476_2411144987224522158_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAxNzQ2ODU0OTEyMDYyNTIyNTE4MDEzMTg2MTI0OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=GGhFr64b8q4Q7kNvwEYAtfo&_nc_oc=AdrbpuqWwVby99Hbxzd7p0_JRo7RPGmETuCZ7oMTQnXtdyqgL8nqfvjyEJ6eNsD-BGzpkPEi-t4w45PcoTIYbH8I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-3.cdninstagram.com&_nc_gid=FNyY5saSJLAUwpmP5Ia9gg&_nc_ss=7a20f&oh=00_AQSwiJcMJGTkyeHt-a1wI3lKR19Dcpv1aZPoPxM6UfxMFA&oe=6AF040B5",
-          "views": 2257741,
-          "likes": 59758,
-          "comments": 1300,
-          "engagementRate": 0.010719937806171698,
+          "thumbnail": "https://instagram.fpos6-2.fna.fbcdn.net/v/t51.82787-15/870344409_18013186127996476_2411144987224522158_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNzQ2ODU0OTEyMDYyNTIyNTE4MDEzMTg2MTI0OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=5e7YrKci0ZwQ7kNvwGExwIl&_nc_oc=AdocP46noGwBFhV2NU9iulOyyg4YxSza9zJ9GA_NGqhBrUCiRob2_QzqVRTYazdNX2Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpos6-2.fna&_nc_gid=fCTR-H1ASb2esgUvI7Jiww&_nc_ss=7a20f&oh=00_AQRTSBehuaUrLKv5beDDJXZbyhEDeyfhvHVC5mn9VKp-5g&oe=6AF19235",
+          "views": 2354826,
+          "likes": 63442,
+          "comments": 1371,
+          "engagementRate": 0.011378463063928519,
           "duracaoSeg": 0,
           "descricao": "Não precisa mais colocar credencial encima do painel agora você consegue ter uma credencial on-line! 😮\n\nDa uma olhada como conseguir a sua.",
           "descricaoTamanho": 140,
@@ -1312,11 +1343,11 @@
           "title": "Cuidado com o seu Telefone! Desative agora essa função para ter mais privacidade e não registrar sua voz em ferramentas. 😮",
           "publishedAt": "2026-10-15T18:07:00.000Z",
           "url": "https://www.instagram.com/p/Dehj-6dIsgL/",
-          "thumbnail": "https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/848110831_18011099993996476_911567228322440928_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAwODY0MzM5ODMzNzc0Mjg1OTE4MDExMDk5OTg3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=FwtdszeRlSgQ7kNvwFP-JXN&_nc_oc=AdrzWq4fY6tfetvGDhGd8cdT37HkvHaiuye2_4fJ4zkBQ56-4PN5R6c-JY3ucSdpztE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mxp2-1.cdninstagram.com&_nc_gid=uUYYDikx1v2WvT_PUvCDcg&_nc_ss=7a20f&oh=00_AQTgdioToaMiYnKjZORtNOXW_Qxxa7fVZdnDRQatJW55tw&oe=6AF0352B",
-          "views": 1988101,
-          "likes": 36936,
-          "comments": 554,
-          "engagementRate": 0.006582109934052491,
+          "thumbnail": "https://scontent-ham3-1.cdninstagram.com/v/t51.82787-15/848110831_18011099993996476_911567228322440928_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAwODY0MzM5ODMzNzc0Mjg1OTE4MDExMDk5OTg3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=FwtdszeRlSgQ7kNvwEi2QrL&_nc_oc=AdrvzdMUCFk_Ysi2msdXwJ3GWcLpv6M9W3XaA_z7qjjJ8JX_i_Ve5bpzhSQwJscwAArA_DXWbzOUIsH_xfLt7Tan&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_gid=QYjZ69NvmngcoEqWBkamSw&_nc_ss=7a20f&oh=00_AQTfdn0sOTlgosfusk04P_mfgGKDybfcPSx6YLnxu54QOw&oe=6AF186AB",
+          "views": 2010255,
+          "likes": 37448,
+          "comments": 573,
+          "engagementRate": 0.00667490386424986,
           "duracaoSeg": 0,
           "descricao": "Cuidado com o seu Telefone! Desative agora essa função para ter mais privacidade e não registrar sua voz em ferramentas. 😮",
           "descricaoTamanho": 123,
@@ -1332,11 +1363,11 @@
           "title": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂\n\nEstes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques.\n\nQual você mais gostou e não sabia? Deixa nos comentários a que você não fica sem.\n\nsalva essa dica pra não perder e já manda pra quem não sabia disso.\n#dicas #pc #windows #informatica #jefdicastech",
           "publishedAt": "2026-10-07T01:46:46.000Z",
           "url": "https://www.instagram.com/p/DeLNIKGIeoI/",
-          "thumbnail": "https://instagram.fadd1-1.fna.fbcdn.net/v/t51.71878-15/839617852_990974300697518_6194795135573594881_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAwMjM1MDQyOTA0OTU4MDA0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=zdpjzbcgk7kQ7kNvwFn1v0B&_nc_oc=AdoLAkjzAIc0AdS0Q3x6FhTDR5HAJvG-u1AxIJ947pTZlzPdrEq2c_ExUAxbGVmOvtQ&_nc_ad=z-m&_nc_cid=1735&_nc_zt=23&_nc_ht=instagram.fadd1-1.fna&_nc_gid=GLNxz_Vhg5N76A3oLoIHuw&_nc_ss=7a20f&oh=00_AQS2T3UqDGEKe2z_bZ9IEsxUq_UYIWp_JeylTU8UAiFc2g&oe=6AF05250",
-          "views": 1893023,
-          "likes": 67574,
-          "comments": 609,
-          "engagementRate": 0.011970872276167003,
+          "thumbnail": "https://scontent-vie1-1.cdninstagram.com/v/t51.71878-15/839617852_990974300697518_6194795135573594881_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=NDAwMjM1MDQyOTA0OTU4MDA0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=lTU-oFtpICAQ7kNvwFN3y3a&_nc_oc=AdqggT_C0AVj-GpW3Mdwq85VKbhQJUf44K336kz8hO6PvucqwRZgnN5LTJNbY2HlNMM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=ucdyE5nXCvgm0QngFkvOLg&_nc_ss=7a20f&oh=00_AQTb_GDlNEEe2fV2LiJWUobPRksDwJB2exqA_HWic2ey5g&oe=6AF1A3D0",
+          "views": 1942372,
+          "likes": 69620,
+          "comments": 623,
+          "engagementRate": 0.01233174488142087,
           "duracaoSeg": 0,
           "descricao": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂\n\nEstes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques.\n\nQual você mais gostou e nã",
           "descricaoTamanho": 391,
@@ -1355,17 +1386,17 @@
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DemZ6VxI_wK",
-          "title": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
+          "title": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
           "publishedAt": "2026-10-17T15:16:38.000Z",
           "url": "https://www.instagram.com/p/DemZ6VxI_wK/",
-          "thumbnail": "https://instagram.fbhx4-2.fna.fbcdn.net/v/t51.82787-15/855410387_18011408564996476_343845814592910048_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMDAwNjQ3ODQ4NTQ1MzgzNDE4MDExNDA4NTU4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=reg1XBdntEAQ7kNvwHp47jp&_nc_oc=Adq13vvpqm7SV-rprL_ffcmp8akcKMSFam42JP8E_CQBC3JI6B_cxwlS2l8Tck2IDUA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbhx4-2.fna&_nc_gid=fw3Odz_yfLBL_4dZuz0q5Q&_nc_ss=7a20f&oh=00_AQR86Q5grZcG4MItP50FzJTKVwpg_M9LzCMbnwZtAje2Sw&oe=6AF03089",
-          "views": 1731282,
-          "likes": 41893,
+          "thumbnail": "https://instagram.fsjo12-1.fna.fbcdn.net/v/t51.82787-15/855410387_18011408564996476_343845814592910048_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMDAwNjQ3ODQ4NTQ1MzgzNDE4MDExNDA4NTU4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=reg1XBdntEAQ7kNvwEIEI12&_nc_oc=Adqh1AsKj1xe75x-aa3aZNSjHhcWaUT2GqJ1WuKnstDLfBZdmAng-r9Gtv3N913Xy2Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsjo12-1.fna&_nc_gid=D6R5EacUb8NiGry0Yn0Raw&_nc_ss=7a20f&oh=00_AQRY4dOwNf57gjIeiurDWevc6OudcTe4CyG42cq3eoekOA&oe=6AF18209",
+          "views": 1737756,
+          "likes": 42002,
           "comments": 281,
-          "engagementRate": 0.007404478643871159,
+          "engagementRate": 0.0074231335338911875,
           "duracaoSeg": 0,
-          "descricao": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
-          "descricaoTamanho": 143,
+          "descricao": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
+          "descricaoTamanho": 142,
           "hashtags": [],
           "tags": []
         },
@@ -1378,11 +1409,11 @@
           "title": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada.\n\nEsse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos de 1 segundo e mais de 370km/h em velocidade máxima.\n\nO sistema de sucção multimodos fornece até 2Gs de downforce estacionário.\n\nPropulsores de colflyas montados no perímetro apoiando aceleração para a frente e para cima mais movimento de rotação lateral, desenvolvidos com a Spacex\n\nConstruído com materiais resistentes, incluindo magnésio, titânio e fibra de carbono.",
           "publishedAt": "2026-10-16T19:17:39.000Z",
           "url": "https://www.instagram.com/p/DekQYf9oy0s/",
-          "thumbnail": "https://instagram.floo1-2.fna.fbcdn.net/v/t51.82787-15/850584183_18011270603996476_6650317430868588152_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTQwMTYyMDU5ODMwNDA0NDE4MDExMjcwNTk3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=dJaeIzU4PW0Q7kNvwFk6cJn&_nc_oc=Adqs4XbXjEMGP_yBc1LAwaCFYoPtvHbqEby1QbHWQOk-lxbwW6qoRw9OlRb1AQn6VG4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.floo1-2.fna&_nc_gid=oG7eLWEnDKZu54gkbYxpmw&_nc_ss=7a20f&oh=00_AQQyp3I-jspYsbYuI4GMM6hSHLJq1NV5QV3ypwQdPkJtZA&oe=6AF065A2",
-          "views": 1225272,
-          "likes": 69710,
+          "thumbnail": "https://instagram.fpac1-1.fna.fbcdn.net/v/t51.82787-15/850584183_18011270603996476_6650317430868588152_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTQwMTYyMDU5ODMwNDA0NDE4MDExMjcwNTk3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=dJaeIzU4PW0Q7kNvwGOu4h2&_nc_oc=AdqzU-IlOjbZKuhhq1kynNKCmvD7d31UOkdc2SE6LTAtw8SsfbnW224zzrWL5vePda8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpac1-1.fna&_nc_gid=z3HB1J79TX3XFV4cbxAYQw&_nc_ss=7a20f&oh=00_AQTdS8E-uvzH6S5Z1_M-jHZIADeifvqyAbHzTB0jwMEbWQ&oe=6AF1B722",
+          "views": 1225431,
+          "likes": 69715,
           "comments": 491,
-          "engagementRate": 0.012325172032019709,
+          "engagementRate": 0.012325249222627645,
           "duracaoSeg": 0,
           "descricao": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada.\n\nEsse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos d",
           "descricaoTamanho": 588,
@@ -1398,11 +1429,11 @@
           "title": "Seu computador demora uma vida para ligar? Olhe isso agora! 😮\n\n#dicas #pc #windows #informatica #jefdicastech",
           "publishedAt": "2026-10-10T21:07:24.000Z",
           "url": "https://www.instagram.com/p/DeVAo1OId5r/",
-          "thumbnail": "https://instagram.falg7-1.fna.fbcdn.net/v/t51.71878-15/845902715_2732704700481303_892714321065308225_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNTExMDI0OTU0MDQxMDk4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=H3i8-zUDjyoQ7kNvwEhkd_j&_nc_oc=AdphDytdsNqXQSsYqst94aXC1azPlSQHcKExMebG7wEMag-tmjbyM2SG7uIq3WtOxpU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.falg7-1.fna&_nc_gid=XgydqMIjCixagso7jgVAmA&_nc_ss=7a20f&oh=00_AQSV-AauKglkrYfLRD-28Nr9MYQpRWFZik38aHcCy2W9TA&oe=6AF05A66",
-          "views": 1081584,
-          "likes": 32730,
+          "thumbnail": "https://instagram.fzag5-1.fna.fbcdn.net/v/t51.71878-15/845902715_2732704700481303_892714321065308225_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNTExMDI0OTU0MDQxMDk4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=HJ644oXnKPoQ7kNvwHt7lFD&_nc_oc=AdpSNc6MZeNnd-gnw7yLoMfoGjNKAVmbvfcKaNTb0WTXnYSRkPA91XPmMOkcOCQSGbU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fzag5-1.fna&_nc_gid=hgRavXwhpQZ2Vw62230OcQ&_nc_ss=7a20f&oh=00_AQShzcrBjjqZGO5vuw3VxuHwNHp2y1AYxG9lP9OltuuAFg&oe=6AF1ABE6",
+          "views": 1086455,
+          "likes": 32912,
           "comments": 88,
-          "engagementRate": 0.00576184806123592,
+          "engagementRate": 0.005793425410174519,
           "duracaoSeg": 0,
           "descricao": "Seu computador demora uma vida para ligar? Olhe isso agora! 😮\n\n#dicas #pc #windows #informatica #jefdicastech",
           "descricaoTamanho": 110,
@@ -1426,11 +1457,11 @@
           "title": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se proteger desse conteúdo e saber o que é inteligência artificial?\n\n#dicas #ia #fakenews #inteligenciaartificial #utilidadepublica",
           "publishedAt": "2026-01-10T23:55:41.000Z",
           "url": "https://www.instagram.com/p/DTWW9rDj0xm/",
-          "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/613195607_876177248483599_2230078114680580629_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=MzgwNzMzMTUzMDEzMDI3OTUyNjE5NTI3NDcwNTU1ODc2NTk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=chanaKHHtTcQ7kNvwHGWiIO&_nc_oc=AdqbzoXdZVJIUUWLqlwrMl0ProieJNNlLotk9idrvcEWTPn8QqDyX4Apa1UeF53-I9vpNlT7sFX5peYirDOULB5U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=WfxMsmOSWbGIO9vdO8WJkw&_nc_ss=7a20f&oh=00_AQQyC4iDZxT2JtONOvgd_QL_eAqQhzOn1TqcUeus81071Q&oe=6AF03A12",
-          "views": 18420539,
-          "likes": 1068742,
-          "comments": 12454,
-          "engagementRate": 0.1898253116099711,
+          "thumbnail": "https://scontent-gru2-1.cdninstagram.com/v/t51.71878-15/613195607_876177248483599_2230078114680580629_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=MzgwNzMzMTUzMDEzMDI3OTUyNjE5NTI3NDcwNTU1ODc2NTk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=chanaKHHtTcQ7kNvwHmVQ1V&_nc_oc=AdoZrSjYCt0hNKo--VQx7UfAOPwLaCsIj9RBz7gouwvBbt8Or-c0DYIxqA1uWU7l4GE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru2-1.cdninstagram.com&_nc_gid=d1RYH_fGPeykfC41Ip_Biw&_nc_ss=7a20f&oh=00_AQSeIt3NtZKcNew6yfavMtmDxrWZ56NZlshwNV7QnO_kLQ&oe=6AF18B92",
+          "views": 18420941,
+          "likes": 1068737,
+          "comments": 12453,
+          "engagementRate": 0.18981192785535117,
           "duracaoSeg": 0,
           "descricao": "Mande esse vídeo para quem precisa saber disso! E lembre dessas dicas de segurança. 😮\n\nEsse ano vai ser quase impossível saber o que é real ou falso na internet.\n\nDiz aí nos comentários você o que mais você usa para se ",
           "descricaoTamanho": 348,
@@ -1449,17 +1480,17 @@
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DerksAMI7m1",
-          "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
+          "title": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
           "publishedAt": "2026-10-19T15:27:23.000Z",
           "url": "https://www.instagram.com/p/DerksAMI7m1/",
-          "thumbnail": "https://scontent-cdg4-1.cdninstagram.com/v/t51.82787-15/858475343_18011761889996476_4984130094059977390_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=NDAxMTQ2MTI0NjYzODYwMjY3NzE4MDExNzYxODg2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=H6aL5w70ZCcQ7kNvwG1w0WL&_nc_oc=Adp_RtDrNpFTwsyg0SgKH6xGT0c3O5nx8PERVXtzqQ9IIEAvqUDMfAHOPnXt8vdPXbc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_gid=e9KWH0Zji9x9pvQ7OCG5MQ&_nc_ss=7a20f&oh=00_AQTZ4y20vLjsE57duEReVZ69ExWIMsNRng6eoj9b6x4Dkg&oe=6AF04357",
-          "views": 7528530,
-          "likes": 280869,
-          "comments": 1671,
-          "engagementRate": 0.04960547721438225,
+          "thumbnail": "https://instagram.fbog14-1.fna.fbcdn.net/v/t51.82787-15/858475343_18011761889996476_4984130094059977390_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMTQ2MTI0NjYzODYwMjY3NzE4MDExNzYxODg2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzIifQ%3D%3D&_nc_ohc=H6aL5w70ZCcQ7kNvwHo64UP&_nc_oc=AdqoAOP4u-aFE5hCdYlnw6y-kaaB-ui-ci3e1JANgj3qOyPVvDzU5DJxEnI46x3sKHU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbog14-1.fna&_nc_gid=jhwAWvDK_C3rQEiOFn5-Mg&_nc_ss=7a20f&oh=00_AQT_eCLsuiTciO-QF6DPTLe_q_tG5vr-h-5_OfM9PTXstg&oe=6AF194D7",
+          "views": 7587532,
+          "likes": 282984,
+          "comments": 1674,
+          "engagementRate": 0.0499740875881654,
           "duracaoSeg": 0,
-          "descricao": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
-          "descricaoTamanho": 193,
+          "descricao": "Você não sabe tirar foto no iPhone 😮 todo mundo vai achar que você tá tirando foto com câmera profissional quando fizer esses ajustes!\n\nAté o pôr do sol vai ficar mais bonito calibrando assim.",
+          "descricaoTamanho": 200,
           "hashtags": [],
           "tags": []
         },
@@ -1469,17 +1500,17 @@
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DecO6HuI2kp",
-          "title": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
+          "title": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
           "publishedAt": "2026-10-13T16:28:23.000Z",
           "url": "https://www.instagram.com/p/DecO6HuI2kp/",
-          "thumbnail": "https://instagram.forn3-5.fna.fbcdn.net/v/t51.82787-15/846704703_18010798469996476_2127610545156918812_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAwNzE0MzMzNTEyMzk3MDM0NTE4MDEwNzk4NDYzOTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=SgFoxuiPNacQ7kNvwEEPiXr&_nc_oc=AdoxYUEyGoprgwmeDXZU4vzXLzdflqU2QXsUqBxb0i3lmimlD_rDUQ6XYOT0YphTM-U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.forn3-5.fna&_nc_gid=D_yIrPuth7nUBU9UGTpiyw&_nc_ss=7a20f&oh=00_AQTJT_76HmtC_iNu212GiGKJsOHEr4flR9iriz4dXDG6sQ&oe=6AF034E7",
-          "views": 9431110,
-          "likes": 201242,
-          "comments": 3477,
-          "engagementRate": 0.03594246368603072,
+          "thumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/846704703_18010798469996476_2127610545156918812_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAwNzE0MzMzNTEyMzk3MDM0NTE4MDEwNzk4NDYzOTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=SgFoxuiPNacQ7kNvwFWPijD&_nc_oc=Adp-y4P0kcXUk43aADe3stz0qM9cKUuEHpULBm38cYSi-FlZZQQT5n_m6mfN-RXRvPuR9rFJxXnVEjgj_13MPy1Z&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_gid=RIWIWgaGh-6iOXpbJnfBPQ&_nc_ss=7a20f&oh=00_AQRlGAgnYklPklUMbt0VMMAQYg63ymFnNzWKw5Gp4qTbtw&oe=6AF18667",
+          "views": 9505375,
+          "likes": 202566,
+          "comments": 3510,
+          "engagementRate": 0.03617836166142801,
           "duracaoSeg": 0,
-          "descricao": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
-          "descricaoTamanho": 168,
+          "descricao": "Novo truque nos status do WhatsApp! ✅😮\n\nVocê não vai mais baixar vídeos, e muita gente nem sabe disso.\n\n[nova atualização, recurso secreto do WhatsApp, dicas, truques]",
+          "descricaoTamanho": 173,
           "hashtags": [],
           "tags": []
         },
@@ -1492,11 +1523,11 @@
           "title": "iPhone tira foto da lua sim! 😮 Você que não\nsabia! Bora aprender o jeito certo de fazer? É rápido e fácil.\n\n#dicas #foto #lua #iphone #ios",
           "publishedAt": "2026-10-23T01:07:25.000Z",
           "url": "https://www.instagram.com/p/De0Vma8oCPS/",
-          "thumbnail": "https://scontent-fco2-1.cdninstagram.com/v/t51.82787-15/863378410_18012275522996476_3975075023059516081_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxMzkyODE2NzE0NTIxOTAyNjE4MDEyMjc1NTE2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=yt5hvPnaxckQ7kNvwFxOX_E&_nc_oc=AdomX1qr9hhbJSxpylppFnJerpscshm2TooYpZHV-nBn1IwjaMTRiWNnpfG3ORB-d_4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=Ir_cjrWv9WLkn0iYKby9Xw&_nc_ss=7a20f&oh=00_AQTeji-tSSV6npQBUV2rQHjD_cTkai2LagAfbTTR6sq9TA&oe=6AF056C5",
-          "views": 2638158,
-          "likes": 72684,
-          "comments": 192,
-          "engagementRate": 0.012794821113737245,
+          "thumbnail": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/863378410_18012275522996476_3975075023059516081_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxMzkyODE2NzE0NTIxOTAyNjE4MDEyMjc1NTE2OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=yt5hvPnaxckQ7kNvwHdLA5A&_nc_oc=Adpctgo8BTaJNJ_JW7Z539ywhFGIv_wsJOUl0d2yqA3YEqlXAaW8kR5JuNnIg4afV38&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=GyO-CVnnySjN4zaQdIXHbg&_nc_ss=7a20f&oh=00_AQT4obOcH-LH2mQry87LMTrXMtHcXXDeY0OjFqIZI-tXMg&oe=6AF1A845",
+          "views": 2656096,
+          "likes": 73159,
+          "comments": 194,
+          "engagementRate": 0.012877731336743378,
           "duracaoSeg": 0,
           "descricao": "iPhone tira foto da lua sim! 😮 Você que não\nsabia! Bora aprender o jeito certo de fazer? É rápido e fácil.\n\n#dicas #foto #lua #iphone #ios",
           "descricaoTamanho": 139,
@@ -1514,35 +1545,15 @@
           "region": "br",
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
-          "videoId": "DekQYf9oy0s",
-          "title": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada.\n\nEsse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos de 1 segundo e mais de 370km/h em velocidade máxima.\n\nO sistema de sucção multimodos fornece até 2Gs de downforce estacionário.\n\nPropulsores de colflyas montados no perímetro apoiando aceleração para a frente e para cima mais movimento de rotação lateral, desenvolvidos com a Spacex\n\nConstruído com materiais resistentes, incluindo magnésio, titânio e fibra de carbono.",
-          "publishedAt": "2026-10-16T19:17:39.000Z",
-          "url": "https://www.instagram.com/p/DekQYf9oy0s/",
-          "thumbnail": "https://instagram.floo1-2.fna.fbcdn.net/v/t51.82787-15/850584183_18011270603996476_6650317430868588152_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTQwMTYyMDU5ODMwNDA0NDE4MDExMjcwNTk3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=dJaeIzU4PW0Q7kNvwFk6cJn&_nc_oc=Adqs4XbXjEMGP_yBc1LAwaCFYoPtvHbqEby1QbHWQOk-lxbwW6qoRw9OlRb1AQn6VG4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.floo1-2.fna&_nc_gid=oG7eLWEnDKZu54gkbYxpmw&_nc_ss=7a20f&oh=00_AQQyp3I-jspYsbYuI4GMM6hSHLJq1NV5QV3ypwQdPkJtZA&oe=6AF065A2",
-          "views": 1225272,
-          "likes": 69710,
-          "comments": 491,
-          "engagementRate": 0.012325172032019709,
-          "duracaoSeg": 0,
-          "descricao": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada.\n\nEsse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos d",
-          "descricaoTamanho": 588,
-          "hashtags": [],
-          "tags": []
-        },
-        {
-          "platform": "instagram",
-          "region": "br",
-          "channelId": "59873876475",
-          "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DeLNIKGIeoI",
           "title": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂\n\nEstes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques.\n\nQual você mais gostou e não sabia? Deixa nos comentários a que você não fica sem.\n\nsalva essa dica pra não perder e já manda pra quem não sabia disso.\n#dicas #pc #windows #informatica #jefdicastech",
           "publishedAt": "2026-10-07T01:46:46.000Z",
           "url": "https://www.instagram.com/p/DeLNIKGIeoI/",
-          "thumbnail": "https://instagram.fadd1-1.fna.fbcdn.net/v/t51.71878-15/839617852_990974300697518_6194795135573594881_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAwMjM1MDQyOTA0OTU4MDA0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=zdpjzbcgk7kQ7kNvwFn1v0B&_nc_oc=AdoLAkjzAIc0AdS0Q3x6FhTDR5HAJvG-u1AxIJ947pTZlzPdrEq2c_ExUAxbGVmOvtQ&_nc_ad=z-m&_nc_cid=1735&_nc_zt=23&_nc_ht=instagram.fadd1-1.fna&_nc_gid=GLNxz_Vhg5N76A3oLoIHuw&_nc_ss=7a20f&oh=00_AQS2T3UqDGEKe2z_bZ9IEsxUq_UYIWp_JeylTU8UAiFc2g&oe=6AF05250",
-          "views": 1893023,
-          "likes": 67574,
-          "comments": 609,
-          "engagementRate": 0.011970872276167003,
+          "thumbnail": "https://scontent-vie1-1.cdninstagram.com/v/t51.71878-15/839617852_990974300697518_6194795135573594881_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=NDAwMjM1MDQyOTA0OTU4MDA0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=lTU-oFtpICAQ7kNvwFN3y3a&_nc_oc=AdqggT_C0AVj-GpW3Mdwq85VKbhQJUf44K336kz8hO6PvucqwRZgnN5LTJNbY2HlNMM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=ucdyE5nXCvgm0QngFkvOLg&_nc_ss=7a20f&oh=00_AQTb_GDlNEEe2fV2LiJWUobPRksDwJB2exqA_HWic2ey5g&oe=6AF1A3D0",
+          "views": 1942372,
+          "likes": 69620,
+          "comments": 623,
+          "engagementRate": 0.01233174488142087,
           "duracaoSeg": 0,
           "descricao": "Você sempre usou a tecla Windows errado! 🚨😮 você só usa pra abrir o menu?😂\n\nEstes são t atalhos poderosos da tecla Windows no seu PC pra ter mais produtividade e economizar tempo e cliques.\n\nQual você mais gostou e nã",
           "descricaoTamanho": 391,
@@ -1560,15 +1571,35 @@
           "region": "br",
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
+          "videoId": "DekQYf9oy0s",
+          "title": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada.\n\nEsse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos de 1 segundo e mais de 370km/h em velocidade máxima.\n\nO sistema de sucção multimodos fornece até 2Gs de downforce estacionário.\n\nPropulsores de colflyas montados no perímetro apoiando aceleração para a frente e para cima mais movimento de rotação lateral, desenvolvidos com a Spacex\n\nConstruído com materiais resistentes, incluindo magnésio, titânio e fibra de carbono.",
+          "publishedAt": "2026-10-16T19:17:39.000Z",
+          "url": "https://www.instagram.com/p/DekQYf9oy0s/",
+          "thumbnail": "https://instagram.fpac1-1.fna.fbcdn.net/v/t51.82787-15/850584183_18011270603996476_6650317430868588152_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAwOTQwMTYyMDU5ODMwNDA0NDE4MDExMjcwNTk3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=dJaeIzU4PW0Q7kNvwGOu4h2&_nc_oc=AdqzU-IlOjbZKuhhq1kynNKCmvD7d31UOkdc2SE6LTAtw8SsfbnW224zzrWL5vePda8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpac1-1.fna&_nc_gid=z3HB1J79TX3XFV4cbxAYQw&_nc_ss=7a20f&oh=00_AQTdS8E-uvzH6S5Z1_M-jHZIADeifvqyAbHzTB0jwMEbWQ&oe=6AF1B722",
+          "views": 1225431,
+          "likes": 69715,
+          "comments": 491,
+          "engagementRate": 0.012325249222627645,
+          "duracaoSeg": 0,
+          "descricao": "Que absurdo o primeiro carro voador da Tesla! 😱🚗 e ele pula engarrafamento como se não fosse nada.\n\nEsse é o ROADSTER DO TESLA, que vai entrar em produção em 2028. Esse carro tem potência de ir de zero a 100 em menos d",
+          "descricaoTamanho": 588,
+          "hashtags": [],
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "region": "br",
+          "channelId": "59873876475",
+          "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DfA6lwmo4pJ",
           "title": "Não precisa mais colocar credencial encima do painel agora você consegue ter uma credencial on-line! 😮\n\nDa uma olhada como conseguir a sua.",
           "publishedAt": "2026-10-27T22:21:49.000Z",
           "url": "https://www.instagram.com/p/DfA6lwmo4pJ/",
-          "thumbnail": "https://scontent-cdg4-3.cdninstagram.com/v/t51.82787-15/870344409_18013186127996476_2411144987224522158_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAxNzQ2ODU0OTEyMDYyNTIyNTE4MDEzMTg2MTI0OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=GGhFr64b8q4Q7kNvwEYAtfo&_nc_oc=AdrbpuqWwVby99Hbxzd7p0_JRo7RPGmETuCZ7oMTQnXtdyqgL8nqfvjyEJ6eNsD-BGzpkPEi-t4w45PcoTIYbH8I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-3.cdninstagram.com&_nc_gid=FNyY5saSJLAUwpmP5Ia9gg&_nc_ss=7a20f&oh=00_AQSwiJcMJGTkyeHt-a1wI3lKR19Dcpv1aZPoPxM6UfxMFA&oe=6AF040B5",
-          "views": 2257741,
-          "likes": 59758,
-          "comments": 1300,
-          "engagementRate": 0.010719937806171698,
+          "thumbnail": "https://instagram.fpos6-2.fna.fbcdn.net/v/t51.82787-15/870344409_18013186127996476_2411144987224522158_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNzQ2ODU0OTEyMDYyNTIyNTE4MDEzMTg2MTI0OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=5e7YrKci0ZwQ7kNvwGExwIl&_nc_oc=AdocP46noGwBFhV2NU9iulOyyg4YxSza9zJ9GA_NGqhBrUCiRob2_QzqVRTYazdNX2Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpos6-2.fna&_nc_gid=fCTR-H1ASb2esgUvI7Jiww&_nc_ss=7a20f&oh=00_AQRTSBehuaUrLKv5beDDJXZbyhEDeyfhvHVC5mn9VKp-5g&oe=6AF19235",
+          "views": 2354826,
+          "likes": 63442,
+          "comments": 1371,
+          "engagementRate": 0.011378463063928519,
           "duracaoSeg": 0,
           "descricao": "Não precisa mais colocar credencial encima do painel agora você consegue ter uma credencial on-line! 😮\n\nDa uma olhada como conseguir a sua.",
           "descricaoTamanho": 140,
@@ -1581,17 +1612,17 @@
           "channelId": "59873876475",
           "channelTitle": "Jeferson de Oliveira Tecnologia",
           "videoId": "DemZ6VxI_wK",
-          "title": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
+          "title": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
           "publishedAt": "2026-10-17T15:16:38.000Z",
           "url": "https://www.instagram.com/p/DemZ6VxI_wK/",
-          "thumbnail": "https://instagram.fbhx4-2.fna.fbcdn.net/v/t51.82787-15/855410387_18011408564996476_343845814592910048_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMDAwNjQ3ODQ4NTQ1MzgzNDE4MDExNDA4NTU4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=reg1XBdntEAQ7kNvwHp47jp&_nc_oc=Adq13vvpqm7SV-rprL_ffcmp8akcKMSFam42JP8E_CQBC3JI6B_cxwlS2l8Tck2IDUA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbhx4-2.fna&_nc_gid=fw3Odz_yfLBL_4dZuz0q5Q&_nc_ss=7a20f&oh=00_AQR86Q5grZcG4MItP50FzJTKVwpg_M9LzCMbnwZtAje2Sw&oe=6AF03089",
-          "views": 1731282,
-          "likes": 41893,
+          "thumbnail": "https://instagram.fsjo12-1.fna.fbcdn.net/v/t51.82787-15/855410387_18011408564996476_343845814592910048_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMDAwNjQ3ODQ4NTQ1MzgzNDE4MDExNDA4NTU4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=reg1XBdntEAQ7kNvwEIEI12&_nc_oc=Adqh1AsKj1xe75x-aa3aZNSjHhcWaUT2GqJ1WuKnstDLfBZdmAng-r9Gtv3N913Xy2Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsjo12-1.fna&_nc_gid=D6R5EacUb8NiGry0Yn0Raw&_nc_ss=7a20f&oh=00_AQRY4dOwNf57gjIeiurDWevc6OudcTe4CyG42cq3eoekOA&oe=6AF18209",
+          "views": 1737756,
+          "likes": 42002,
           "comments": 281,
-          "engagementRate": 0.007404478643871159,
+          "engagementRate": 0.0074231335338911875,
           "duracaoSeg": 0,
-          "descricao": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
-          "descricaoTamanho": 143,
+          "descricao": "Como liberar muito espaço no seu iPhone sem apagar fotos ou videos ou aplicativos! 😮\n\n[curiosidades, dicas, tecnologia, jefdicastech, iphone]",
+          "descricaoTamanho": 142,
           "hashtags": [],
           "tags": []
         },
@@ -1604,11 +1635,11 @@
           "title": "Cuidado com o seu Telefone! Desative agora essa função para ter mais privacidade e não registrar sua voz em ferramentas. 😮",
           "publishedAt": "2026-10-15T18:07:00.000Z",
           "url": "https://www.instagram.com/p/Dehj-6dIsgL/",
-          "thumbnail": "https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/848110831_18011099993996476_911567228322440928_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAwODY0MzM5ODMzNzc0Mjg1OTE4MDExMDk5OTg3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=FwtdszeRlSgQ7kNvwFP-JXN&_nc_oc=AdrzWq4fY6tfetvGDhGd8cdT37HkvHaiuye2_4fJ4zkBQ56-4PN5R6c-JY3ucSdpztE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mxp2-1.cdninstagram.com&_nc_gid=uUYYDikx1v2WvT_PUvCDcg&_nc_ss=7a20f&oh=00_AQTgdioToaMiYnKjZORtNOXW_Qxxa7fVZdnDRQatJW55tw&oe=6AF0352B",
-          "views": 1988101,
-          "likes": 36936,
-          "comments": 554,
-          "engagementRate": 0.006582109934052491,
+          "thumbnail": "https://scontent-ham3-1.cdninstagram.com/v/t51.82787-15/848110831_18011099993996476_911567228322440928_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAwODY0MzM5ODMzNzc0Mjg1OTE4MDExMDk5OTg3OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=FwtdszeRlSgQ7kNvwEi2QrL&_nc_oc=AdrvzdMUCFk_Ysi2msdXwJ3GWcLpv6M9W3XaA_z7qjjJ8JX_i_Ve5bpzhSQwJscwAArA_DXWbzOUIsH_xfLt7Tan&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_gid=QYjZ69NvmngcoEqWBkamSw&_nc_ss=7a20f&oh=00_AQTfdn0sOTlgosfusk04P_mfgGKDybfcPSx6YLnxu54QOw&oe=6AF186AB",
+          "views": 2010255,
+          "likes": 37448,
+          "comments": 573,
+          "engagementRate": 0.00667490386424986,
           "duracaoSeg": 0,
           "descricao": "Cuidado com o seu Telefone! Desative agora essa função para ter mais privacidade e não registrar sua voz em ferramentas. 😮",
           "descricaoTamanho": 123,
@@ -1624,11 +1655,11 @@
           "title": "Códigos absurdos do ChatGPT que não te revelam 😮\n\nQual você mais gostou e não sabia? Transforme suas fotos e leve pra outro nível usando inteligência artificial sem ninguém achar que é feita por ia.",
           "publishedAt": "2026-10-23T23:26:14.000Z",
           "url": "https://www.instagram.com/p/De2uvddoT6F/",
-          "thumbnail": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/862725069_18012418901996476_6855181991527586630_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=NDAxNDYwMTY4OTQzNzkxMjcwOTE4MDEyNDE4ODk4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=OnyIfgnIDaoQ7kNvwGP6EKB&_nc_oc=Adqgd6cymsY3TNJBeleo0KX8_Jr3J10zqi4L4uElkIFDOGKndHsjcPyJnCpT3qAvSX0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=ViAz7Xjc4qOVOe7ZmNvh6A&_nc_ss=7a20f&oh=00_AQStKVHUIxVrshIOd-VjG6Ot-vQA5v7Dpt1WR8kCjnaO9w&oe=6AF066E0",
-          "views": 925225,
-          "likes": 31167,
-          "comments": 4652,
-          "engagementRate": 0.006288732881510433,
+          "thumbnail": "https://scontent-bos5-1.cdninstagram.com/v/t51.82787-15/862725069_18012418901996476_6855181991527586630_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=NDAxNDYwMTY4OTQzNzkxMjcwOTE4MDEyNDE4ODk4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=TV3YJzb-0oQQ7kNvwE7CrOw&_nc_oc=AdqqU0_a2QFssLcSWfKlaYEHWGdPHH2nt4GYTlCFQpCvPd5znLzuYI9mA79sTHkeyYI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-bos5-1.cdninstagram.com&_nc_gid=mn3G_pxCHnqNwPsqHuG9Jw&_nc_ss=7a20f&oh=00_AQSebtCu5xaWsOkWlqud-BUxHYm14whRIivuLVHWm1fHkQ&oe=6AF1B860",
+          "views": 943231,
+          "likes": 31758,
+          "comments": 4766,
+          "engagementRate": 0.006412093020642853,
           "duracaoSeg": 0,
           "descricao": "Códigos absurdos do ChatGPT que não te revelam 😮\n\nQual você mais gostou e não sabia? Transforme suas fotos e leve pra outro nível usando inteligência artificial sem ninguém achar que é feita por ia.",
           "descricaoTamanho": 199,
@@ -1639,26 +1670,22 @@
       "temasQuentes": [
         {
           "termo": "você",
-          "n": 36
+          "n": 42
         },
         {
           "termo": "não",
-          "n": 21
-        },
-        {
-          "termo": "quem",
-          "n": 13
-        },
-        {
-          "termo": "precisa",
-          "n": 12
-        },
-        {
-          "termo": "manda",
-          "n": 12
+          "n": 24
         },
         {
           "termo": "windows",
+          "n": 19
+        },
+        {
+          "termo": "quem",
+          "n": 12
+        },
+        {
+          "termo": "celular",
           "n": 12
         },
         {
@@ -1666,20 +1693,24 @@
           "n": 11
         },
         {
+          "termo": "precisa",
+          "n": 11
+        },
+        {
           "termo": "saber",
+          "n": 11
+        },
+        {
+          "termo": "sem",
+          "n": 11
+        },
+        {
+          "termo": "manda",
           "n": 11
         },
         {
           "termo": "fotos",
           "n": 10
-        },
-        {
-          "termo": "sem",
-          "n": 10
-        },
-        {
-          "termo": "celular",
-          "n": 9
         },
         {
           "termo": "iphone",
@@ -1690,30 +1721,30 @@
           "n": 8
         },
         {
-          "termo": "foto",
+          "termo": "ter",
           "n": 8
         },
         {
           "termo": "disso",
-          "n": 7
+          "n": 8
         }
       ],
       "hashtags": [
         {
           "tag": "#dicas",
-          "n": 20
+          "n": 18
         },
         {
           "tag": "#tecnologia",
-          "n": 11
+          "n": 10
         },
         {
           "tag": "#curiosidades",
-          "n": 8
+          "n": 7
         },
         {
           "tag": "#ia",
-          "n": 7
+          "n": 6
         },
         {
           "tag": "#jefdicastech",
@@ -1729,19 +1760,7 @@
         },
         {
           "tag": "#chatgpt",
-          "n": 4
-        },
-        {
-          "tag": "#celular",
           "n": 3
-        },
-        {
-          "tag": "#inteligênciaartificial",
-          "n": 3
-        },
-        {
-          "tag": "#utilidadepublica",
-          "n": 2
         },
         {
           "tag": "#foto",
@@ -1756,11 +1775,64 @@
           "n": 2
         },
         {
+          "tag": "#celular",
+          "n": 2
+        },
+        {
           "tag": "#informatica",
           "n": 2
+        },
+        {
+          "tag": "#google",
+          "n": 2
+        },
+        {
+          "tag": "#fakenews",
+          "n": 1
         }
       ],
-      "novos": []
+      "novos": [
+        {
+          "platform": "instagram",
+          "region": "br",
+          "channelId": "59873876475",
+          "channelTitle": "Jeferson de Oliveira Tecnologia",
+          "videoId": "DfUcNPHI80V",
+          "title": "Não compre seu celular sem saber disso antes! 😮 vai te chocar.\n\nConheça o menor celular do mundo que você pode usar a câmera frontal e traseira em 50MP da @ikko.tech  encontrei na @cellshop.oficial do Paraguai 🇵🇾 \n\nVocê queria ter um celular desse?",
+          "publishedAt": "2026-11-04T12:22:45.000Z",
+          "url": "https://www.instagram.com/p/DfUcNPHI80V/",
+          "thumbnail": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/885658221_18014422973996476_4537152225316321398_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=NDAyMjk2NDQyMjAzMDExODE2NTE4MDE0NDIyOTcwOTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=vNF7D-e2CgUQ7kNvwFADyML&_nc_oc=AdppdzlckCIuEDSqfM1wcCSo_vSvDXitBdVXAksm1IfQ-sG5gavUXvK3oxzKb91nKw4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=If9WRapP2lu5r3to3_7Edw&_nc_ss=7a20f&oh=00_AQSuJzQsk-E9SeS5Q-FegO21FvD0r8KbWTfu-UWq6p1Drg&oe=6AF1B277",
+          "views": 101071,
+          "likes": 1842,
+          "comments": 78,
+          "engagementRate": 0.0003370720238646993,
+          "duracaoSeg": 0,
+          "descricao": "Não compre seu celular sem saber disso antes! 😮 vai te chocar.\n\nConheça o menor celular do mundo que você pode usar a câmera frontal e traseira em 50MP da @ikko.tech  encontrei na @cellshop.oficial do Paraguai 🇵🇾 \n\nVo",
+          "descricaoTamanho": 251,
+          "hashtags": [],
+          "tags": []
+        },
+        {
+          "platform": "instagram",
+          "region": "br",
+          "channelId": "59873876475",
+          "channelTitle": "Jeferson de Oliveira Tecnologia",
+          "videoId": "DfTOrIPo9h7",
+          "title": "Esses são segredos da TECLA WINDOWS pra usar seu computador como um profissional! 😮🚨\n\n✅ Windows + H = tudo que você falar é digitado automaticamente\n✅ Windows + shift + S = tira print e grava a tela aonde quiser\n✅ Windows + L = bloqueia a tela e ter mais privacidade\n✅ Windows + seta lado = dividir a tela e multitarefas\n✅ Windows + X + sfc /scannow = pc mais rápido\n✅ Windows + R + MRT = antivírus secreto\n✅ word.new = office, powerpoint, excel\n\nQual você mais gostou e não sabia?",
+          "publishedAt": "2026-11-04T01:04:05.000Z",
+          "url": "https://www.instagram.com/p/DfTOrIPo9h7/",
+          "thumbnail": "https://scontent-cdg6-1.cdninstagram.com/v/t51.82787-15/884747500_18014362901996476_6564529834896354340_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAyMjYyMzQyODYxMjk3MDYxOTE4MDE0MzYyODk4OTk2NDc2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=9yUC-WEjNEgQ7kNvwEMGER2&_nc_oc=AdpAu2yRaMZe86Kd7d624akYbSrg6rouPG0JmMJYsE7hh_dgUZzNBWuRA5Tq3MoYWBidY2nyw630OcnYHbnPg1Kr&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg6-1.cdninstagram.com&_nc_gid=Nyew2wUAssbWiZVLksn0Bw&_nc_ss=7a20f&oh=00_AQSBKVkvsPTxFtxdLpL-u-Iubr1Guizp7r_tz05J7_da4g&oe=6AF1B530",
+          "views": 86887,
+          "likes": 2513,
+          "comments": 30,
+          "engagementRate": 0.0004464448732749637,
+          "duracaoSeg": 0,
+          "descricao": "Esses são segredos da TECLA WINDOWS pra usar seu computador como um profissional! 😮🚨\n\n✅ Windows + H = tudo que você falar é digitado automaticamente\n✅ Windows + shift + S = tira print e grava a tela aonde quiser\n✅ W",
+          "descricaoTamanho": 490,
+          "hashtags": [],
+          "tags": []
+        }
+      ]
     }
   },
   "gringa": {
@@ -1770,7 +1842,7 @@
   "resumo": {
     "totalVideos": 80,
     "totalCanais": 2,
-    "videosNovos48h": 0
+    "videosNovos48h": 3
   },
   "pendentes": []
 }
